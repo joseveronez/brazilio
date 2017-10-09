@@ -3,18 +3,18 @@
 
 	if($server == "localhost:8080") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/harpyja";
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].":8080/harpyja";
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/brazilio";
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].":8080/brazilio";
 		$caminho_plugins = "http://".$_SERVER['SERVER_NAME'].":8080/plugins/";
 	} else if($server == "localhost") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT'].'/harpyja';
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/harpyja';
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT'].'/brazilio';
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/brazilio';
 		$caminho_plugins = "http://".$_SERVER['SERVER_NAME'].'/plugins/';
 	} else if($server == "comberweb.com.br") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/projetos/harpyja";
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/projetos/harpyja';
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/projetos/brazilio";
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/projetos/brazilio';
 		$caminho_plugins = "http://www.".$_SERVER['SERVER_NAME'].'/projetos/plugins/';
 	}
 
@@ -34,7 +34,7 @@
 	if($server == "localhost" || $server == "localhost:8080") {
 		$urlArr = explode("/", trim($_SERVER['REQUEST_URI'],'/'));
 		
-		if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME']=='127.0.0.1' || $urlArr[0] == 'harpyja') {
+		if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME']=='127.0.0.1' || $urlArr[0] == 'brazilio') {
 		    array_shift($urlArr);
 		}
 	} else if($server == "comberweb.com.br") {
