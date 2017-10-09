@@ -10,6 +10,9 @@
     
 }
 
+.separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
+x
+
 input[type="text"].contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
 
 input[type="text"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
