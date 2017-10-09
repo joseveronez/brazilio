@@ -37,7 +37,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  style="margin: 4% 0px;">
                 <img src="imagens/logobrazilio_dourado.png" class="img-responsive">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte separador-footer">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte separador-footer" style="padding-left: 10%;">
                 <ul class="list-unstyled">
                     <li>A EMPRESA</li>
                     <li>ÁREA DE ATUAÇÃO</li>
@@ -47,7 +47,7 @@
                     <li>LINKS ÚTEIS </li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte" style="padding-left: 10%;">
                 <h5 class="margin-zero">FALE COM A GENTE</h5>
                 <h6>Brazilio Bacellar Neto e Advogados <br>
                     OAB/PR 997  | CNPJ 04.510.577/0001-02 </h6>
@@ -55,6 +55,16 @@
                     Curitiba-PR | Brasil | CEP 80.530-230 </h6>
                 <h6>Fone.: + 55 41 3352.8363 <br>
                     Fax. + 55 41 3352.0167 </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-copyright">
+        <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h6 class="branco-fonte">© 2018 Brazilio Bacellar, Shirai Advogados  • Todos os direitos reservados.</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-sm-offset-2">
+                <img src="imagens/pepper.png" class="img-respnsive PaddingT4">
             </div>
         </div>
     </div>
