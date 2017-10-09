@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .Montserrat {font-family: 'Montserrat', sans-serif;}
 .Festival { font-family: festival, sans-serif; }
 .Rye { font-family: rye, sans-serif; }
+.OpenSans {font-family: 'Open Sans', sans-serif;}
 .Teko-Light { font-family: tekoLight, sans-serif; }
 .Teko-Regular { font-family: tekoRegular, sans-serif; }
 .Teko-Medium { font-family: tekoMedium, sans-serif; }

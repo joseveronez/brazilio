@@ -58,4 +58,4 @@
         ScriptLoader::LoadPLUGINSCSS('font-awesome-4.7.0/css/font-awesome.min.css');
 	?>
 </head>
-<body>
+<body class="OpenSans">

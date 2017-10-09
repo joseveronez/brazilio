@@ -1,8 +1,14 @@
-<nav class="navbar navbar-fixed-top bg-branco" role = "navigation">
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 bg-branco padding-zero">
-            <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
-                <img src="" class="img-responsive" >
+<nav class="navbar navbar-fixed-top bg-transparente" role = "navigation">
+    <div class="col-lg-12 col-md-12 col-sm-12" style="border-bottom: 1px solid #a08a59;">
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12 padding-zero text-right">
+                <ul class="list-inline" style="margin-bottom: 3px; margin-top:5px;">
+                    <li><a href="#" class="link-default dourado-fonte">TRABALHE CONOSCO</a></li>
+                    <li><div class="separador"></div></li>
+                    <li><a href="#" class="link-default dourado-fonte">LINKS ÚTEIS</a></li>
+                    <li><div class="separador"></div></li>
+                    <li><a href="#" class="link-default dourado-fonte">CONSULTA PROCESSUAL</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -15,12 +21,13 @@
         </button>
     </div>
     <div class="collapse navbar-collapse" id="example-navbar-collapse">
-        <div class="navbar-centralizada">
-            <ul class = "nav navbar-nav padding-zero">
-                <li><a href="#" class="branco-fonte">HOME</a></li>
-                <li><a href="#" class="branco-fonte">AVALIAÇÕES</a></li>
-                <li><a href="#" class="branco-fonte">SOBRE</a></li>
-                <li><a href="#" class="branco-fonte">CONTATO</a></li>
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imagens/logobrazilio.png" class="img-responsive" ></a>
+            <ul class="nav navbar-nav margin-ul padding-zero">
+                <li><a href="#" class="link-default branco-fonte">A EMPRESA</a></li>
+                <li><a href="#" class="link-default branco-fonte">ÁREAS DE ATUAÇÃO</a></li>
+                <li><a href="#" class="link-default branco-fonte">EQUIPE</a></li>
+                <li><a href="#" class="link-default branco-fonte">CONTATO</a></li>
             </ul>
         </div>
     </div>

@@ -9,6 +9,37 @@
 	$(document).ready(function() {
         
     });
+    
+    $('.owl-carousel.owl-associadas').owlCarousel({
+        nav:false,
+        dots:false,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:false,
+        responsive:{
+            0:{
+                items:1,
+                loop:true
+            },
+            500:{
+                items:2,
+                loop:true
+            },
+            768:{
+                items:3,
+                loop:true
+            },
+            992:{
+                items:4,
+                loop:true
+            },
+            1200:{
+                items:8,
+                loop:true
+            }
+        }
+    });
 
 	function Trim() {
 		var get_value = document.getElementById('telefone');
@@ -27,4 +58,16 @@
 			$("#telefone").attr("maxlength", "14");
 		}
 	}
+    
+    new vUnit({
+        CSSMap: {
+            '.vh': {
+                property: 'height',
+                reference: 'vh'
+            }
+        },
+        onResize: function() {
+            console.log('A screen resize just happened, yo.');
+        }
+    }).init();
 </script>
