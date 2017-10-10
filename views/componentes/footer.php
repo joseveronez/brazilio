@@ -1,7 +1,9 @@
 <footer>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-dourado">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-dourado Relative">
+        <img src="imagens/separador.png" class="img-responsive Absolute" style=" left: 50%; top: -9%;">
         <div class="container MarginT4 MarginB4">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT4 MarginB4">
+                <h3><i class="fa fa-envelope-o branco-fonte" aria-hidden="true"></i></h3>
                 <h3 class="branco-fonte" style="letter-spacing: 3px;">CONTATO</h3>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -23,10 +25,10 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <form action="" class="form-horizontal Roboto Regular" id="formulario">
-                    <input type="text" class="form-control contato-footer bg-dourado" name="nome" placeholder="NOME" required><br>
-                    <input type="email" class="form-control contato-footer bg-dourado" name="email" placeholder="E-MAIL" required><br>
-                    <input type="text" class="form-control contato-footer bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
-                    <textarea class="form-control contato-footer bg-dourado" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM"></textarea><br>
+                    <input type="text" class="form-control contato-footer branco-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
+                    <input type="email" class="form-control contato-footer branco-fonte bg-dourado" name="email" placeholder="E-MAIL" required><br>
+                    <input type="text" class="form-control contato-footer branco-fonte bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
+                    <textarea class="form-control contato-footer branco-fonte bg-dourado" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM"></textarea><br>
                     <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
                 </form>
             </div>
