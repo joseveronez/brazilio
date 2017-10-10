@@ -92,6 +92,7 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 .Relative{ position: relative; }
 .Absolute{ position: absolute; }
 
+.botao-dourado{padding: 10px;border: 1px solid #a08a59;letter-spacing: 3px;}
 
 
 .MarginT1{margin-top: 1%!important;}
