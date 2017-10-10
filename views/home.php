@@ -55,85 +55,90 @@
             </a>
         </div>
         
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs-offset-1">
                 <img src="imagens/administrativo.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">ADMINISTRATIVO</h5>
+                <h5 class="text-center MarginT20">ADMINISTRATIVO</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/ambiental.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">AMBIENTAL</h5>
+                <h5 class="text-center MarginT20">AMBIENTAL</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/bancario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">BANCARIO</h5>
+                <h5 class="text-center MarginT20">BANCARIO</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/civel.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">CÍVEL</h5>
+                <h5 class="text-center MarginT20">CÍVEL</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/comercial.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">COMERCIAL</h5>
+                <h5 class="text-center MarginT20">COMERCIAL</h5>
             </div>
         </div>
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs-offset-1">
                 <img src="imagens/consumidor.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">CONSUMIDOR</h5>
+                <h5 class="text-center MarginT20">CONSUMIDOR</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/contrato.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">CONTRATOS</h5>
+                <h5 class="text-center MarginT20">CONTRATOS</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/familias.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">FAMÍLIAS</h5>
+                <h5 class="text-center MarginT20">FAMÍLIAS</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/gestao_legal_patrimonio.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">GESTÃO LEGAL DE PATRIMÔNIO</h5>
+                <h5 class="text-center MarginT20">GESTÃO LEGAL DE PATRIMÔNIO</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/internet_e_ecommerce.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">INTERNET E E-COMMERCE</h5>
+                <h5 class="text-center MarginT20">INTERNET E E-COMMERCE</h5>
             </div>
         </div>
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs-offset-1">
                 <img src="imagens/propriedade_intelectual.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">PROPRIEDADE INTELECTUAL</h5>
+                <h5 class="text-center MarginT20">PROPRIEDADE INTELECTUAL</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/societario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">SOCIETÁRIO</h5>
+                <h5 class="text-center MarginT20">SOCIETÁRIO</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/sucessoes.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">SUCESSÕES</h5>
+                <h5 class="text-center MarginT20">SUCESSÕES</h5>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 separador-areas">
                 <img src="imagens/trabalhista.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">TRABALHISTA</h5>
+                <h5 class="text-center MarginT20">TRABALHISTA</h5>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/tributario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center">TRIBUTÁRIO</h5>
+                <h5 class="text-center MarginT20">TRIBUTÁRIO</h5>
             </div>
         </div>
         
     </div>
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco parallax">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco branco-fonte parallax">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10">
             <h3 class="text-center branco-fonte Light" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT4">
-            <input type="email" class="form-control email-news">
+            <div class="input-group">
+                <input type="email" class="form-control email-news branco-fonte" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" style="height: 40px;">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" style="height: 40px;">CADASTRAR</button>
+                </span>
+            </div>
         </div>
     </div>
 </div>

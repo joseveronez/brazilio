@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-dourado">
         <div class="container MarginT4 MarginB4">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT4 MarginB4">
-                <h3 class="branco-fonte">CONTATO</h3>
+                <h3 class="branco-fonte" style="letter-spacing: 3px;">CONTATO</h3>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="branco-fonte">

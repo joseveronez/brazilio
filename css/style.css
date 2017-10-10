@@ -9,7 +9,7 @@
 @media (max-width: 767px) {
     
 }
-
+.separador-areas{ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; }
 .separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
 
 
@@ -97,6 +97,11 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 
 .parallax{ background-image: url("../imagens/banner_email.jpg"); height: 500px; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .email-news{background-color: transparent;}
+
+input[type="email"].email-news::-webkit-input-placeholder{color: white; text-align: center; font-size: 18px;}
+input[type="email"].email-news::-moz-placeholder{color: white; text-align: center; font-size: 18px;}
+input[type="email"].email-news:-ms-input-placeholder{color: white; text-align: center; font-size: 18px;}
+input[type="email"].email-news:-moz-placeholder{color: white; text-align: center; font-size: 18px;}
 
 .MarginT1{margin-top: 1%!important;}
 .MarginT2{margin-top: 2%!important;}
