@@ -21,9 +21,9 @@
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -5%; z-index:1;">
+    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -5%; z-index:1;">
     <div class="container">
-        <img src="imagens/martelo.png" class="img-responsive" style="margin: 0 auto;">
+        <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive" style="margin: 0 auto;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT2 PaddingB8">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <ul class="list-unstyled">
@@ -46,8 +46,8 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB4">
-                    <img src="imagens/administrativo.png" class="img-responsive" style="float: left;">
-                    <h3 class="margin-zero">ADMINISTRATIVO</h3><br>
+                    <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
+                    <h3 class="margin-zero titulo-servicos">ADMINISTRATIVO</h3><br>
                     <p class="text-justify size15">
                         Assessoria nas esferas administrativa e judicial para empresas interessadas na participação em processos licitatórios, efetuando a análise da legalidade dos editais e elaboração de possíveis impugnações aos editais ou propostas dos concorrentes etc., bem como, tomando as medidas cabíveis à cada caso.
                     </p>

@@ -21,9 +21,9 @@
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -5%; z-index:1;">
+    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -5%; z-index:1;">
     <div class="container">
-        <img src="imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
+        <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 MarginT2 padding-zero">
         <p class="text-justify size16 Medium">
             A Brazilio Bacellar, Shirai Advogados é uma sociedade profissional experiente, com atuação preventiva e contenciosa nos campos do direito comercial, civil, societário, administrativo, trabalhista e tributário, com enfoque na atividade empresarial. O escritório investe constantemente em atualização técnica e busca sempre novas tecnologias seguras a fim de facilitar e agilizar a prestação de serviços aos seus clientes.
