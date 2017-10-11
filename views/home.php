@@ -5,26 +5,27 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="owl-carousel slider-topo owl-theme">
         <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center">
+            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
                 <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT25">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT22">
                         <h4 class="Uppercase size50 dourado-fonte Light">Brazilio Bacellar,<br> SHIRAI Advogados </h4>
                         <img src="imagens/ond1.png" class="img-responsive MarginT5" style="margin: 0 auto;">
                         <h6 class="Uppercase branco-fonte Light size20 MarginB4" style="line-height: 28px;">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário. </h6>
-                        <a href="#" class="link-default dourado-fonte botao-dourado" role="button" >SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="#" class="link-default dourado-fonte botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div> 
                 </div>
             </div>
         </div>
         <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center"></div>
+            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
         </div>
         <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center"></div>
+            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-bege PaddingT5 PaddingB5">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-bege PaddingT10 PaddingB10 Relative">
+    <img src="imagens/separador2.png" class="img-responsive Absolute hidden-xs" style=" left: 50%; top: -10%; z-index:1;">
     <div class="container">
         <img src="imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT1 text-center">
@@ -40,7 +41,9 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT5 PaddingB5">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT10 PaddingB10 Relative">
+    <img src="imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 60%; top: -3%; z-index:1;">
+    <img src="imagens/separador2.png" class="img-responsive Absolute hidden-xs" style=" left: 50%; top: -5%;">
     <div class="container">
         <img src="imagens/martelo.png" class="img-responsive" style="margin: 0 auto;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT1 text-center">
@@ -121,23 +124,6 @@
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <img src="imagens/tributario.png" class="img-responsive" style="margin: 0 auto;">
                 <h5 class="text-center MarginT20">TRIBUTÁRIO</h5>
-            </div>
-        </div>
-        
-    </div>
-</div>
-
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco branco-fonte parallax">
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10">
-            <h3 class="text-center branco-fonte Light" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT4">
-            <div class="input-group">
-                <input type="email" class="form-control email-news branco-fonte" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" style="height: 40px;">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button" style="height: 40px;">CADASTRAR</button>
-                </span>
             </div>
         </div>
     </div>
