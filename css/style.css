@@ -21,6 +21,9 @@
 .lista li{ color: #a08a59!important;}
 .lista{ padding-left: 20px;}
 .lista-servicos {margin-top: 10px!important;}
+.lista-servicos-item:hover { color: #14284b!important; }
+.titulo-servicos {padding: 8px 0px 8px 53px;}
+.texto-servicos {margin-top: -10px;}
 
 input[type="text"].contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
 input[type="text"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
