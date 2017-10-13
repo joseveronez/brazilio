@@ -6,10 +6,17 @@
     .chamada-galeria{height: 330px!important; padding: 65px 60px!important;}
 }
 
+@media (max-width: 991px){
+    .border-equipe-meio{ border-right: none!important; }
+    
+}
+
 /* XS */
 @media (max-width: 767px) {
     .chamada-galeria{height: 330px!important; padding: 85px 60px!important;}
-    
+    .border-equipe-meio{ border-right: none!important; text-align: center; }
+    .border-equipe{ border-right: none!important; text-align: center; }
+    .center-equipe{ text-align: center; }
 }
 
 @media (max-width: 408px) {
@@ -24,6 +31,8 @@
 .lista-servicos-item:hover { color: #14284b!important; }
 .titulo-servicos {padding: 8px 0px 8px 53px;}
 .texto-servicos {margin-top: -10px;}
+.border-equipe{ border-right: 1px solid #a08a59; }
+.border-equipe-meio{ border-right: 1px solid #a08a59; }
 
 input[type="text"].contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
 input[type="text"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
