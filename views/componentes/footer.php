@@ -52,10 +52,10 @@
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-azul PaddingT4 PaddingB4">
         <div class="container">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  style="margin: 4% 0px;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"  style="margin: 4% 0px;">
                 <img src="imagens/logobrazilio_dourado.png" class="img-responsive">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte separador-footer" style="padding-left: 10%;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 dourado-fonte separador-footer" style="padding-left: 10%;">
                 <ul class="list-unstyled">
                     <li>A EMPRESA</li>
                     <li>ÁREA DE ATUAÇÃO</li>
@@ -65,7 +65,7 @@
                     <li>LINKS ÚTEIS </li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 dourado-fonte" style="padding-left: 10%;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 dourado-fonte" style="padding-left: 10%;">
                 <h5 class="margin-zero">FALE COM A GENTE</h5>
                 <h6>Brazilio Bacellar Neto e Advogados <br>
                     OAB/PR 997  | CNPJ 04.510.577/0001-02 </h6>

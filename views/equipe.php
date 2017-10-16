@@ -50,9 +50,9 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5 padding-zero" style="padding-left: 5px;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio2.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 50px; height: 350px;">
-                    <h3>Brazilio Bacellar Neto</h3>
-                    <h5>OAB/PR 7.425</h5>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 25px; height: 350px;">
+                    <h3>Rodrigo Shirai</h3>
+                    <h5>OAB/PR 25.781 | OAB/SP 208.567-A</h5>
                     <p class="MarginT20">Formação Superior: Pontifícia Universidade Católica do Paraná (1997) | Especialização em Direito Processual Civil: IBEJ (1999) | Membro da Comissão de Estudos de Recuperação Judicial e Falência da OAB/PR | Membro da TMA - Turnaround Management Association | Idiomas: Inglês
                     </p>
                 </div>
