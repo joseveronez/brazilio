@@ -59,72 +59,75 @@
         </div>
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10">
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 col-md-offset-1">
-                <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">ADMINISTRATIVO</h5>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <div class="col-lg-3 col-md- col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">ADMINISTRATIVO</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">AMBIENTAL</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">BANCARIO</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">CÍVEL</h5>
+                </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">AMBIENTAL</h5>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">COMERCIAL</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">CONSUMIDOR</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">CONTRATOS</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">FAMÍLIAS</h5>
+                </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">BANCARIO</h5>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">GESTÃO LEGAL DE PATRIMÔNIO</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">INTERNET E E-COMMERCE</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">PROPRIEDADE INTELECTUAL</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">SOCIETÁRIO</h5>
+                </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">CÍVEL</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">COMERCIAL</h5>
-            </div>
-        </div>
-        
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3">
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 col-md-offset-1">
-                <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">CONSUMIDOR</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">CONTRATOS</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">FAMÍLIAS</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">GESTÃO LEGAL DE PATRIMÔNIO</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">INTERNET E E-COMMERCE</h5>
-            </div>
-        </div>
-        
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3">
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 col-md-offset-1">
-                <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">PROPRIEDADE INTELECTUAL</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">SOCIETÁRIO</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">SUCESSÕES</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2 separador-areas">
-                <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">TRABALHISTA</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
-                <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive" style="margin: 0 auto;">
-                <h5 class="text-center MarginT20">TRIBUTÁRIO</h5>
-            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">SUCESSÕES</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">TRABALHISTA</h5>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive" style="margin: 0 auto;">
+                    <h5 class="text-center MarginT10">TRIBUTÁRIO</h5>
+                </div>
+            </div>  
+            
         </div>
     </div>
 </div>
