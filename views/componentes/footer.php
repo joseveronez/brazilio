@@ -90,12 +90,12 @@
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero copyright bg-copyright">
         <div class="container conteudo">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 assinatura">
-                <p class="cinza-fonte-alternativo margin-zero"><span class="Lato">© 2018 Brazilio Bacellar</span>, <span class="OpenSans">Shirai Advogados  • Todos os direitos reservados.</span></p>
+            <div class="col-lg-6 col-md-8 col-sm-9 col-xs-12 assinatura">
+                <p class="cinza-fonte-alternativo margin-zero Upperc"><span class="Lato Uppercase">© 2018 Brazilio Bacellar, Shirai Advogados</span> • <span class="OpenSans">Todos os direitos reservados.</span></p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">&nbsp;</div>
+            <div class="col-lg-3 col-md-1 hidden-sm hidden-xs">&nbsp;</div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 imagem">
-                <img src="imagens/pepper.png" class="img-respnsive">
+                <a href="http://www.pepperscriacao.com" target="_blank"><img src="imagens/pepper.png" class="img-respnsive"></a>
             </div>
         </div>
     </div>
