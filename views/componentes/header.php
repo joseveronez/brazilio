@@ -27,7 +27,7 @@
                 <li><a href="/brazilio/sobre" class="link-default branco-fonte">A EMPRESA</a></li>
                 <li><a href="/brazilio/servicos" class="link-default branco-fonte">ÁREAS DE ATUAÇÃO</a></li>
                 <li><a href="/brazilio/equipe" class="link-default branco-fonte">EQUIPE</a></li>
-                <li><a href="#" class="link-default branco-fonte">CONTATO</a></li>
+                <li><a href="/brazilio/contato" class="link-default branco-fonte">CONTATO</a></li>
             </ul>
         </div>
     </div>
