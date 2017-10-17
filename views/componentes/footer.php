@@ -1,20 +1,29 @@
+<?php
+    ScriptLoader::LoadCSS('footer');
+?>
+<style type="text/css">
+    .parallax { background-image: url("<?= RAIZSITE ?>/imagens/banner_email.jpg"); }
+</style>
 <footer>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco branco-fonte parallax Relative">
-    <img src="imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 13%; top: -7%; z-index:1;">
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10">
-            <h3 class="text-center branco-fonte Light" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT4">
-            <div class="input-group">
-                <input type="email" class="form-control email-news branco-fonte" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" style="height: 40px;">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button" style="height: 40px;">CADASTRAR</button>
-                </span>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero parallax newsletter Relative">
+        <img src="<?= RAIZSITE ?>/imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs">
+        <div class="container conteudo">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 chamada">
+                <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
+                <div class="input-group">
+                    <input type="email" class="form-control email-news branco-fonte" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">CADASTRAR</button>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-    </div>
+    <?php
+        if($pagina_atual == "home") {
+    ?>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-dourado Relative">
         <img src="imagens/separador.png" class="img-responsive Absolute" style=" left: 50%; top: -9%;">
         <div class="container MarginT4 MarginB4">
@@ -50,6 +59,9 @@
             </div>
         </div>
     </div>
+    <?php
+        }
+    ?>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-azul PaddingT4 PaddingB4">
         <div class="container">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"  style="margin: 4% 0px;">

@@ -1,0 +1,20 @@
+.parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover }
+
+@media (min-width: 768px) {
+    .separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
+}
+
+/* XS */
+@media (max-width: 767px) {
+    .separador-footer{ margin: 25px 0px; border: none!important; }
+}
+
+.separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
+
+.newsletter img { left: 5%; top: -33px; z-index: 1 }
+.newsletter .conteudo .chamada h3 { margin-top: 100px }
+.newsletter .conteudo .input .input-group { margin-top: 70px; margin-bottom: 150px }
+.input-group .email-news { background-color: transparent; border-radius: 0; height: 45px }
+.input-group .input-group-btn button { border-radius: 0; height: 45px }
+.input-group .input-group-btn button { background-color: #ffffff; border: 1px solid #ffffff; color: #a08a59 }
+.input-group .input-group-btn button:hover { background-color: transparent; border: 1px solid #ffffff; color: #ffffff }

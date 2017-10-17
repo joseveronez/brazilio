@@ -113,8 +113,8 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 .botao-dourado{padding: 10px;border: 1px solid #a08a59;letter-spacing: 3px;}
 .botao-azul{padding: 10px;border: 1px solid #14284b;letter-spacing: 3px;}
 
-.parallax{ background-image: url("../imagens/banner_email.jpg"); height: 500px; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
-.email-news{background-color: transparent;}
+
+
 
 input[type="email"].email-news::-webkit-input-placeholder{color: white; text-align: center; font-size: 18px;}
 input[type="email"].email-news::-moz-placeholder{color: white; text-align: center; font-size: 18px;}
