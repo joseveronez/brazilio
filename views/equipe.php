@@ -1,22 +1,17 @@
+<style type="text/css">
+    .parallax-equipe { background-image: url("<?= RAIZSITE ?>/imagens/ban2.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+</style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="owl-carousel slider-topo owl-theme" id="owl1">
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
-                <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15">
-                        <h4 class="Uppercase size50 dourado-fonte Light">EQUIPE</h4>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">EQUIPE</span></h6>
-                    </div>
+    <div class="item vh30">
+        <div class="vh30 parallax-equipe" style="min-height: 481px;">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15 MarginB10">
+                    <h4 class="Uppercase size35 dourado-fonte Light">EQUIPE</h4>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
+                    <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">EQUIPE</span></h6>
                 </div>
             </div>
-        </div>
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
-        </div>
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
         </div>
     </div>
 </div>
@@ -265,38 +260,3 @@
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    $('#owl1').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
-        dots:false,
-        autoplay:false,
-        items:1
-    });
-    $('#owl2').owlCarousel({
-        loop:true,
-        nav:true,
-        navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
-        dots:false,
-        autoplay:false,
-        items:1
-    });
-    $('#owl3').owlCarousel({
-        loop:true,
-        nav:true,
-        navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
-        dots:false,
-        autoplay:false,
-        items:1
-    });
-    $('#owl4').owlCarousel({
-        loop:true,
-        nav:true,
-        navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
-        dots:false,
-        autoplay:false,
-        items:1
-    });
-</script>

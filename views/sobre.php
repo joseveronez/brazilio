@@ -1,22 +1,17 @@
+<style type="text/css">
+    .parallax-sobre { background-image: url("<?= RAIZSITE ?>/imagens/ban2.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+</style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="owl-carousel slider-topo owl-theme" id="owl1">
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
-                <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15">
-                        <h4 class="Uppercase size50 dourado-fonte Light">A EMPRESA</h4>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">A EMPRESA</span></h6>
-                    </div>
+    <div class="item vh30">
+        <div class="vh30 parallax-sobre" style="min-height: 481px;">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15  MarginB10">
+                    <h4 class="Uppercase size35 dourado-fonte Light">A EMPRESA</h4>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
+                    <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">A EMPRESA</span></h6>
                 </div>
             </div>
-        </div>
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
-        </div>
-        <div class="item vh30">
-            <div class="vh30" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;"></div>
         </div>
     </div>
 </div>
