@@ -4,7 +4,6 @@
     .navbar-nav>li>a{padding: 20px 35px;}
     .margin-ul{margin-left: 10%;}
     .chamada-galeria{height: 330px!important; padding: 65px 60px!important;}
-    .separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
 }
 
 @media (max-width: 991px){
@@ -18,7 +17,6 @@
     .border-equipe-meio{ border-right: none!important; text-align: center; }
     .border-equipe{ border-right: none!important; text-align: center; }
     .center-equipe{ text-align: center; }
-    .separador-footer{ margin: 25px 0px; border: none!important; }
 }
 
 @media (max-width: 408px) {
@@ -26,7 +24,6 @@
 }
 
 .separador-areas{ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; }
-.separador-footer{ border-left: 1px solid #304e6e; border-right: 1px solid #304e6e; }
 .lista li{ color: #a08a59!important;}
 .lista{ padding-left: 20px;}
 .lista-servicos {margin-top: 10px!important;}

@@ -62,29 +62,29 @@
     <?php
         }
     ?>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-azul PaddingT4 PaddingB4">
-        <div class="container">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"  style="margin: 4% 0px;">
-                <img src="imagens/logobrazilio_dourado.png" class="img-responsive">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero footer-links bg-azul">
+        <div class="container conteudo">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imagem">
+                <a href="<?= RAIZSITE ?>"><img src="imagens/logobrazilio_dourado.png" class="img-responsive"></a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 dourado-fonte separador-footer" style="padding-left: 10%;">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte separador-footer links">
                 <ul class="list-unstyled">
-                    <li>A EMPRESA</li>
-                    <li>ÁREA DE ATUAÇÃO</li>
-                    <li>EQUIPE</li>
-                    <li>CONTATO</li>
-                    <li>TRABALHE CONOSCO</li>
-                    <li>LINKS ÚTEIS </li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/sobre">A EMPRESA</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/area-atuacao">ÁREA DE ATUAÇÃO</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/equipe">EQUIPE</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/links-uteis">LINKS ÚTEIS</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 dourado-fonte" style="padding-left: 10%;">
-                <h5 class="margin-zero">FALE COM A GENTE</h5>
-                <h6>Brazilio Bacellar Neto e Advogados <br>
-                    OAB/PR 997  | CNPJ 04.510.577/0001-02 </h6>
-                <h6>Rua Marechal Hermes, 272 . Centro Cívico <br>
-                    Curitiba-PR | Brasil | CEP 80.530-230 </h6>
-                <h6>Fone.: + 55 41 3352.8363 <br>
-                    Fax. + 55 41 3352.0167 </h6>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">
+                <p>FALE COM A GENTE</p>
+                <p>Brazilio Bacellar Neto e Advogados <br>
+                    OAB/PR 997 | CNPJ 04.510.577/0001-02 </p>
+                <p>Rua Marechal Hermes, 272 . Centro Cívico <br>
+                    Curitiba-PR | Brasil | CEP 80.530-230</p>
+                <p>Fone.: + 55 41 3352.8363 <br>
+                    Fax. + 55 41 3352.0167 </p>
             </div>
         </div>
     </div>
