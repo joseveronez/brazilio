@@ -88,13 +88,14 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-copyright">
-        <div class="container">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <h6 class="branco-fonte">© 2018 Brazilio Bacellar, Shirai Advogados  • Todos os direitos reservados.</h6>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero copyright bg-copyright">
+        <div class="container conteudo">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 assinatura">
+                <p class="cinza-fonte-alternativo margin-zero"><span class="Lato">© 2018 Brazilio Bacellar</span>, <span class="OpenSans">Shirai Advogados  • Todos os direitos reservados.</span></p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-sm-offset-2">
-                <img src="imagens/pepper.png" class="img-respnsive PaddingT4">
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">&nbsp;</div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 imagem">
+                <img src="imagens/pepper.png" class="img-respnsive">
             </div>
         </div>
     </div>

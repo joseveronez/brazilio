@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700,900');
-.Montserrat {font-family: 'Montserrat', sans-serif;}
-.Festival { font-family: festival, sans-serif; }
-.Rye { font-family: rye, sans-serif; }
-.OpenSans {font-family: 'Open Sans', sans-serif;}
-.Teko-Light { font-family: tekoLight, sans-serif; }
-.Teko-Regular { font-family: tekoRegular, sans-serif; }
-.Teko-Medium { font-family: tekoMedium, sans-serif; }
 .Roboto { font-family: 'Roboto', sans-serif; }
+.OpenSans { font-family: 'Open Sans', sans-serif; }
+.Lato { font-family: 'Lato', sans-serif; }
 .Thin { font-weight: 100; }
 .Light { font-weight: 300; }
 .Regular { font-weight: 400; }
 .Medium { font-weight: 500; }
 .Bold { font-weight: 700; }
 .Black { font-weight: 900; }
+.Italic { font-style: italic; }
 .size8 { font-size: 8px }
 .size9 { font-size: 9px }
 .size10 { font-size: 10px; }
