@@ -21,7 +21,7 @@
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -1%; z-index:1;">
+    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style="height: 100px; left: 50%; top: -3%; z-index:1;">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
             <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">

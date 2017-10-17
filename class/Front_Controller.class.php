@@ -10,6 +10,7 @@
             'sobre'=>array('layout'=>'default','view'=>'sobre'),
             'servicos'=>array('layout'=>'default','view'=>'servicos'),
             'equipe'=>array('layout'=>'default','view'=>'equipe'),
+            'contato'=>array('layout'=>'default','view'=>'contato'),
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada
         private static $_parametros;
