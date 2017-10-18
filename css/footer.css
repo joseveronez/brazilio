@@ -1,5 +1,9 @@
 .parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover }
 
+.contato .conteudo .dados .chamada { font-size: 15px; letter-spacing: 1px }
+.contato .conteudo .dados .cnpj { font-size: 14px; color: #3b2c0c }
+.contato .conteudo .dados .endereco { font-size: 12px }
+
 .newsletter img { left: 5%; top: -33px; z-index: 1 }
 .newsletter .conteudo .chamada h3 { margin-top: 100px }
 .newsletter .conteudo .input .input-group { margin-top: 70px; margin-bottom: 150px }

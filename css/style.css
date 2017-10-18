@@ -31,37 +31,37 @@
 .border-equipe-meio{ border-right: 1px solid #a08a59; }
 .btn-curriculo { border-radius: 0px; border: 1px solid white; background-color: transparent;}
 
-input[type="text"].contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
-input[type="text"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
-input[type="email"].contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
-input[type="email"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
-textarea.contato-footer{border: none; border-bottom: 1px solid white; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
-textarea.contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 1px solid #7c6430; color: white;}
+input[type="text"].contato-footer{border: none; border-bottom: 3px solid #d5d5d5; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
+input[type="text"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 3px solid #7c6430; color: white;}
+input[type="email"].contato-footer{border: none; border-bottom: 3px solid #d5d5d5; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
+input[type="email"].contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 3px solid #7c6430; color: white;}
+textarea.contato-footer{border: none; border-bottom: 3px solid #d5d5d5; border-radius: 0px; padding-left: 0px; padding-right: 0px;box-shadow: none;-webkit-box-shadow: none;}
+textarea.contato-footer:focus{outline: none; box-shadow: none;-webkit-box-shadow: none;border-bottom: 3px solid #7c6430; color: white;}
 
-input[type="text"].contato-footer::-webkit-input-placeholder{color: white;}
+input[type="text"].contato-footer::-webkit-input-placeholder{color: #d5d5d5;}
 input[type="text"]:focus.contato-footer::-webkit-input-placeholder{color: #634b15;}
-input[type="email"].contato-footer::-webkit-input-placeholder{color: white;}
+input[type="email"].contato-footer::-webkit-input-placeholder{color: #d5d5d5;}
 input[type="email"]:focus.contato-footer::-webkit-input-placeholder{color: #634b15;}
-textarea.contato-footer::-webkit-input-placeholder{color: white;}
+textarea.contato-footer::-webkit-input-placeholder{color: #d5d5d5;}
 textarea:focus.contato-footer::-webkit-input-placeholder{color: #634b15;}
 
-input[type="text"].contato-footer::-moz-placeholder{color: white;}
-input[type="email"].contato-footer::-moz-placeholder{color: white;}
-textarea.contato-footer::-moz-placeholder{color: white;}
+input[type="text"].contato-footer::-moz-placeholder{color: #d5d5d5;}
+input[type="email"].contato-footer::-moz-placeholder{color: #d5d5d5;}
+textarea.contato-footer::-moz-placeholder{color: #d5d5d5;}
 input[type="text"]:focus.contato-footer::-moz-placeholder{color: #634b15;}
 input[type="email"]:focus.contato-footer::-moz-placeholder{color: #634b15;}
 textarea:focus.contato-footer::-moz-placeholder{color: #634b15;}
 
-input[type="text"].contato-footer:-ms-input-placeholder{color: white;}
-input[type="email"].contato-footer:-ms-input-placeholder{color: white;}
-textarea.contato-footer:-ms-input-placeholder{color: white;}
+input[type="text"].contato-footer:-ms-input-placeholder{color: #d5d5d5;}
+input[type="email"].contato-footer:-ms-input-placeholder{color: #d5d5d5;}
+textarea.contato-footer:-ms-input-placeholder{color: #d5d5d5;}
 input[type="text"]:focus.contato-footer:-ms-input-placeholder{color: #634b15;}
 input[type="email"]:focus.contato-footer:-ms-input-placeholder{color: #634b15;}
 textarea:focus.contato-footer:-ms-input-placeholder{color: #634b15;}
 
-input[type="text"].contato-footer:-moz-placeholder{color: white;}
-input[type="email"].contato-footer:-moz-placeholder{color: white;}
-textarea.contato-footer:-moz-placeholder{color: white;}
+input[type="text"].contato-footer:-moz-placeholder{color: #d5d5d5;}
+input[type="email"].contato-footer:-moz-placeholder{color: #d5d5d5;}
+textarea.contato-footer:-moz-placeholder{color: #d5d5d5;}
 input[type="text"]:focus.contato-footer:-moz-placeholder{color: #634b15;}
 input[type="email"]:focus.contato-footer:-moz-placeholder{color: #634b15;}
 textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
