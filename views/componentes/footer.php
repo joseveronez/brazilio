@@ -8,7 +8,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero parallax newsletter Relative">
         <img src="<?= RAIZSITE ?>/imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs">
         <div class="container conteudo">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 chamada">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 chamada le-2">
                 <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
@@ -27,7 +27,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado Relative contato">
         <div class="linha"></div>
         <div class="container conteudo">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
                 <h3 class="branco-fonte margin-zero icone">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 </h3>
@@ -35,25 +35,25 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
                 <div class="conteudo">
-                    <p class="branco-fonte chamada margin-zero">
+                    <p class="branco-fonte chamada margin-zero le-2">
                     Entre em contato por telefone ou pelo formulário ao lado:</p>
 
-                    <p class="Bold cnpj Uppercase margin-zero espaco">
+                    <p class="Bold cnpj Uppercase margin-zero espaco le-2">
                     Brazilio Bacellar, Shirai Advogados <br>
                     OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
 
-                    <p class="branco-fonte margin-zero espaco">
+                    <p class="branco-fonte margin-zero espaco le-2">
                     Tel.: <a href="tel:3352 8363" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.8363</a> <br>
                     Fax. <a href="tel:3352 0167" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.0167</a> </p>
 
-                    <div class="espaco">
+                    <div class="espaco le-2">
                         <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
                         <p class="branco-fonte endereco margin-zero">
                         Rua Marechal Hermes, 272 | Centro Cívico <br>
                         Curitiba | Paraná | Brasil | CEP 80.530-230</p>
                     </div>
 
-                    <div class="espaco">
+                    <div class="espaco le-2">
                         <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
                         <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80.030-190</p>
                     </div>
@@ -162,6 +162,32 @@
                 loop:true
             }
         }
+    });
+
+    $('.bc-1').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 200
+    });
+    $('.bc-2').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 300
+    });
+    $('.bc-3').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 300
+    });
+
+    $('.le-1').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInLeft',
+        offset: 200
+    });
+    $('.le-2').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInLeft',
+        offset: 300
+    });
+    $('.le-3').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInLeft',
+        offset: 300
     });
 
 	function Trim() {
