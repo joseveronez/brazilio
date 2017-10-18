@@ -219,4 +219,15 @@
             console.log('A screen resize just happened, yo.');
         }
     }).init();
+
+    $(document).ready(function() {
+        $('#iframeMaps').addClass('scrolloff');
+        $('.google-maps').on('click', function () {
+            $('#iframeMaps').removeClass('scrolloff');
+        });
+
+        $(".google-maps").mouseleave(function () {
+            $('#iframeMaps').addClass('scrolloff');
+        });
+    });
 </script>
