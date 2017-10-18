@@ -18,6 +18,7 @@
 
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado Relative contato">
+    <div id="waypointMenu" style="position: absolute; left: 0; height: 101px; width: 50px; top: -101px"></div>
     <div class="linha"></div>
     <div class="container conteudo">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
