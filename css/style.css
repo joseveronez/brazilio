@@ -33,6 +33,8 @@
 .border-equipe{ border-right: 1px solid #a08a59; }
 .border-equipe-meio{ border-right: 1px solid #a08a59; }
 .btn-curriculo { border-radius: 0px; border: 3px solid #d5d5d5; background-color: transparent;}
+.linha { position: absolute; z-index: 1; left: 50%; top: -40px; height: 80px; width: 2px; background-color: #a08a59 }
+.linha-pequena { position: absolute; z-index: 1; left: 50%; top: -40px; height: 60px; width: 2px; background-color: #a08a59 }
 
 input[type="text"].contato-footer { margin-bottom: 5px }
 input[type="email"].contato-footer { margin-bottom: 5px }
@@ -157,6 +159,29 @@ input[type="email"].email-news:-moz-placeholder{color: white; text-align: center
 .MarginB24{margin-bottom: 24%!important;}
 .MarginB25{margin-bottom: 25%!important;}
 
+
+.MarginT1p{margin-top: 5px!important;}
+.MarginT2p{margin-top: 10px!important;}
+.MarginT3p{margin-top: 15px!important;}
+.MarginT4p{margin-top: 20px!important;}
+.MarginT5p{margin-top: 25px!important;}
+.MarginT6p{margin-top: 30px!important;}
+.MarginT7p{margin-top: 35px!important;}
+.MarginT8p{margin-top: 40px!important;}
+.MarginT9p{margin-top: 45px!important;}
+.MarginT10p{margin-top: 50px!important;}
+
+
+.MarginB1p{margin-bottom: 5px!important;}
+.MarginB2p{margin-bottom: 10px!important;}
+.MarginB3p{margin-bottom: 15px!important;}
+.MarginB4p{margin-bottom: 20px!important;}
+.MarginB5p{margin-bottom: 25px!important;}
+.MarginB6p{margin-bottom: 30px!important;}
+.MarginB7p{margin-bottom: 35px!important;}
+.MarginB8p{margin-bottom: 40px!important;}
+.MarginB9p{margin-bottom: 45px!important;}
+.MarginB10p{margin-bottom: 50px!important;}
 
 .PaddingT1{padding-top: 1%!important;}
 .PaddingT2{padding-top: 2%!important;}
