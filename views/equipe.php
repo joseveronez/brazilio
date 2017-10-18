@@ -15,21 +15,21 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style="height: 100px; left: 50%; top: -3%; z-index:1;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco Relative" style="padding-top: 60px;">
+    <div class="linha"></div>
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5p">
             <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 text-justify MarginB5">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 text-justify MarginB5p">
             A equipe de profissionais conta com advogados em constante atualização, habilitados a atender empresas nacionais e internacionais, com conhecimento de línguas estrangeiras. 
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
-            <img src="<?= RAIZSITE ?>/imagens/separador3.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="linha-pequena MarginT6p"></div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco MarginT6p">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
             <h4 class="Uppercase dourado-fonte">SÓCIOS</h4>
@@ -58,7 +58,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
-            <img src="<?= RAIZSITE ?>/imagens/separador3.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="linha-pequena MarginT6p"></div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
             <h4 class="Uppercase dourado-fonte">ADVOGADOS</h4>
