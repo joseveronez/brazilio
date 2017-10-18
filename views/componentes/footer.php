@@ -24,31 +24,40 @@
     <?php
         if($pagina_atual == "home") {
     ?>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-dourado Relative contato">
-        <img src="imagens/separador.png" class="img-responsive Absolute" style=" left: 50%; top: -9%;">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado Relative contato">
+        <div class="linha"></div>
         <div class="container conteudo">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h3 class="branco-fonte margin-zero">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo">
+                <h3 class="branco-fonte margin-zero icone">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 </h3>
-                <h3 class="branco-fonte margin-zero" style="letter-spacing: 3px;">CONTATO</h3>
+                <h3 class="branco-fonte margin-zero chamada">CONTATO</h3>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
-                <p class="branco-fonte chamada">
-                Entre em contato por telefone ou pelo formulário ao lado:</p>
-                <p class="Bold cnpj Uppercase">
-                Brazilio Bacellar, Shirai Advogados <br>
-                OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
-                <p class="branco-fonte">
-                Tel.: <span class="size11">+55 41</span> 3352.8363 <br>
-                Fax. <span class="size11">+55 41</span> 3352.0167 </p>
-                <p class="branco-fonte titulo">ESCRITÓRIO</p>
-                <p class="branco-fonte endereco">
-                Rua Marechal Hermes, 272 | Centro Cívico <br>
-                Curitiba | Paraná | Brasil | CEP 80.530-230</p>
-                <p class="branco-fonte titulo">ESTACIONAMENTO</p>
-                <p class="branco-fonte endereco">Travessa José do Patrocinio, 48 | Alto da Glória Curitiba <br>
-                    | Paraná | Brasil | CEP 80.030-190</p>
+                <div class="conteudo">
+                    <p class="branco-fonte chamada margin-zero">
+                    Entre em contato por telefone ou pelo formulário ao lado:</p>
+
+                    <p class="Bold cnpj Uppercase margin-zero espaco">
+                    Brazilio Bacellar, Shirai Advogados <br>
+                    OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
+
+                    <p class="branco-fonte margin-zero espaco">
+                    Tel.: <a href="tel:3352 8363" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.8363</a> <br>
+                    Fax. <a href="tel:3352 0167" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.0167</a> </p>
+
+                    <div class="espaco">
+                        <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
+                        <p class="branco-fonte endereco margin-zero">
+                        Rua Marechal Hermes, 272 | Centro Cívico <br>
+                        Curitiba | Paraná | Brasil | CEP 80.530-230</p>
+                    </div>
+
+                    <div class="espaco">
+                        <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
+                        <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80.030-190</p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <form action="" class="form-horizontal Roboto Regular" id="formulario">
@@ -60,6 +69,7 @@
                 </form>
             </div>
         </div>
+        <img src="<?= RAIZSITE ?>/imagens/onda-branca.png" class="img-responsive Absolute hidden-xs hidden-sm">
     </div>
     <?php
         }
@@ -85,8 +95,8 @@
                     OAB/PR 997 | CNPJ 04.510.577/0001-02 </p>
                 <p>Rua Marechal Hermes, 272 . Centro Cívico <br>
                     Curitiba-PR | Brasil | CEP 80.530-230</p>
-                <p>Fone.: + 55 41 3352.8363 <br>
-                    Fax. + 55 41 3352.0167 </p>
+                <p>Fone.: <a href="tel:3352 8363" class="link-default dourado-fonte">+ 55 41 3352.8363</a> <br>
+                    Fax. <a href="tel:3352 0167" class="link-default dourado-fonte">+ 55 41 3352.0167</a> </p>
             </div>
         </div>
     </div>

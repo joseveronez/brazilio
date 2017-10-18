@@ -1,8 +1,15 @@
 .parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover }
 
+.contato .linha { position: absolute; z-index: 1; left: 50%; top: -40px; height: 80px; width: 2px; background-color: #ffffff }
+.contato .conteudo:nth-child(2) { padding-bottom: 80px }
+.contato .conteudo .titulo { margin-top: 55px; margin-bottom: 65px }
+.contato .conteudo .titulo .icone { margin-bottom: 25px }
+.contato .conteudo .titulo .chamada { letter-spacing: 3px; font-size: 30px }
+.contato .conteudo .dados .espaco { margin-top: 15px; margin-bottom: 15px }
 .contato .conteudo .dados .chamada { font-size: 15px; letter-spacing: 1px }
 .contato .conteudo .dados .cnpj { font-size: 14px; color: #3b2c0c }
 .contato .conteudo .dados .endereco { font-size: 12px }
+.contato img { position: absolute; z-index: 1; right: 5%; bottom: -33px }
 
 .newsletter img { left: 5%; top: -33px; z-index: 1 }
 .newsletter .conteudo .chamada h3 { margin-top: 100px }
@@ -24,6 +31,8 @@
 .copyright .conteudo .imagem img { margin-top: 1px }
 
 @media screen and (min-width: 768px) {
+    .contato .conteudo .dados .conteudo { width: 315px }
+
     .separador-footer { border-left: 1px solid #304e6e; border-right: 1px solid #304e6e }
 
     .copyright .conteudo .imagem img { float: right }
