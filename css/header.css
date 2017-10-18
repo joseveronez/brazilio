@@ -1,0 +1,32 @@
+nav.navbar .navbar-superior { border-bottom: 1px solid #a08a59 }
+nav.navbar .navbar-superior ul.list-inline { margin-bottom: 3px; margin-top: 5px }
+nav.navbar .navbar-superior ul.list-inline>li { padding-right: 0; }
+nav.navbar .navbar-superior ul.list-inline>li>a { font-size: 11px }
+nav.navbar.menu-transparente { background-color: transparent; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out }
+nav.navbar.menu-azul { background-color: #14284b; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out }
+.navbar-nav>li>a:hover{ text-decoration: none; background-color: transparent }
+.navbar-nav>li>a { padding-right: 0; padding-left: 0; padding-top: 10px; padding-bottom: 5px }
+
+@media screen and (max-width: 767px) {
+    .navbar-nav { margin: 15px 0px }
+    .navbar-header { height: 65px }
+    .navbar-toggle { margin-top: 16px }
+}
+
+@media screen and (min-width: 768px) {
+    nav.navbar .navbar-superior div div { text-align: right }
+    .navbar-right { margin-right: 0 }
+    .navbar-nav>li:nth-child(4)>a { margin-right: 15px }
+
+    .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
+}
+@media screen and (min-width: 992px) {
+    .navbar-right { margin-top: 17px }
+    .navbar-nav>li>a { margin: 10px 37px }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-right { margin-top: 10px }
+    .navbar-brand>img { height: 30px }
+    .navbar-nav>li>a { margin: 10px 25px; font-size: 13px }
+}

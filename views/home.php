@@ -24,7 +24,7 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-bege PaddingT10 PaddingB10 Relative">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-bege PaddingT10 PaddingB10 Relative" id="waypointMenu">
     <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-xs" style=" left: 50%; top: -10%; z-index:1;">
     <div class="container">
         <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">

@@ -104,8 +104,21 @@
 </html>
 
 <script type="text/javascript">
-	$(document).ready(function() {
-        
+	var waypoint1 = new Waypoint({
+        element: document.getElementById('waypointMenu'),
+        handler: function(direction) {
+            if(direction == "down") {
+                /* desativa o menu azul */
+                $("nav.navbar").removeClass("menu-transparente");
+                $("nav.navbar").addClass("menu-azul");
+                /* desativa o menu azul */
+            } else {
+                /* ativa o menu transparente */
+                $("nav.navbar").removeClass("menu-azul");
+                $("nav.navbar").addClass("menu-transparente");
+                /* ativa o menu transparente */
+            }
+        }
     });
     
     $('.owl-carousel.owl-associadas').owlCarousel({

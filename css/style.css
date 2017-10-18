@@ -1,8 +1,5 @@
 /* LG MD SM  */
 @media (min-width: 768px) {
-    .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
-    .navbar-nav>li>a{padding: 20px 35px;}
-    .margin-ul{margin-left: 10%;}
     .chamada-galeria{height: 330px!important; padding: 65px 60px!important;}
 }
 
@@ -71,8 +68,6 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 
 .btn-formulario{border-radius: 0px; color: white; background-color: transparent; border: 1px solid white;}
 .btn-formulario:hover{border: 1px solid #634b15; color: #634b15!important;}
-
-.navbar-nav>li>a:hover{ text-decoration: none; background-color: transparent;}
 
 .sp-thumbnail{ width: 100%!important;}
 .imagens-topo{ background-position: center center;  background-repeat: no-repeat;  background-size: cover;  height: 100px;  margin-top: 5px;}
