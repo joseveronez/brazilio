@@ -97,8 +97,6 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 .Relative{ position: relative; }
 .Absolute{ position: absolute; }
 
-.botao-azul{padding: 10px;border: 1px solid #14284b;letter-spacing: 3px;}
-
 input[type="email"].email-news::-webkit-input-placeholder{color: white; text-align: center; font-size: 18px;}
 input[type="email"].email-news::-moz-placeholder{color: white; text-align: center; font-size: 18px;}
 input[type="email"].email-news:-ms-input-placeholder{color: white; text-align: center; font-size: 18px;}
