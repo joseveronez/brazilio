@@ -6,7 +6,7 @@
         <div class="container">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <ul class="list-inline">
-                    <li><a href="<?= RAIZSITE ?>/trabalhe-conosco" class="link-default dourado-fonte">TRABALHE CONOSCO</a></li>
+                    <li><a href="<?= RAIZSITE ?>/trabalhe" class="link-default dourado-fonte">TRABALHE CONOSCO</a></li>
                     <li><div class="separador"></div></li>
                     <li><a href="<?= RAIZSITE ?>/links-uteis" class="link-default dourado-fonte">LINKS ÚTEIS</a></li>
                     <li><div class="separador"></div></li>

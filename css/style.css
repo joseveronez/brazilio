@@ -32,7 +32,7 @@
 .texto-servicos {margin-top: -10px;}
 .border-equipe{ border-right: 1px solid #a08a59; }
 .border-equipe-meio{ border-right: 1px solid #a08a59; }
-.btn-curriculo { border-radius: 0px; border: 1px solid white; background-color: transparent;}
+.btn-curriculo { border-radius: 0px; border: 3px solid #d5d5d5; background-color: transparent;}
 
 input[type="text"].contato-footer { margin-bottom: 5px }
 input[type="email"].contato-footer { margin-bottom: 5px }
