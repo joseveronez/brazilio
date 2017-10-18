@@ -5,7 +5,7 @@
     <div class="item vh30">
         <div class="vh30 parallax-sobre" style="min-height: 481px;">
             <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15  MarginB10">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center " style="margin: 180px 0px">
                     <h4 class="Uppercase size35 dourado-fonte Light">A EMPRESA</h4>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
@@ -15,11 +15,11 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -5%; z-index:1;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT15p Relative">
+    <div class="linha"></div>
     <div class="container">
         <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 MarginT2 padding-zero">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 MarginT10p padding-zero">
         <p class="text-justify size16 Medium">
             A Brazilio Bacellar, Shirai Advogados é uma sociedade profissional experiente, com atuação preventiva e contenciosa nos campos do direito comercial, civil, societário, administrativo, trabalhista e tributário, com enfoque na atividade empresarial. O escritório investe constantemente em atualização técnica e busca sempre novas tecnologias seguras a fim de facilitar e agilizar a prestação de serviços aos seus clientes.
         </p>
@@ -33,7 +33,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT3 PaddingB3">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco MarginT10p">
         <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 col-md-offset-1 bg-dourado chamada-galeria">
             <h4 class="branco-fonte Uppercase size22" style="line-height: 35px;">“uma sociedade profissional com atuação preventiva e contenciosa nas mais diversas áreas [...]”</h4>
         </div>
@@ -67,18 +67,18 @@
 
 <div class="container MarginT5 MarginB8">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero">
-        <h3 class="dourado-fonte Light size40">NOSSOS DIFERENCIAIS</h3>
+        <h3 class="dourado-fonte Light MarginT1p size40">NOSSOS DIFERENCIAIS</h3>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-sm-offset-3 text-left padding-zero Medium MarginT2">
         <p>Esses são os diferenciais que sua empresa terá ao contratar nosso escritório:</p>
         <ul class="lista">
-            <li class="MarginT2"><span class="preto-fonte">Equipe multidisciplinar</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Atuação pautada pela ética e transparência</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Atendimento customizado às necessidades do cliente</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Interlocução direta e constante com os sócios do escritório</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Vasta experiência no Direito Empresarial</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Transparência total através de uma página eletrônica com todas as informações dos processos</span></li>
-            <li class="MarginT2"><span class="preto-fonte">Escritórios parceiros em todo o Brasil</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Equipe multidisciplinar</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Atuação pautada pela ética e transparência</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Atendimento customizado às necessidades do cliente</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Interlocução direta e constante com os sócios do escritório</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Vasta experiência no Direito Empresarial</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Transparência total através de uma página eletrônica com todas as informações dos processos</span></li>
+            <li class="MarginT5p"><span class="preto-fonte">Escritórios parceiros em todo o Brasil</span></li>
         </ul>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-sm-offset-3 padding-zero MarginT2">

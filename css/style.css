@@ -159,30 +159,6 @@ input[type="email"].email-news:-moz-placeholder{color: white; text-align: center
 .MarginB24{margin-bottom: 24%!important;}
 .MarginB25{margin-bottom: 25%!important;}
 
-
-.MarginT1p{margin-top: 5px!important;}
-.MarginT2p{margin-top: 10px!important;}
-.MarginT3p{margin-top: 15px!important;}
-.MarginT4p{margin-top: 20px!important;}
-.MarginT5p{margin-top: 25px!important;}
-.MarginT6p{margin-top: 30px!important;}
-.MarginT7p{margin-top: 35px!important;}
-.MarginT8p{margin-top: 40px!important;}
-.MarginT9p{margin-top: 45px!important;}
-.MarginT10p{margin-top: 50px!important;}
-
-
-.MarginB1p{margin-bottom: 5px!important;}
-.MarginB2p{margin-bottom: 10px!important;}
-.MarginB3p{margin-bottom: 15px!important;}
-.MarginB4p{margin-bottom: 20px!important;}
-.MarginB5p{margin-bottom: 25px!important;}
-.MarginB6p{margin-bottom: 30px!important;}
-.MarginB7p{margin-bottom: 35px!important;}
-.MarginB8p{margin-bottom: 40px!important;}
-.MarginB9p{margin-bottom: 45px!important;}
-.MarginB10p{margin-bottom: 50px!important;}
-
 .PaddingT1{padding-top: 1%!important;}
 .PaddingT2{padding-top: 2%!important;}
 .PaddingT3{padding-top: 3%!important;}
@@ -234,3 +210,60 @@ input[type="email"].email-news:-moz-placeholder{color: white; text-align: center
 .PaddingB23{padding-bottom: 23%!important;}
 .PaddingB24{padding-bottom: 24%!important;}
 .PaddingB25{padding-bottom: 25%!important;}
+
+
+.MarginT1p{margin-top: 5px!important;}
+.MarginT2p{margin-top: 10px!important;}
+.MarginT3p{margin-top: 15px!important;}
+.MarginT4p{margin-top: 20px!important;}
+.MarginT5p{margin-top: 25px!important;}
+.MarginT6p{margin-top: 30px!important;}
+.MarginT7p{margin-top: 35px!important;}
+.MarginT8p{margin-top: 40px!important;}
+.MarginT9p{margin-top: 45px!important;}
+.MarginT10p{margin-top: 50px!important;}
+.MarginT11p{margin-top: 55px!important;}
+.MarginT12p{margin-top: 60px!important;}
+.MarginT13p{margin-top: 65px!important;}
+.MarginT14p{margin-top: 70px!important;}
+.MarginT15p{margin-top: 75px!important;}
+
+
+.MarginB1p{margin-bottom: 5px!important;}
+.MarginB2p{margin-bottom: 10px!important;}
+.MarginB3p{margin-bottom: 15px!important;}
+.MarginB4p{margin-bottom: 20px!important;}
+.MarginB5p{margin-bottom: 25px!important;}
+.MarginB6p{margin-bottom: 30px!important;}
+.MarginB7p{margin-bottom: 35px!important;}
+.MarginB8p{margin-bottom: 40px!important;}
+.MarginB9p{margin-bottom: 45px!important;}
+.MarginB10p{margin-bottom: 50px!important;}
+
+
+.PaddingT1p{padding-top: 5px!important;}
+.PaddingT2p{padding-top: 10px!important;}
+.PaddingT3p{padding-top: 15px!important;}
+.PaddingT4p{padding-top: 20px!important;}
+.PaddingT5p{padding-top: 25px!important;}
+.PaddingT6p{padding-top: 30px!important;}
+.PaddingT7p{padding-top: 35px!important;}
+.PaddingT8p{padding-top: 40px!important;}
+.PaddingT9p{padding-top: 45px!important;}
+.PaddingT10p{padding-top: 50px!important;}
+.PaddingT11p{padding-top: 55px!important;}
+.PaddingT12p{padding-top: 60px!important;}
+.PaddingT13p{padding-top: 65px!important;}
+.PaddingT14p{padding-top: 70px!important;}
+.PaddingT15p{padding-top: 75px!important;}
+
+.PaddingB1p{padding-bottom: 5px!important;}
+.PaddingB2p{padding-bottom: 10px!important;}
+.PaddingB3p{padding-bottom: 15px!important;}
+.PaddingB4p{padding-bottom: 20px!important;}
+.PaddingB5p{padding-bottom: 25px!important;}
+.PaddingB6p{padding-bottom: 30px!important;}
+.PaddingB7p{padding-bottom: 35px!important;}
+.PaddingB8p{padding-bottom: 40px!important;}
+.PaddingB9p{padding-bottom: 45px!important;}
+.PaddingB10p{padding-bottom: 50px!important;}

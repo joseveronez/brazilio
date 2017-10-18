@@ -5,7 +5,7 @@
     <div class="item vh30">
         <div class="vh30 parallax-trabalhe" style="min-height: 481px;">
             <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15 MarginB10">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin: 180px 0px">
                     <h4 class="Uppercase size35 dourado-fonte Light">TRABALHE CONOSCO</h4>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  MarginB1">

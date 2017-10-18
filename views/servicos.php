@@ -5,7 +5,7 @@
     <div class="item vh30">
         <div class="vh30 parallax-servicos" style="min-height: 481px;">
             <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15 MarginB10">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin: 180px 0px">
                     <h4 class="Uppercase size35 dourado-fonte Light">ÁREAS DE ATUAÇÃO</h4>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
@@ -15,13 +15,13 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT8 Relative">
-    <img src="<?= RAIZSITE ?>/imagens/separador2.png" class="img-responsive Absolute hidden-sm hidden-xs" style=" left: 50%; top: -1%; z-index:1;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT15p Relative">
+    <div class="linha"></div>
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5p">
             <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive" style="margin: 0 auto;">
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT2 PaddingB8">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT2p PaddingB8p">
             <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
                 <ul class="list-unstyled">
                     <li class="lista-servicos"><a href="#" class="link-default dourado-fonte lista-servicos-item">ADMINISTRATIVO</a></li>
@@ -42,7 +42,7 @@
                 </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;ADMINISTRATIVO</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -50,7 +50,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;AMBIENTAL</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -58,7 +58,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;BANCÁRIO</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;cível</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -74,7 +74,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;comercial</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -83,7 +83,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;consumidor</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -91,7 +91,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;contratos</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -99,7 +99,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;família</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -107,7 +107,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;gestão legal de patrimônio</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -115,7 +115,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;internet e e-commerce</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -123,7 +123,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;propriedade intelectual</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -131,7 +131,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;societário</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -139,7 +139,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;sucessões</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -147,7 +147,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;trabalhista</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -155,7 +155,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB7">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;&nbsp;tributário</h3><br>
                     <p class="text-justify size15 texto-servicos">

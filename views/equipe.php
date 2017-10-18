@@ -5,7 +5,7 @@
     <div class="item vh30">
         <div class="vh30 parallax-equipe" style="min-height: 481px;">
             <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15 MarginB10">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin: 180px 0px">
                     <h4 class="Uppercase size35 dourado-fonte Light">EQUIPE</h4>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
@@ -18,7 +18,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco Relative" style="padding-top: 60px;">
     <div class="linha"></div>
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
             <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 text-justify MarginB5p">
@@ -32,7 +32,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco MarginT6p">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
-            <h4 class="Uppercase dourado-fonte">SÓCIOS</h4>
+            <h3 class="Uppercase dourado-fonte">SÓCIOS</h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5 padding-zero" style="padding-right: 5px;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio1.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
@@ -57,11 +57,11 @@
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
             <div class="linha-pequena MarginT6p"></div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
-            <h4 class="Uppercase dourado-fonte">ADVOGADOS</h4>
+            <h3 class="Uppercase dourado-fonte">ADVOGADOS</h3>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
@@ -210,13 +210,13 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco dourado-fonte MarginT5  MarginB5">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco dourado-fonte MarginT15p  MarginB7p">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
-            <img src="<?= RAIZSITE ?>/imagens/separador3.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="linha-pequena"></div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
-            <h4 class="Uppercase dourado-fonte">EQUIPE</h4>
+            <h3 class="Uppercase dourado-fonte">EQUIPE</h3>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border-equipe">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
