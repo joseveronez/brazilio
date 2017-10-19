@@ -82,7 +82,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte separador-footer links">
                 <ul class="list-unstyled">
                     <li><a class="link-default" href="<?= RAIZSITE ?>/sobre">A EMPRESA</a></li>
-                    <li><a class="link-default" href="<?= RAIZSITE ?>/area-atuacao">ÁREA DE ATUAÇÃO</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/servicos">ÁREA DE ATUAÇÃO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/equipe">EQUIPE</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
