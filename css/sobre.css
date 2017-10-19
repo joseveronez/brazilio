@@ -1,0 +1,27 @@
+.chamada-galeria { height: 330px }
+.chamada-galeria div { position: absolute; top: 50%; left: 50%; -ms-transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); -moz-transform: translateY(-50%) translateX(-50%); -o-transform: translateY(-50%) translateX(-50%); transform: translateY(-50%) translateX(-50%) }
+
+.diferenciais { margin-top: 80px; margin-bottom: 70px }
+.diferenciais-lista { margin-top: 50px }
+.diferenciais-lista ul.lista { margin-bottom: 50px }
+
+.owl-theme .owl-nav [class*=owl-] { margin: 0 !important; margin-bottom: -10px !important; border-radius: 0 !important; background-color: #040404 !important }
+.owl-theme .owl-nav .owl-prev { border-right: 1px solid #ffffff }
+.owl-theme .owl-nav [class*=owl-]:hover { background-color: #000000 !important }
+.owl-theme .owl-nav .disabled { opacity: 1 !important }
+.galeria img:last-child { z-index: 1; right: 5%; bottom: -33px; }
+
+@media screen and (min-width: 992px) {
+    .chamada-galeria div { width: 300px }
+	.chamada-galeria div h4 { font-size: 22px; line-height: 35px }
+}
+
+@media screen and (max-width: 767px) {
+    .chamada-galeria div { width: 245px }
+	.chamada-galeria div h4 { font-size: 18px; line-height: 28px }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.chamada-galeria div { width: 235px }
+	.chamada-galeria div h4 { font-size: 17px; line-height: 28px }
+}

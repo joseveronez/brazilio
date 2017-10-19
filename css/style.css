@@ -28,7 +28,6 @@ a.equipe-link:hover { color: #14284b }
 
 /* LG MD SM  */
 @media (min-width: 768px) {
-    .chamada-galeria{height: 330px!important; padding: 65px 60px!important;}
 
     .chamada-botao { padding-top: 10px; }
 
@@ -46,17 +45,12 @@ a.equipe-link:hover { color: #14284b }
 
 /* XS */
 @media (max-width: 767px) {
-    .chamada-galeria{height: 330px!important; padding: 85px 60px!important;}
     .border-equipe-meio{ border-right: none!important; text-align: center; }
     .border-equipe{ border-right: none!important; text-align: center; }
     .center-equipe{ text-align: center; }
 
     .formulario-trabalhe-conosco { margin-top: 15px }
     .chamada-botao { padding-top: 0px }
-}
-
-@media (max-width: 408px) {
-    .chamada-galeria{height: 330px!important; padding: 40px 45px!important;}
 }
 
 .separador-areas{ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; }
