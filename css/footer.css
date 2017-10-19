@@ -20,11 +20,13 @@
 .footer-links .conteudo .links ul { font-size: 15px; letter-spacing: 1px }
 .footer-links .conteudo .links ul>li { margin-bottom: 8px }
 .footer-links .conteudo .links ul>li a { color: #a08a59 }
+.footer-links .conteudo .links ul>li a:hover { color: #ffffff; }
 .footer-links .conteudo .chamada p { margin: 0px }
 .footer-links .conteudo .chamada p:nth-child(2) { margin-top: 13px }
 .footer-links .conteudo .chamada p:nth-child(3) { margin-top: 13px; margin-bottom: 13px }
 .footer-links .conteudo .chamada p:nth-child(2), .footer-links .conteudo .chamada p:nth-child(3), .footer-links .conteudo .chamada p:nth-child(4) { font-size: 13px; line-height: 18px }
-.footer-links img:nth-child(1) { position: absolute; z-index: 1; right: 5%; top: -33px }
+.footer-links .conteudo .chamada a { color: #a08a59 }
+.footer-links .conteudo .chamada a:hover { color: #ffffff }
 
 .copyright .conteudo { padding-top: 15px; padding-bottom: 10px }
 .copyright .conteudo .imagem img { margin-top: 1px }
@@ -39,6 +41,7 @@
 @media screen and (min-width: 992px) {
     .footer-links .conteudo { padding-top: 100px; padding-bottom: 70px }
     .footer-links .conteudo .imagem { height: 176px }
+    .footer-links img:nth-child(1) { position: absolute; z-index: 1; right: 5%; top: -33px }
     .footer-links .conteudo .imagem img { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
 }
 @media screen and (min-width: 1200px) {

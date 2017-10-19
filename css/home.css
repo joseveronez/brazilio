@@ -15,10 +15,10 @@ img { margin: 0 auto; }
 .owl-theme .owl-nav [class*=owl-]:hover { background: transparent !important }
 .owl-theme .owl-nav .owl-next { position: absolute; right: 0%; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
 .owl-theme .owl-nav .owl-prev { position: absolute; left: 0%; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
-.owl-dots { position: absolute; right: 0; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
-.owl-theme .owl-dots .owl-dot { display: block !important }
-.owl-theme .owl-dots .owl-dot span { width: 15px !important; height: 2px !important; margin-bottom: 5px !important; background-color: #7d7d7d !important; float: right }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { width: 30px !important; background-color: #a08a59 !important; -webkit-transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -o-transition: .2s ease-in-out; transition: .2s ease-in-out }
+.owl-dots { position: absolute; left: 50%; bottom: 10%; -ms-transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); -moz-transform: translateY(-50%) translateX(-50%); -o-transform: translateY(-50%) translateX(-50%); transform: translateY(-50%) translateX(-50%) }
+/* .owl-theme .owl-dots .owl-dot { display: block !important } */
+.owl-theme .owl-dots .owl-dot span { width: 50px !important; height: 10px !important; margin-bottom: 5px !important; border-radius: 0; background-color: transparent !important; border: 1px solid #a08a59; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #a08a59 !important; -webkit-transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -o-transition: .2s ease-in-out; transition: .2s ease-in-out }
 
 .empresa { margin-top: -10px; padding-top: 65px; padding-bottom: 85px; }
 .empresa .conteudo a[role="button"]:hover { color: #ffffff; background-color: #14284b }
@@ -37,8 +37,8 @@ img { margin: 0 auto; }
 .areas-atuacao img:last-child { left: 5%; bottom: -33px; z-index: 1 }
 
 @media screen and (min-width: 768px) {
-	.slider-topo .item .slider-conteudo p.titulo { margin: 0; font-size: 40px }
-	.slider-topo .item .slider-conteudo p.subtitulo { margin: 0; font-size: 20px; margin-top: 10px; margin-bottom: 45px }
+	.slider-topo .item .slider-conteudo p.titulo { margin: 0px; font-size: 40px }
+	.slider-topo .item .slider-conteudo p.subtitulo { margin: 0px; font-size: 20px; margin-top: 10px; margin-bottom: 45px }
 	
 	.areas-atuacao .conteudo .lista-itens .item { border-right: 1px solid #e8e8e8 }
 	.areas-atuacao .conteudo .lista-itens .item:last-child { border-right: none }

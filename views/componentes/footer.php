@@ -95,8 +95,8 @@
                     OAB/PR 997 | CNPJ 04.510.577/0001-02 </p>
                 <p>Rua Marechal Hermes, 272 . Centro Cívico <br>
                     Curitiba-PR | Brasil | CEP 80.530-230</p>
-                <p>Fone.: <a href="tel:3352 8363" class="link-default dourado-fonte">+ 55 41 3352.8363</a> <br>
-                    Fax. <a href="tel:3352 0167" class="link-default dourado-fonte">+ 55 41 3352.0167</a> </p>
+                <p>Fone.: <a href="tel:3352 8363" class="link-default">+ 55 41 3352.8363</a> <br>
+                    Fax. <a href="tel:3352 0167" class="link-default">+ 55 41 3352.0167</a> </p>
             </div>
         </div>
     </div>
