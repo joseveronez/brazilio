@@ -1,12 +1,8 @@
-
-<?php
-    ScriptLoader::LoadCSS('contato');
-?>
 <style type="text/css">
-    .parallax-contato { background-image: url("<?= RAIZSITE ?>/imagens/banner-contato.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-contato.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="parallax-contato">
+    <div class="parallax-banner">
         <div class="container">
         	<div class="text-center titulo">
 	            <h3 class="Uppercase size35 dourado-fonte Light">CONTATO</h3>
