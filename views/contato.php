@@ -3,19 +3,16 @@
     ScriptLoader::LoadCSS('contato');
 ?>
 <style type="text/css">
-    .parallax-contato { background-image: url("<?= RAIZSITE ?>/imagens/mapa.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;}
-    .parallax-contato-topo { background-image: url("<?= RAIZSITE ?>/imagens/ban2.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+    .parallax-contato { background-image: url("<?= RAIZSITE ?>/imagens/banner-contato.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="item vh30">
-        <div class="vh30 parallax-contato-topo" style="min-height: 481px;">
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15p MarginB10p">
-                    <h4 class="Uppercase size35 dourado-fonte Light">CONTATO</h4>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
-                    <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">CONTATO</span></h6>
-                </div>
+    <div class="parallax-contato">
+        <div class="container">
+        	<div class="text-center titulo">
+	            <h3 class="Uppercase size35 dourado-fonte Light">CONTATO</h3>
+	        </div>
+            <div class="breadcrumb hidden-xs">
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">CONTATO</span></p>
             </div>
         </div>
     </div>

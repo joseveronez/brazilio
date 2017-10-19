@@ -1,3 +1,11 @@
+.breadcrumb { position: absolute; top: 88%; background: transparent; font-size: 12px }
+.breadcrumb a { color: #ffffff }
+.breadcrumb a, .breadcrumb span { text-decoration: underline }
+.breadcrumb a:hover { color: #a08a59 }
+
+.parallax-contato { height: 350px }
+.parallax-contato .titulo { position: absolute; top: 60%; left: 50%; -ms-transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); -moz-transform: translateY(-50%) translateX(-50%); -o-transform: translateY(-50%) translateX(-50%); transform: translateY(-50%) translateX(-50%) }
+
 .scrolloff { pointer-events: none; }
 .bloco-mapa { height: 350px }
 #iframeMaps { width: 100%; height: 350px }
