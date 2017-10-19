@@ -11,7 +11,7 @@
             'servicos'=>array('layout'=>'default','view'=>'servicos'),
             'equipe'=>array('layout'=>'default','view'=>'equipe'),
             'contato'=>array('layout'=>'default','view'=>'contato'),
-            'trabalhe'=>array('layout'=>'default','view'=>'trabalhe'),
+            'trabalhe-conosco'=>array('layout'=>'default','view'=>'trabalhe-conosco'),
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada
         private static $_parametros;
