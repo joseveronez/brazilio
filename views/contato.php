@@ -53,7 +53,7 @@
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
                 <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" required><br>
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
-                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM"></textarea><br>
+                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM"></textarea><br>
                 <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
             </form>
         </div>

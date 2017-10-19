@@ -1,16 +1,18 @@
+<?php
+    ScriptLoader::LoadPLUGINSCSS('inputfile/css/component.css');
+    ScriptLoader::LoadPLUGINSJS('inputfile/js/custom-file-input.js');
+?>
 <style type="text/css">
-    .parallax-trabalhe { background-image: url("<?= RAIZSITE ?>/imagens/ban2.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-trabalhe-conosco.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="item vh30">
-        <div class="vh30 parallax-trabalhe" style="min-height: 481px;">
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin: 180px 0px">
-                    <h4 class="Uppercase size35 dourado-fonte Light">TRABALHE CONOSCO</h4>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  MarginB1">
-                    <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">TRABALHE CONOSCO</span></h6>
-                </div>
+    <div class="parallax-banner">
+        <div class="container">
+            <div class="text-center titulo">
+                <h3 class="Uppercase size35 dourado-fonte Light">TRABALHE CONOSCO</h3>
+            </div>
+            <div class="breadcrumb hidden-xs">
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">TRABALHE CONOSCO</span></p>
             </div>
         </div>
     </div>
@@ -20,12 +22,12 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado Relative contato">
     <div id="waypointMenu" style="position: absolute; left: 0; height: 101px; width: 50px; top: -101px"></div>
     <div class="linha"></div>
-    <div class="container conteudo">
+    <div class="container conteudo" style="padding-bottom: 80px">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
             <h3 class="branco-fonte margin-zero icone">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </h3>
-            <h3 class="branco-fonte margin-zero chamada">CONTATO</h3>
+            <h3 class="branco-fonte margin-zero chamada">TRABALHE CONOSCO</h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
             <div class="conteudo">
@@ -39,18 +41,17 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <form action="" class="form-horizontal Roboto Regular" id="formulario">
+            <form action="" class="form-horizontal Roboto Regular formulario-trabalhe-conosco" id="formulario">
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
                 <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" required><br>
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="margin: 20px 0px">
-                    <button class="btn btn-curriculo col-lg-5 col-md-5 col-sm-5 col-xs-12 branco-alternativo-fonte">
-                        <span class="hidden-xs">escolher arquivo</span>
-                        <span class="hidden-lg hidden-md hidden-sm">SELECIONAR CURRÍCULO</span>
-                    </button>
-                    <div class="branco-alternativo-fonte col-lg-7 col-md-7 col-sm-7 hidden-xs" style="padding-top: 10px;">SELECIONAR CURRÍCULO</div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                    <input type="file" name="imagem_destaque" id="imagem_destaque" class="inputfile inputfile-1" />
+                    <label for="imagem_destaque"><span>escolher arquivo</span></label>
+
+                    <span class="branco-alternativo-fonte chamada-botao">SELECIONAR CURRÍCULO</span>
                 </div>
-                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM"></textarea><br>
+                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM"></textarea><br>
                 <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
             </form>
         </div>
