@@ -1,3 +1,39 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+        var hash = location.hash.replace('#','');
+        if(hash == 'administrativo'){
+            $('html, body').animate({ scrollTop: $('#administrativo').offset().top- 110}, 1000);
+        }else if(hash == 'ambiental'){
+            $('html, body').animate({ scrollTop: $('#ambiental').offset().top- 110}, 1000);
+        }else if(hash == 'bancario'){
+            $('html, body').animate({ scrollTop: $('#bancario').offset().top- 110}, 1000);
+        }else if(hash == 'civel'){
+            $('html, body').animate({ scrollTop: $('#civel').offset().top- 110}, 1000);
+        }else if(hash == 'comercial'){
+            $('html, body').animate({ scrollTop: $('#comercial').offset().top- 110}, 1000);
+        }else if(hash == 'consumidor'){
+            $('html, body').animate({ scrollTop: $('#consumidor').offset().top- 110}, 1000);
+        }else if(hash == 'contratos'){
+            $('html, body').animate({ scrollTop: $('#contratos').offset().top- 110}, 1000);
+        }else if(hash == 'familia'){
+            $('html, body').animate({ scrollTop: $('#familia').offset().top- 110}, 1000);
+        }else if(hash == 'gestao-legal'){
+            $('html, body').animate({ scrollTop: $('#gestao-legal').offset().top- 110}, 1000);
+        }else if(hash == 'internet-ecommerce'){
+            $('html, body').animate({ scrollTop: $('#internet-ecommerce').offset().top- 110}, 1000);
+        }else if(hash == 'propriedade-intelectual'){
+            $('html, body').animate({ scrollTop: $('#propriedade-intelectual').offset().top- 110}, 1000);
+        }else if(hash == 'societario'){
+            $('html, body').animate({ scrollTop: $('#societario').offset().top- 110}, 1000);
+        }else if(hash == 'sucessoes'){
+            $('html, body').animate({ scrollTop: $('#sucessoes').offset().top- 110}, 1000);
+        }else if(hash == 'trabalhista'){
+            $('html, body').animate({ scrollTop: $('#trabalhista').offset().top- 110}, 1000);
+        }else if(hash == 'tributario'){
+            $('html, body').animate({ scrollTop: $('#tributario').offset().top- 110}, 1000);
+        }
+    });
+</script>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-servicos.jpg"); background-position: top center; background-attachment: fixed; background-repeat: no-repeat }
 </style>
@@ -21,7 +57,7 @@
             <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive">
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT15p PaddingB15p">
-            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs servicos-links">
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs servicos-links le-2">
                 <ul class="list-unstyled">
                     <li class="lista-servicos"><a href="#administrativo" class="link-default dourado-fonte lista-servicos-item atalho">ADMINISTRATIVO</a></li>
                     <li class="lista-servicos"><a href="#ambiental" class="link-default dourado-fonte lista-servicos-item atalho">AMBIENTAL</a></li>
@@ -41,7 +77,7 @@
                 </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 servicos-itens">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="administrativo">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="administrativo">
                     <div id="waypointAdministrativo" style="position: absolute; left: 0; height: 101px; width: 50px; top: -101px"></div>
 
                     <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
@@ -51,7 +87,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="ambiental">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="ambiental">
                     <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;AMBIENTAL</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -59,7 +95,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="bancario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="bancario">
                     <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;BANCÁRIO</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -67,7 +103,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="civel">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="civel">
                     <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;cível</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -75,7 +111,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="comercial">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="comercial">
                     <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;comercial</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -84,7 +120,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="consumidor">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="consumidor">
                     <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;consumidor</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -92,7 +128,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="contratos">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="contratos">
                     <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;contratos</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -100,7 +136,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="familia">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="familia">
                     <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;família</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -108,7 +144,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="gestao-legal">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="gestao-legal">
                     <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;gestão legal de patrimônio</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -116,7 +152,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="internet-ecommerce">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="internet-ecommerce">
                     <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;internet e e-commerce</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -124,7 +160,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="propriedade-intelectual">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="propriedade-intelectual">
                     <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;propriedade intelectual</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -132,7 +168,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="societario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="societario">
                     <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;societário</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -140,7 +176,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="sucessoes">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="sucessoes">
                     <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;sucessões</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -148,7 +184,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="trabalhista">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="trabalhista">
                     <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;trabalhista</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -156,7 +192,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p" id="tributario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="tributario">
                     <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;tributário</h3><br>
                     <p class="text-justify size15 texto-servicos">
