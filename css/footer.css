@@ -9,9 +9,7 @@
 .contato .conteudo .dados .chamada { font-size: 15px; letter-spacing: 1px }
 .contato .conteudo .dados .cnpj { font-size: 14px; color: #3b2c0c }
 .contato .conteudo .dados .endereco { font-size: 12px }
-.contato img { position: absolute; z-index: 1; right: 5%; bottom: -33px }
 
-.newsletter img { left: 5%; top: -33px; z-index: 1 }
 .newsletter .conteudo .chamada h3 { margin-top: 100px }
 .newsletter .conteudo .input .input-group { margin-top: 70px; margin-bottom: 150px }
 .input-group .email-news { background-color: transparent; border-radius: 0; height: 45px }
@@ -26,6 +24,7 @@
 .footer-links .conteudo .chamada p:nth-child(2) { margin-top: 13px }
 .footer-links .conteudo .chamada p:nth-child(3) { margin-top: 13px; margin-bottom: 13px }
 .footer-links .conteudo .chamada p:nth-child(2), .footer-links .conteudo .chamada p:nth-child(3), .footer-links .conteudo .chamada p:nth-child(4) { font-size: 13px; line-height: 18px }
+.footer-links img:nth-child(1) { position: absolute; z-index: 1; right: 5%; top: -33px }
 
 .copyright .conteudo { padding-top: 15px; padding-bottom: 10px }
 .copyright .conteudo .imagem img { margin-top: 1px }

@@ -6,7 +6,6 @@
 </style>
 <footer>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero parallax newsletter Relative">
-        <img src="<?= RAIZSITE ?>/imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs">
         <div class="container conteudo">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 chamada le-2">
                 <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
@@ -69,12 +68,13 @@
                 </form>
             </div>
         </div>
-        <img src="<?= RAIZSITE ?>/imagens/onda-branca.png" class="img-responsive Absolute hidden-xs hidden-sm">
     </div>
     <?php
         }
     ?>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero footer-links bg-azul">
+        <img src="<?= RAIZSITE ?>/imagens/onda-branca.png" class="img-responsive Absolute hidden-xs hidden-sm">
+        
         <div class="container conteudo">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imagem">
                 <a href="<?= RAIZSITE ?>"><img src="imagens/logobrazilio_dourado.png" class="img-responsive"></a>

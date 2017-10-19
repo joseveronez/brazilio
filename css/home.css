@@ -31,9 +31,10 @@ img { margin: 0 auto; }
 .areas-atuacao .conteudo .descritivo { margin-top: 50px; margin-bottom: 50px }
 .areas-atuacao .conteudo .lista-itens .itens { margin-bottom: 35px }
 .areas-atuacao .conteudo .lista-itens .itens .item a.item-link { color: #14284b; }
-.areas-atuacao .conteudo .lista-itens .itens .item a.item-link span { opacity: 0 }
+.areas-atuacao .conteudo .lista-itens .itens .item a.item-link span { display: none }
 .areas-atuacao .conteudo .lista-itens .itens .item a.item-link:hover { color: #a08a59; }
-.areas-atuacao .conteudo .lista-itens .itens .item a.item-link:hover span { opacity: 1 }
+.areas-atuacao .conteudo .lista-itens .itens .item a.item-link:hover span { display: unset }
+.areas-atuacao img:last-child { left: 5%; bottom: -33px; z-index: 1 }
 
 @media screen and (min-width: 768px) {
 	.slider-topo .item .slider-conteudo p.titulo { margin: 0; font-size: 40px }

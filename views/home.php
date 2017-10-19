@@ -32,7 +32,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
                     <p class="Uppercase dourado-fonte Light titulo">Brazilio Bacellar,<br> SHIRAI Advogados</p>
 
-                    <img src="imagens/ond1.png" class="img-responsive">
+                    <img src="imagens/ond1.png" class="img-responsive le-2">
                     <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
 
                     <a href="#" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -188,16 +188,27 @@
             </div>
         </div>
     </div>
+    <img src="<?= RAIZSITE ?>/imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs">
 </div>
 
 <script type="text/javascript">
     $('.owl-carousel.slider-topo').owlCarousel({
-        loop:true,
-        margin:10,
         nav:true,
         navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
         dots:true,
-        autoplay:false,
-        items:1
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
+        items:1,
+    });
+    $('.owl-carousel.slider-topo').on('translated.owl.carousel', function(event) {
+    	$(".slider-conteudo .titulo").addClass("animated fadeInLeft").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+    		$(this).removeClass("animated esconder fadeInLeft");
+    	});
+    	$(".slider-conteudo .subtitulo").addClass("animated fadeInRight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+    		$(this).removeClass("animated esconder fadeInRight");
+    	});
     });
 </script>
