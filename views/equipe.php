@@ -1,41 +1,43 @@
 <style type="text/css">
-    .parallax-equipe { background-image: url("<?= RAIZSITE ?>/imagens/ban2.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-equipe.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
-    <div class="item vh30">
-        <div class="vh30 parallax-equipe" style="min-height: 481px;">
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin: 180px 0px">
-                    <h4 class="Uppercase size35 dourado-fonte Light">EQUIPE</h4>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1">
-                    <h6 class="branco-fonte">VOCÊ ESTÁ EM HOME / <span class="dourado-fonte">EQUIPE</span></h6>
-                </div>
+    <div class="parallax-banner">
+        <div class="container">
+            <div class="text-center titulo">
+                <h3 class="Uppercase size35 dourado-fonte Light">EQUIPE</h3>
+            </div>
+            <div class="breadcrumb hidden-xs">
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">EQUIPE</span></p>
             </div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco Relative" style="padding-top: 60px;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco PaddingT12p">
     <div id="waypointMenu" style="position: absolute; left: 0; height: 101px; width: 50px; top: -101px"></div>
     <div class="linha"></div>
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
-            <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive" style="margin: 0 auto;">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+            <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 text-justify MarginB5p">
-            A equipe de profissionais conta com advogados em constante atualização, habilitados a atender empresas nacionais e internacionais, com conhecimento de línguas estrangeiras. 
+
+        <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 MarginT10p">
+            <p class="text-justify size14 letter-spacing1 Medium">A equipe de profissionais conta com advogados em constante atualização, habilitados a atender empresas nacionais e internacionais, com conhecimento de línguas estrangeiras.</p>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB5">
-            <div class="linha-pequena MarginT6p"></div>
+        <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT13p padding-zero">
+            <div class="linha-pequena"></div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco MarginT6p">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
-            <h3 class="Uppercase dourado-fonte">SÓCIOS</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT13p MarginB10p">
+            <h3 class="Uppercase dourado-fonte margin-zero">SÓCIOS</h3>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5 padding-zero" style="padding-right: 5px;">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5" style="padding-right: 3px">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio1.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 50px;  height: 350px;">
                 <h3>Brazilio Bacellar Neto</h3>
@@ -43,7 +45,7 @@
                 <p class="MarginT20">Formação Superior: Faculdade de Direito de Curitiba (1974)</p>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5 padding-zero" style="padding-left: 5px;">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5" style="padding-left: 3px">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio2.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 25px; height: 350px;">
