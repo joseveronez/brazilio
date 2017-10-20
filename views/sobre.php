@@ -25,7 +25,7 @@
         <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive">
         
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
-        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 MarginT10p">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 MarginT10p le-2">
             <p class="text-justify size14 letter-spacing1 Medium">
                 <strong>A Brazilio Bacellar, Shirai Advogados</strong> é uma sociedade profissional experiente, com atuação preventiva e contenciosa nos campos do direito comercial, civil, societário, administrativo, trabalhista e tributário, com enfoque na atividade empresarial. O escritório investe constantemente em atualização técnica e busca sempre novas tecnologias seguras a fim de facilitar e agilizar a prestação de serviços aos seus clientes.
             </p><br>
@@ -42,7 +42,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="container galeria">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-branco MarginT10p">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-dourado chamada-galeria">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-dourado chamada-galeria le-2">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h4 class="branco-fonte Uppercase">“uma sociedade profissional com atuação preventiva e contenciosa nas mais diversas áreas [...]”</h4>
                 </div>
@@ -50,7 +50,10 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
-                        <div class="owl-carousel slider-topo owl-theme" id="owl2">
+                        <div class="owl-carousel slider-topo owl-theme do-2" id="owl2">
+                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/galeria1.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria1.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
+                            </a>
                             <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/galeria1.jpg">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria1.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
                             </a>
@@ -59,7 +62,10 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
-                        <div class="owl-carousel slider-topo owl-theme" id="owl3">
+                        <div class="owl-carousel slider-topo owl-theme bc-2" id="owl3">
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/galeria2.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria2.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            </a>
                             <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/galeria2.jpg">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria2.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
                             </a>
@@ -70,7 +76,10 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
-                        <div class="owl-carousel slider-topo owl-theme" id="owl4">
+                        <div class="owl-carousel slider-topo owl-theme ri-2" id="owl4">
+                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/galeria3.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria3.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
+                            </a>
                             <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/galeria3.jpg">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria3.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
                             </a>
@@ -85,23 +94,23 @@
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="container diferenciais">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <h3 class="dourado-fonte Light size40 margin-zero">NOSSOS DIFERENCIAIS</h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
-        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 text-left padding-zero Medium diferenciais-lista">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 text-left Medium diferenciais-lista">
             <p>Esses são os diferenciais que sua empresa terá ao contratar nosso escritório:</p>
             <ul class="lista">
-                <li class="MarginT4p"><span class="preto-fonte">Equipe multidisciplinar</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Atuação pautada pela ética e transparência</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Atendimento customizado às necessidades do cliente</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Interlocução direta e constante com os sócios do escritório</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Vasta experiência no Direito Empresarial</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Transparência total através de uma página eletrônica com todas as informações dos processos</span></li>
-                <li class="MarginT4p"><span class="preto-fonte">Escritórios parceiros em todo o Brasil</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Equipe multidisciplinar</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Atuação pautada pela ética e transparência</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Atendimento customizado às necessidades do cliente</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Interlocução direta e constante com os sócios do escritório</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Vasta experiência no Direito Empresarial</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Transparência total através de uma página eletrônica com todas as informações dos processos</span></li>
+                <li class="MarginT4p bc-2"><span class="preto-fonte">Escritórios parceiros em todo o Brasil</span></li>
             </ul>
 
-            <a href="<?= RAIZSITE ?>/servicos" class="Medium link-default equipe-link">
+            <a href="<?= RAIZSITE ?>/servicos" class="Medium link-default equipe-link le-2">
                 CONHEÇA NOSSOS SERVIÇOS&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
             </a>
         </div>
@@ -120,7 +129,9 @@
         nav:true,
         navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
         dots:false,
-        autoplay:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
         items:1
     });
     $('#owl3').owlCarousel({
@@ -128,7 +139,9 @@
         nav:true,
         navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
         dots:false,
-        autoplay:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
         items:1
     });
     $('#owl4').owlCarousel({
@@ -136,7 +149,9 @@
         nav:true,
         navText: ["<div class='prev-icon'></div>","<div class='next-icon'></div>"],
         dots:false,
-        autoplay:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
         items:1
     });
 </script>

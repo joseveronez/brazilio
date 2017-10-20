@@ -5,11 +5,12 @@
 .diferenciais-lista { margin-top: 50px }
 .diferenciais-lista ul.lista { margin-bottom: 50px }
 
-.owl-theme .owl-nav [class*=owl-] { margin: 0 !important; margin-bottom: -10px !important; border-radius: 0 !important; background-color: #040404 !important }
+.owl-theme .owl-nav { position: absolute; right: 0; margin-top: -50px; z-index: 10 }
+.owl-theme .owl-nav [class*=owl-] { margin: 0 !important; padding: 0px 3px; margin-bottom: -10px !important; border-radius: 0 !important; background-color: #a08a59 !important }
 .owl-theme .owl-nav .owl-prev { border-right: 1px solid #ffffff }
-.owl-theme .owl-nav [class*=owl-]:hover { background-color: #000000 !important }
+.owl-theme .owl-nav [class*=owl-]:hover { background-color: #a08a59 !important }
 .owl-theme .owl-nav .disabled { opacity: 1 !important }
-.galeria img:last-child { z-index: 1; right: 5%; bottom: -33px; }
+.galeria img:last-child { z-index: 0; right: 5%; bottom: -33px; }
 
 @media screen and (min-width: 992px) {
     .chamada-galeria div { width: 300px }

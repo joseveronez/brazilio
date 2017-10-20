@@ -190,6 +190,32 @@
         offset: 300
     });
 
+    $('.do-1').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInDown',
+        offset: 200
+    });
+    $('.do-2').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInDown',
+        offset: 300
+    });
+    $('.do-3').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInDown',
+        offset: 300
+    });
+
+    $('.ri-1').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInRight',
+        offset: 200
+    });
+    $('.ri-2').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInRight',
+        offset: 300
+    });
+    $('.ri-3').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInRight',
+        offset: 300
+    });
+
 	function Trim() {
 		var get_value = document.getElementById('telefone');
 		var campo_temp;
