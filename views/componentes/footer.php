@@ -42,8 +42,8 @@
                     OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
 
                     <p class="branco-fonte margin-zero espaco le-2">
-                    Tel.: <a href="tel:3352 8363" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.8363</a> <br>
-                    Fax. <a href="tel:3352 0167" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.0167</a> </p>
+                    Tel.: <a href="tel:3352 8363" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.8363</a> <br>
+                    Fax. <a href="tel:3352 0167" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.0167</a> </p>
 
                     <div class="espaco le-2">
                         <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
@@ -86,7 +86,7 @@
                     <li><a class="link-default" href="<?= RAIZSITE ?>/equipe">EQUIPE</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
-                    <li><a class="link-default" href="<?= RAIZSITE ?>/links-uteis">LINKS ÚTEIS</a></li>
+                    <li><a class="link-default" href="#">LINKS ÚTEIS</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">

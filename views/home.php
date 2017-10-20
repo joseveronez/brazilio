@@ -11,7 +11,7 @@
                     <img src="imagens/ond1.png" class="img-responsive">
                     <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
 
-                    <a href="#" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                     <img src="imagens/ond1.png" class="img-responsive">
                     <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
 
-                    <a href="#" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                     <img src="imagens/ond1.png" class="img-responsive le-2">
                     <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
 
-                    <a href="#" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

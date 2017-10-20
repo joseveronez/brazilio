@@ -33,8 +33,8 @@
                 OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
 
                 <p class="branco-fonte margin-zero espaco le-2">
-                Tel.: <a href="tel:3352 8363" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.8363</a> <br>
-                Fax. <a href="tel:3352 0167" class="link-default branco-fonte"><span class="size11">+55 41</span> 3352.0167</a> </p>
+                Tel.: <a href="tel:3352 8363" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.8363</a> <br>
+                Fax. <a href="tel:3352 0167" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.0167</a> </p>
 
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESCRITÓRIO</p>

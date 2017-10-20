@@ -10,7 +10,7 @@
 .advogados .bloco .descritivo a:hover { color: #000000 }
 .advogados .bloco .descritivo p:nth-child(1) { font-size: 15px }
 .advogados .bloco .descritivo p:nth-child(2) { font-size: 13px }
-.advogados .bloco .descritivo p:nth-child(3) { font-size: 12px; margin-top: 10px; margin-bottom: 10px }
+.advogados .bloco .descritivo p:nth-child(3) { font-size: 12px; margin-top: 20px; margin-bottom: 20px }
 .advogados .bloco .descritivo p:nth-child(4) { font-size: 12px }
 
 .equipe .conteudo { margin-top: 50px; margin-bottom: 80px }
@@ -43,6 +43,8 @@
 	.bloco.primario { margin-bottom: 30px }
 	.socios .conteudo .bloco .descritivo { padding: 5px 30px }
 	.socios .conteudo .bloco .descritivo p { margin-top: 20px }
+
+	.advogados .bloco .descritivo { padding-top: 25px }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {

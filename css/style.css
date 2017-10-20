@@ -24,6 +24,9 @@ input[type=file] { display: none !important }
 a.equipe-link { letter-spacing: 3px; font-size: 13px }
 a.equipe-link { color: #a08a59 }
 a.equipe-link:hover { color: #14284b }
+
+a.contato-telefone { color: #ffffff }
+a.contato-telefone:hover { color: #3b2c0c }
 /* GLOBAL LINKS */
 
 /* LG MD SM  */
@@ -63,8 +66,8 @@ a.equipe-link:hover { color: #14284b }
 .border-equipe{ border-right: 1px solid #a08a59; }
 .border-equipe-meio{ border-right: 1px solid #a08a59; }
 .btn-curriculo { border-radius: 0px; border: 3px solid #d5d5d5; background-color: transparent;}
-.linha { position: absolute; z-index: 1; left: 50%; top: -40px; height: 80px; width: 2px; background-color: #a08a59 }
-.linha-pequena { position: absolute; z-index: 1; left: 50%; top: -40px; height: 60px; width: 2px; background-color: #a08a59 }
+.linha { position: absolute; z-index: 1; left: 49.98%; top: -40px; height: 80px; width: 2px; background-color: #a08a59 }
+.linha-pequena { position: absolute; z-index: 1; left: 49.98%; top: -40px; height: 60px; width: 2px; background-color: #a08a59 }
 
 input[type="text"].contato-footer { margin-bottom: 5px }
 input[type="email"].contato-footer { margin-bottom: 5px }

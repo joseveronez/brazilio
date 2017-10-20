@@ -1,6 +1,6 @@
 .parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover }
 
-.contato .linha { position: absolute; z-index: 1; left: 50%; top: -40px; height: 80px; width: 2px; background-color: #ffffff }
+.contato .linha { position: absolute; z-index: 1; left: 49.98%; top: -40px; height: 80px; width: 2px; background-color: #ffffff }
 .contato .conteudo:nth-child(2) { padding-bottom: 80px }
 .contato .conteudo .titulo { margin-top: 55px; margin-bottom: 65px }
 .contato .conteudo .titulo .icone { margin-bottom: 25px }
@@ -41,7 +41,7 @@
 @media screen and (min-width: 992px) {
     .footer-links .conteudo { padding-top: 100px; padding-bottom: 70px }
     .footer-links .conteudo .imagem { height: 176px }
-    .footer-links img:nth-child(1) { position: absolute; z-index: 1; right: 5%; top: -33px }
+    .footer-links img.Absolute { position: absolute; z-index: 1; right: 5%; top: -33px }
     .footer-links .conteudo .imagem img { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
 }
 @media screen and (min-width: 1200px) {
