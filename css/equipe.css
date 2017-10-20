@@ -1,0 +1,36 @@
+.socios .conteudo .bloco .descritivo { height: 350px }
+
+.advogados { margin-top: 72px }
+.advogados .linha-pequena { margin-top: 15px }
+.advogados .bloco .descritivo { height: 300px }
+.advogados .bloco .descritivo p { margin: 0; color: #564828 }
+.advogados .bloco .descritivo p:nth-child(1) { font-size: 15px }
+.advogados .bloco .descritivo p:nth-child(2) { font-size: 13px }
+.advogados .bloco .descritivo p:nth-child(3) { font-size: 12px; margin-top: 10px; margin-bottom: 10px }
+.advogados .bloco .descritivo p:nth-child(4) { font-size: 12px }
+
+@media screen and (min-width: 768px) {
+	.bloco.primario { padding-right: 2px; }
+	.bloco.secundario { padding-left: 2px; }
+
+	.advogados .bloco .descritivo { padding: 20px 15px }
+}
+@media screen and (min-width: 1200px) {
+	.socios .conteudo .bloco .descritivo { padding: 25px 55px }
+	p.formacao { margin-top: 120px }
+}
+
+@media screen and (max-width: 768px) {
+	.bloco.primario { margin-bottom: 30px }
+	.socios .conteudo .bloco .descritivo { padding: 5px 30px }
+	.socios .conteudo .bloco .descritivo p { margin-top: 20px }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.socios .conteudo .bloco .descritivo { padding: 10px 40px }
+	p.formacao { margin-top: 60px }
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+	.socios .conteudo .bloco .descritivo { padding: 25px 55px }
+	p.formacao { margin-top: 80px }
+}

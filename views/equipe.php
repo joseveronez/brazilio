@@ -1,3 +1,6 @@
+<?php
+    ScriptLoader::LoadCSS('equipe');
+?>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-equipe.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
@@ -32,183 +35,87 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT13p MarginB10p">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco socios">
+    <div class="container conteudo">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT13p MarginB10p titulo">
             <h3 class="Uppercase dourado-fonte margin-zero">SÓCIOS</h3>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5" style="padding-right: 3px">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio1.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 50px;  height: 350px;">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco primario">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio1.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
                 <h3>Brazilio Bacellar Neto</h3>
                 <h5>OAB/PR 7.425</h5>
-                <p class="MarginT20">Formação Superior: Faculdade de Direito de Curitiba (1974)</p>
+                <p class="formacao">Formação Superior: Faculdade de Direito de Curitiba (1974)</p>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify MarginB5" style="padding-left: 3px">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado" style="background: url('<?= RAIZSITE ?>/imagens/socio2.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte bg-dourado" style="padding: 0px 25px; height: 350px;">
-                    <h3>Rodrigo Shirai</h3>
-                    <h5>OAB/PR 25.781 | OAB/SP 208.567-A</h5>
-                    <p class="MarginT20">Formação Superior: Pontifícia Universidade Católica do Paraná (1997) | Especialização em Direito Processual Civil: IBEJ (1999) | Membro da Comissão de Estudos de Recuperação Judicial e Falência da OAB/PR | Membro da TMA - Turnaround Management Association | Idiomas: Inglês
-                    </p>
-                </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco secundario">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio2.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
+                <h3>Rodrigo Shirai</h3>
+                <h5>OAB/PR 25.781 | OAB/SP 208.567-A</h5>
+                <p class="formacao">Formação Superior: Pontifícia Universidade Católica do Paraná (1997) | Especialização em Direito Processual Civil: IBEJ (1999) | Membro da Comissão de Estudos de Recuperação Judicial e Falência da OAB/PR | Membro da TMA - Turnaround Management Association | Idiomas: Inglês
+                </p>
             </div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco advogados">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
-            <div class="linha-pequena MarginT6p"></div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+            <div class="linha-pequena"></div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB5">
-            <h3 class="Uppercase dourado-fonte">ADVOGADOS</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15p MarginB10p">
+            <h3 class="Uppercase dourado-fonte margin-zero">ADVOGADOS</h3>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege descritivo">
+                <p>Ana Cristina Hoogevoonink</p>
+                <p>OAB/PR 38.166</p>
+                <p>ana.cristina@braziliobacellar.com.br</p>
+                <p>Formação Superior:<br>
+                    - Faculdade de Direito Curitiba (2005)<br>
                     - Idiomas: Inglês.
-                </h6>
+                </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-begeb" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege descritivo">
+                <p>Ana Cristina Hoogevoonink</p>
+                <p>OAB/PR 38.166</p>
+                <p>ana.cristina@braziliobacellar.com.br</p>
+                <p>Formação Superior:<br>
+                    - PUCPR<br>
+                    - Pós-Graduada em Direito do Trabalho e Processo do Trabalho (2009)
+                </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-begeb" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege descritivo">
+                <p>Ana Cristina Hoogevoonink</p>
+                <p>OAB/PR 38.166</p>
+                <p>bruna.michele@braziliobacellar.com.br</p>
+                <p>Formação Superior:<br>
+                    - UEPG (2017)<br>
+                </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-begeb" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege descritivo">
+                <p>Ana Cristina Hoogevoonink</p>
+                <p>OAB/PR 38.166</p>
+                <p>ana.cristina@braziliobacellar.com.br</p>
+                <p>Formação Superior:<br>
+                    - Faculdade de Direito Curitiba (2005)<br>
                     - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-begeb" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-begeb" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/advm1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte bg-bege" style="height: 300px;">
-                <h4>Ana Cristina Hoogevoonink</h4>
-                <h6 class="MarginB10">OAB/PR 38.166</h6>
-                <h6 class="MarginB10">ana.cristina@braziliobacellar.com.br</h6>
-                <h6>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)
-                    - Idiomas: Inglês.
-                </h6>
+                </p>
             </div>
         </div>
     </div>
