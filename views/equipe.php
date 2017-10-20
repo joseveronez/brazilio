@@ -76,7 +76,7 @@
                 <p><a href="mailto:ana.cristina@braziliobacellar.com.br" class="link-default">ana.cristina@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
                     - Faculdade de Direito Curitiba (2005)<br>
-                    - Idiomas: Inglês.
+                    - Idiomas: Inglês.<br>
                 </p>
             </div>
         </div>
@@ -89,7 +89,7 @@
                 <p><a href="mailto:angelique@braziliobacellar.com.br" class="link-default">angelique@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
                     - PUCPR<br>
-                    - Pós-Graduada em Direito do Trabalho e Processo do Trabalho (2009)
+                    - Pós-Graduada em Direito do Trabalho e Processo do Trabalho (2009)<br>
                 </p>
             </div>
         </div>
@@ -113,8 +113,13 @@
                 <p>OAB/PR 64.313</p>
                 <p><a href="mailto:erik@braziliobacellar.com.br" class="link-default">erik@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)<br>
-                    - Idiomas: Inglês.
+                    - Faculdades Opet (2012)<br>
+                    - Pós-Graduado em Direito Empresarial <br>
+                    Unicuritiba (2013)<br>
+                    - Pós-Graduando em Gestão Empresarial<br>
+                    Unicuritiba (2017)<br>
+                    - Membro da Comissão de Estudos de <br>
+                    Recuperação Judicial e Falência da OAB/PR<br>
                 </p>
             </div>
         </div>
@@ -127,8 +132,10 @@
                 <p>OAB/PR 64.179</p>
                 <p><a href="mailto:jocelaine@braziliobacellar.com.br" class="link-default">jocelaine@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)<br>
-                    - Idiomas: Inglês.
+                    - Faculdades Opet (2012)<br>
+                    - Pós-Graduação: Direito<br>
+                    Contemporâneo - Fempar (2013)<br>
+                    - Idiomas: Inglês.<br>
                 </p>
             </div>
         </div>
@@ -140,8 +147,11 @@
                 <p>OAB/PR 42.079</p>
                 <p><a href="mailto:juciara@braziliobacellar.com.br" class="link-default">juciara@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - PUCPR<br>
-                    - Pós-Graduada em Direito do Trabalho e Processo do Trabalho (2009)
+                    - Universidade Tuiuti do Paraná (2004)<br>
+                    - Especialização em Direito Material e <br>
+                    Processual do Trabalho: <br>
+                    Uniderp Anhanguera Educacional (2008 )<br>
+                    - Idiomas: Inglês.<br>
                 </p>
             </div>
         </div>
@@ -153,7 +163,7 @@
                 <p>OAB/PR 24.644</p>
                 <p><a href="mailto:marilise@braziliobacellar.com.br" class="link-default">marilise@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - UEPG (2017)<br>
+                    - PUCPR (1996)<br>
                 </p>
             </div>
         </div>
@@ -165,8 +175,10 @@
                 <p>OAB/PR 64.191</p>
                 <p><a href="mailto:marcella@braziliobacellar.com.br" class="link-default">marcella@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)<br>
-                    - Idiomas: Inglês.
+                    - Universidade Tuiuti do Paraná (2012)<br>
+                    - Especializanda em Direito <br>
+                    Aplicado pela EMAP  (2017)<br>
+                    - Idiomas: Inglês.<br>
                 </p>
             </div>
         </div>
@@ -179,8 +191,13 @@
                 <p>OAB/PR 34.549</p>
                 <p><a href="mailto:luiz.marcelo@braziliobacellar.com.br" class="link-default">luiz.marcelo@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - PUCPR<br>
-                    - Pós-Graduada em Direito do Trabalho e Processo do Trabalho (2009)
+                    - UFPR (2001)<br>
+                    - Especializando em Direito Tributário <br>
+                    pelo  IBET<br>
+                    - Membro da Comissão de Estudos <br>
+                    de Recuperação Judicial e Falência <br>
+                    da OAB/PR<br>
+                    - Idiomas: Inglês.<br>
                 </p>
             </div>
         </div>
@@ -192,7 +209,13 @@
                 <p>OAB/PR 66.131</p>
                 <p><a href="mailto:luiz.renato@braziliobacellar.com.br" class="link-default">luiz.renato@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - UEPG (2017)<br>
+                    - UniCuritiba (2012)<br>
+                    - Pós-Graduando em Direito <br>
+                    Processual Civil pelo Instituto de <br>
+                    Direito Romeu Felipe Bacellar (2013)<br>
+                    - Membro da Comissão de Estudos <br>
+                    de Recuperação Judicial e <br>
+                    Falência da OAB/PR<br>
                 </p>
             </div>
         </div>
@@ -204,8 +227,11 @@
                 <p>OAB/PR 64.323</p>
                 <p><a href="mailto:yaskara@braziliobacellar.com.br" class="link-default">yaskara@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - Faculdade de Direito Curitiba (2005)<br>
-                    - Idiomas: Inglês.
+                    - UniCuritiba (2012)<br>
+                    - Pós-Graduanda em Direito Civil e <br>
+                    Empresarial pela Academia<br>
+                    Brasileira de Direito <br>
+                    Constitucional (2013)<br>
                 </p>
             </div>
         </div>
