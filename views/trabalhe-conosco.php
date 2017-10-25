@@ -41,17 +41,17 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <form action="" class="form-horizontal Roboto Regular formulario-trabalhe-conosco" id="formulario">
+            <form action="<?= RAIZSITE ?>/formulario/?trabalhe" class="form-horizontal Roboto Regular formulario-trabalhe-conosco" method="post" enctype="multipart/form-data" id="formulario">
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
-                <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" required><br>
-                <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
+                <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" required><br>
+                <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado telefone" name="telefone" placeholder="TELEFONE" required><br>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
-                    <input type="file" name="imagem_destaque" id="imagem_destaque" class="inputfile inputfile-1" />
-                    <label for="imagem_destaque"><span>escolher arquivo</span></label>
+                    <input type="file" name="curriculo" id="curriculo" class="inputfile inputfile-1" accept=".pdf" />
+                    <label for="curriculo"><span>escolher arquivo</span></label>
 
-                    <span class="branco-alternativo-fonte chamada-botao">SELECIONAR CURRÍCULO</span>
+                    <span class="branco-alternativo-fonte chamada-botao">SELECIONAR CURRÍCULO *.pdf*</span>
                 </div>
-                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM"></textarea><br>
+                <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM" required></textarea><br>
                 <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
             </form>
         </div>

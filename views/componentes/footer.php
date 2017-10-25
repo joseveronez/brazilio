@@ -11,12 +11,14 @@
                 <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
-                <div class="input-group">
-                    <input type="email" class="form-control email-news branco-fonte" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">CADASTRAR</button>
-                    </span>
-                </div>
+                <form action="<?= RAIZSITE ?>/formulario/?newsletter" method="post">
+                    <div class="input-group">
+                        <input type="email" class="form-control email-news branco-fonte" name="email" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" required>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">CADASTRAR</button>
+                        </span>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -59,11 +61,11 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <form action="" class="form-horizontal Roboto Regular" id="formulario">
+                <form action="<?= RAIZSITE ?>/formulario/?contato" class="form-horizontal Roboto Regular" method="post" id="formulario">
                     <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
-                    <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" required><br>
-                    <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="telefone" placeholder="TELEFONE" required><br>
-                    <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM"></textarea><br>
+                    <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" required><br>
+                    <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado telefone" name="telefone" placeholder="TELEFONE" required><br>
+                    <textarea class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="mensagem" rows="8" cols="3" placeholder="MENSAGEM" required></textarea><br>
                     <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
                 </form>
             </div>
@@ -116,6 +118,9 @@
 </body>
 </html>
 
+<?php
+    ScriptLoader::LoadPLUGINSJS('jQuery-Mask-Plugin-master/dist/jquery.mask.min.js');
+?>
 <script type="text/javascript">
 	var waypoint1 = new Waypoint({
         element: document.getElementById('waypointMenu'),
@@ -216,24 +221,6 @@
         classToAdd: 'mostrar animated fadeInRight',
         offset: 300
     });
-
-	function Trim() {
-		var get_value = document.getElementById('telefone');
-		var campo_temp;
-		campo_temp = get_value.value.substring(5,6);
-
-		if(campo_temp == "9" || campo_temp == "8") {
-			/* console.log("mascara mobile"); */
-			$("#telefone").attr("onKeyPress", "MascaraCelular(formulario.telefone);");
-			$("#telefone").attr("onBlur", "ValidaCelular(formulario.telefone);");
-			$("#telefone").attr("maxlength", "16");
-		} else {
-			/* console.log("mascara telefone"); */
-			$("#telefone").attr("onKeyPress", "MascaraTelefone(formulario.telefone);");
-			$("#telefone").attr("onBlur", "ValidaTelefone(formulario.telefone);");
-			$("#telefone").attr("maxlength", "14");
-		}
-	}
     
     new vUnit({
         CSSMap: {
@@ -241,9 +228,6 @@
                 property: 'height',
                 reference: 'vh'
             }
-        },
-        onResize: function() {
-            console.log('A screen resize just happened, yo.');
         }
     }).init();
 
@@ -256,5 +240,13 @@
         $(".google-maps").mouseleave(function () {
             $('#iframeMaps').addClass('scrolloff');
         });
+
+        $('.data').mask('00/00/0000');
+        $('.telefone').mask('(00) 0000-0000');
+        $('.celular').mask('(00) 0 0000-0000');
     });
+
+    function Trim(str) {
+        return str.replace(/^\s+|\s+$/g,"");
+    }
 </script>
