@@ -101,7 +101,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
                     <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive">
                     <a href="<?= RAIZSITE ?>/servicos/#bancario" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">BANCARIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
+                        <h5 class="text-center MarginT10 Bold">BANCÁRIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
@@ -199,7 +199,7 @@
         loop:true,
         margin:10,
         autoplay:true,
-        autoplayTimeout:5000,
+        autoplayTimeout:12000,
         autoplayHoverPause:false,
         items:1,
     });

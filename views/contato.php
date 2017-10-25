@@ -40,7 +40,7 @@
                     <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
                     <p class="branco-fonte endereco margin-zero">
                         Rua Marechal Hermes, 272 | Centro Cívico <br>
-                        Curitiba | Paraná | Brasil | CEP 80.530-230</p>
+                        Curitiba | Paraná | Brasil | CEP 80 530-230</p>
                 </div>
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>

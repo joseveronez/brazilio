@@ -49,7 +49,7 @@
                         <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
                         <p class="branco-fonte endereco margin-zero">
                         Rua Marechal Hermes, 272 | Centro Cívico <br>
-                        Curitiba | Paraná | Brasil | CEP 80.530-230</p>
+                        Curitiba | Paraná | Brasil | CEP 80 530-230</p>
                     </div>
 
                     <div class="espaco le-2">
@@ -82,11 +82,12 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte separador-footer links">
                 <ul class="list-unstyled">
                     <li><a class="link-default" href="<?= RAIZSITE ?>/sobre">A EMPRESA</a></li>
-                    <li><a class="link-default" href="<?= RAIZSITE ?>/servicos">ÁREA DE ATUAÇÃO</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/servicos">ÁREAS DE ATUAÇÃO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/equipe">EQUIPE</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
                     <li><a class="link-default" href="#">LINKS ÚTEIS</a></li>
+                    <li><a class="link-default" href="#">CONSULTA PROCESSUAL</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">
@@ -94,7 +95,7 @@
                 <p>Brazilio Bacellar Neto e Advogados <br>
                     OAB/PR 997 | CNPJ 04.510.577/0001-02 </p>
                 <p>Rua Marechal Hermes, 272 . Centro Cívico <br>
-                    Curitiba-PR | Brasil | CEP 80.530-230</p>
+                    Curitiba-PR | Brasil | CEP 80 530-230</p>
                 <p>Fone.: <a href="tel:3352 8363" class="link-default">+ 55 41 3352.8363</a> <br>
                     Fax. <a href="tel:3352 0167" class="link-default">+ 55 41 3352.0167</a> </p>
             </div>

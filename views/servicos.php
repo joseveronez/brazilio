@@ -2,7 +2,7 @@
     $(document).ready(function(){
         var hash = location.hash.replace('#','');
         if(hash == 'administrativo'){
-            $('html, body').animate({ scrollTop: $('#administrativo').offset().top- 110}, 1000);
+            $('html, body').animate({ scrollTop: $('#waypointAdministrativo').offset().top - 0}, 1000);
         }else if(hash == 'ambiental'){
             $('html, body').animate({ scrollTop: $('#ambiental').offset().top- 110}, 1000);
         }else if(hash == 'bancario'){
@@ -78,7 +78,7 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 servicos-itens">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="administrativo">
-                    <div id="waypointAdministrativo" style="position: absolute; left: 0; height: 101px; width: 50px; top: -101px"></div>
+                    <div id="waypointAdministrativo" style="position: absolute; left: 0; height: 135px; width: 50px; top: -135px"></div>
 
                     <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero Medium titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;ADMINISTRATIVO</h3><br>
@@ -116,7 +116,7 @@
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;comercial</h3><br>
                     <p class="text-justify size15 texto-servicos">
                        Atividades na área de consultoria e contencioso, buscando alternativas e resolução de questões envolvendo contratos e operações comerciais. 
-                        Em especial na área de recuperação de empresas e falimentar, os anos de experiência possibilitam a consultoria e assessoria jurídica em todas as fases dos processos de falência,concordata e recuperação (judicial e extrajudicial), tanto para o devedor quanto para os credores. 
+                        Em especial na área de recuperação de empresas e falimentar, os anos de experiência possibilitam a consultoria e assessoria jurídica em todas as fases dos processos de falência, concordata e recuperação (judicial e extrajudicial), tanto para o devedor quanto para os credores. 
                     </p>
                 </div>
                 
