@@ -1,4 +1,6 @@
 <?php
+    ScriptLoader::LoadPLUGINSCSS('inputfile/css/component.css');
+    ScriptLoader::LoadPLUGINSJS('inputfile/js/custom-file-input.js');
     ScriptLoader::LoadCSS('footer');
 ?>
 <style type="text/css">
@@ -13,7 +15,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
                 <form action="<?= RAIZSITE ?>/formulario/?newsletter" method="post">
                     <div class="input-group">
-                        <input type="email" class="form-control email-news branco-fonte" name="email" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" required>
+                        <input type="email" class="form-control email-news branco-fonte size20" name="email" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" placeholder="cadastre seu e-mail para receber nossa newsletter" required>
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="submit">CADASTRAR</button>
                         </span>
@@ -88,8 +90,8 @@
                     <li><a class="link-default" href="<?= RAIZSITE ?>/equipe">EQUIPE</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
-                    <li><a class="link-default" href="#">LINKS ÚTEIS</a></li>
-                    <li><a class="link-default" href="#">CONSULTA PROCESSUAL</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/links-uteis">LINKS ÚTEIS</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/consulta-processual">CONSULTA PROCESSUAL</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">
@@ -106,7 +108,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero copyright bg-copyright">
         <div class="container conteudo">
             <div class="col-lg-6 col-md-8 col-sm-9 col-xs-12 assinatura">
-                <p class="cinza-fonte-alternativo margin-zero Upperc"><span class="Lato Uppercase">© 2018 Brazilio Bacellar, Shirai Advogados</span> • <span class="OpenSans">Todos os direitos reservados.</span></p>
+                <p class="cinza-fonte-alternativo margin-zero size12"><span class="Lato Uppercase">© 2018 Brazilio Bacellar, Shirai Advogados</span> • <span class="OpenSans">Todos os direitos reservados.</span></p>
             </div>
             <div class="col-lg-3 col-md-1 hidden-sm hidden-xs">&nbsp;</div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 imagem">

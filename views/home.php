@@ -18,24 +18,24 @@
         <div class="item vh100">
             <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                    <p class="Uppercase dourado-fonte Light titulo">Brazilio Bacellar,<br> SHIRAI Advogados</p>
+                    <p class="Uppercase dourado-fonte Light titulo">Equipe experiente</p>
 
                     <img src="imagens/ond1.png" class="img-responsive">
-                    <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
+                    <p class="Uppercase branco-fonte Light subtitulo">Profissionais especialistas que atuam há anos no mercado.</p>
 
-                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= RAIZSITE ?>/equipe" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
         <div class="item vh100">
             <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                    <p class="Uppercase dourado-fonte Light titulo">Brazilio Bacellar,<br> SHIRAI Advogados</p>
+                    <p class="Uppercase dourado-fonte Light titulo">Diversas áreas de atuação</p>
 
                     <img src="imagens/ond1.png" class="img-responsive le-2">
-                    <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
+                    <p class="Uppercase branco-fonte Light subtitulo">O escritório está preparado para atender casos de todas as áreas.</p>
 
-                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= RAIZSITE ?>/servicos" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -77,10 +77,7 @@
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo bc-2">
             <p class="text-justify size16 Medium margin-zero">
                 A qualidade dos serviços advocatícios é reforçada pela parceria com profissionais habilitados e em constante atualização, capazes de auxiliar na solução de questões relacionadas às mais diversas áreas do Direito. 
-            </p><br>
-            <a href="<?= RAIZSITE ?>/equipe" class="Medium link-default equipe-link">
-                CONHEÇA NOSSA EQUIPE&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
+            </p>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         
@@ -187,6 +184,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo-alternativo bc-2">
+            <a href="<?= RAIZSITE ?>/equipe" class="Medium link-default equipe-link">
+                CONHEÇA NOSSA EQUIPE&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
     </div>
     <img src="<?= RAIZSITE ?>/imagens/ond2.png" class="img-responsive Absolute hidden-sm hidden-xs">
 </div>
@@ -204,11 +209,11 @@
         items:1,
     });
     $('.owl-carousel.slider-topo').on('translated.owl.carousel', function(event) {
-    	$(".slider-conteudo .titulo").addClass("animated fadeInLeft").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-    		$(this).removeClass("animated esconder fadeInLeft");
-    	});
-    	$(".slider-conteudo .subtitulo").addClass("animated fadeInRight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-    		$(this).removeClass("animated esconder fadeInRight");
-    	});
+        $(".slider-conteudo .titulo").addClass("animated fadeInLeft").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $(this).removeClass("animated esconder fadeInLeft");
+        });
+        $(".slider-conteudo .subtitulo").addClass("animated fadeInRight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $(this).removeClass("animated esconder fadeInRight");
+        });
     });
 </script>

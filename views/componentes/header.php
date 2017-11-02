@@ -8,9 +8,9 @@
                 <ul class="list-inline">
                     <li><a href="<?= RAIZSITE ?>/trabalhe-conosco" class="link-default dourado-fonte">TRABALHE CONOSCO</a></li>
                     <li><div class="separador"></div></li>
-                    <li><a href="#" class="link-default dourado-fonte">LINKS ÚTEIS</a></li>
+                    <li><a href="<?= raizsite ?>/links-uteis" class="link-default dourado-fonte">LINKS ÚTEIS</a></li>
                     <li><div class="separador"></div></li>
-                    <li><a href="#" class="link-default dourado-fonte">CONSULTA PROCESSUAL</a></li>
+                    <li><a href="<?= raizsite ?>/consulta-processual" class="link-default dourado-fonte">CONSULTA PROCESSUAL</a></li>
                 </ul>
             </div>
         </div>

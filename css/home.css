@@ -17,7 +17,7 @@ img { margin: 0 auto; }
 .owl-theme .owl-nav .owl-prev { position: absolute; left: 0%; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
 .owl-dots { position: absolute; left: 50%; bottom: 10%; -ms-transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); -moz-transform: translateY(-50%) translateX(-50%); -o-transform: translateY(-50%) translateX(-50%); transform: translateY(-50%) translateX(-50%) }
 /* .owl-theme .owl-dots .owl-dot { display: block !important } */
-.owl-theme .owl-dots .owl-dot span { width: 50px !important; height: 10px !important; margin-bottom: 5px !important; border-radius: 0; background-color: transparent !important; border: 1px solid #a08a59; }
+.owl-theme .owl-dots .owl-dot span { width: 50px !important; height: 5px !important; margin-bottom: 5px !important; border-radius: 0; background-color: transparent !important; border: 1px solid #a08a59; }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #a08a59 !important; -webkit-transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -o-transition: .2s ease-in-out; transition: .2s ease-in-out }
 
 .empresa { margin-top: -10px; padding-top: 65px; padding-bottom: 85px; }
@@ -29,6 +29,7 @@ img { margin: 0 auto; }
 .areas-atuacao { padding-top: 65px; padding-bottom: 85px }
 .areas-atuacao .conteudo .titulo h3 { margin-bottom: 0; margin-top: 15px; letter-spacing: 3px }
 .areas-atuacao .conteudo .descritivo { margin-top: 50px; margin-bottom: 50px }
+.areas-atuacao .conteudo .descritivo-alternativo { margin-top: 30px }
 .areas-atuacao .conteudo .lista-itens .itens { margin-bottom: 35px }
 .areas-atuacao .conteudo .lista-itens .itens .item a.item-link { color: #14284b; }
 .areas-atuacao .conteudo .lista-itens .itens .item a.item-link span { display: none }
