@@ -4,9 +4,9 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="parallax-banner">
         <div class="container">
-        	<div class="text-center titulo">
-	            <h3 class="Uppercase size35 dourado-fonte Light">CONTATO</h3>
-	        </div>
+            <div class="text-center titulo">
+                <h3 class="Uppercase size35 dourado-fonte Light">CONTATO</h3>
+            </div>
             <div class="breadcrumb hidden-xs">
                 <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">CONTATO</span></p>
             </div>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
-                    <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80.030-190</p>
+                    <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80 030-190</p>
                 </div>
             </div>
         </div>

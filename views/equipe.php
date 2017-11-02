@@ -41,7 +41,7 @@
             <h3 class="Uppercase dourado-fonte margin-zero">SÓCIOS</h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco primario bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio1.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio-brazilio.jpg'); background-size: cover; background-position: center center; min-height: 335px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
                 <h3 class="le-2">Brazilio Bacellar Neto</h3>
                 <h5 class="le-2">OAB/PR 7.425</h5>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco secundario bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio2.png'); background-size: cover; background-position: center center; min-height: 335px;"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio-Rodrigo.jpg'); background-size: cover; background-position: center center; min-height: 335px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
                 <h3 class="le-2">Rodrigo Shirai</h3>
                 <h5 class="le-2">OAB/PR 25.781 | OAB/SP 208.567-A</h5>
@@ -67,8 +67,8 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15p MarginB10p ri-2">
             <h3 class="Uppercase dourado-fonte margin-zero">ADVOGADOS</h3>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-1 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-1 eq-1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvAna.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Ana Cristina Hoogevoonink</p>
@@ -80,8 +80,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-2 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv2.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-2 eq-2">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvAngelique.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Angelique de Conto Heisler</p>
@@ -93,8 +93,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-3 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv3.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-3 eq-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvBruna.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Bruna Michele Wozne Godoy</p>
@@ -105,8 +105,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-4 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv4.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-4 eq-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvErik.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Erik Koubik Júnior</p>
@@ -115,17 +115,17 @@
                 <p>Formação Superior:<br>
                     - Faculdades Opet (2012)<br>
                     - Pós-Graduado em Direito Empresarial <br>
-                    Unicuritiba (2013)<br>
+                    UNICURITIBA (2013)<br>
                     - Pós-Graduando em Gestão Empresarial<br>
-                    Unicuritiba (2017)<br>
+                    UNICURITIBA (2017)<br>
                     - Membro da Comissão de Estudos de <br>
                     Recuperação Judicial e Falência da OAB/PR<br>
                 </p>
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-5 bc-3">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv1.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-5 eq-1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvJocelaine.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Jocelaine Weber da Silva</p>
@@ -139,8 +139,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-6 bc-3">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv2.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-6 eq-2">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvJuciara.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Juciara Santoro Pereira</p>
@@ -155,8 +155,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-7 bc-3">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv3.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-7 eq-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvMarilise.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Marilise Teixeira</p>
@@ -167,8 +167,8 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-8 bc-3">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv5.jpg'); background-size: cover; background-position: top center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-8 eq-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvMarcella.jpg'); background-size: cover; background-position: top center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Marcella V. Bacellar Koubik</p>
@@ -183,8 +183,8 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-9 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv6.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-9 eq-1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvLuizMarcelo.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Luiz Marcelo de Souza Rocha</p>
@@ -201,15 +201,15 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-10 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv7.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-10 eq-2">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvLuizRenato.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Luiz Renato Barreto Gomes</p>
                 <p>OAB/PR 66.131</p>
                 <p><a href="mailto:luiz.renato@braziliobacellar.com.br" class="link-default">luiz.renato@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - UniCuritiba (2012)<br>
+                    - UNICURITIBA (2012)<br>
                     - Pós-Graduando em Direito <br>
                     Processual Civil pelo Instituto de <br>
                     Direito Romeu Felipe Bacellar (2013)<br>
@@ -219,15 +219,15 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-11 bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/adv3.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-11 eq-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvYaskarah.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
                 <p>Yáskarah Maria S. Maziero</p>
                 <p>OAB/PR 64.323</p>
                 <p><a href="mailto:yaskara@braziliobacellar.com.br" class="link-default">yaskara@braziliobacellar.com.br</a></p>
                 <p>Formação Superior:<br>
-                    - UniCuritiba (2012)<br>
+                    - UNICURITIBA (2012)<br>
                     - Pós-Graduanda em Direito Civil e <br>
                     Empresarial pela Academia<br>
                     Brasileira de Direito <br>
@@ -295,3 +295,22 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $('.eq-1').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 100
+    });
+    $('.eq-2').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 200
+    });
+    $('.eq-3').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 300
+    });
+    $('.eq-4').addClass("esconder").viewportChecker({
+        classToAdd: 'mostrar animated fadeInUp',
+        offset: 400
+    });
+</script>

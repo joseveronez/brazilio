@@ -83,7 +83,7 @@
                     <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero Medium titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;ADMINISTRATIVO</h3><br>
                     <p class="text-justify size15 texto-servicos">
-                        Assessoria nas esferas administrativa e judicial para empresas interessadas na participação em processos licitatórios, efetuando a análise da legalidade dos editais e elaboração de possíveis impugnações aos editais ou propostas dos concorrentes etc., bem como, tomando as medidas cabíveis à cada caso.
+                        Assessoria nas esferas administrativa e judicial para empresas interessadas na participação em processos licitatórios, efetuando a análise da legalidade dos editais e elaboração de possíveis impugnações aos editais ou propostas dos concorrentes, bem como, tomando as medidas cabíveis à cada caso.
                     </p>
                 </div>
                 
@@ -91,7 +91,7 @@
                     <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;AMBIENTAL</h3><br>
                     <p class="text-justify size15 texto-servicos">
-                        Orientação e assessoria de empresas acerca da legislação ambiental, atuando de forma preventiva e no contencioso, bem como prestando auxílio na obtenção de licenças/autorização perante os órgãos competentes.
+                        Orientação e assessoria de empresas acerca da legislação ambiental, atuando de forma preventiva e no contencioso, bem como prestando auxílio na obtenção de licença/autorização perante os órgãos competentes.
                     </p>
                 </div>
                 
@@ -156,7 +156,7 @@
                     <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;internet e e-commerce</h3><br>
                     <p class="text-justify size15 texto-servicos">
-                      Assessoria no âmbito de proteção patrimonial contra contingências diversas e organização de ativos e investimentos.
+                      Assessoria jurídica geral a empresas de internet e consultoria na elaboração de contratos eletrônicos.
                     </p>
                 </div>
                 
@@ -164,7 +164,7 @@
                     <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;propriedade intelectual</h3><br>
                     <p class="text-justify size15 texto-servicos">
-                      Assessoria no âmbito de proteção patrimonial contra contingências diversas e organização de ativos e investimentos.
+                      Consultoria e assessoria, assim como atuação em litígios que envolvam direitos autorais, desenhos industriais, marcas e patentes.
                     </p>
                 </div>
                 
@@ -172,7 +172,7 @@
                     <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;societário</h3><br>
                     <p class="text-justify size15 texto-servicos">
-                      Assessoria jurídica e consultoria na constituição, organização e transformações das sociedades empresariais, bem como elaboração de planejamento societário. Representação em discussões administrativas e judiciais, buscando defender os interesses das sociedades e dos sócios/acionistas. 
+                      Assessoria jurídica e consultoria na constituição, organização e transformação das sociedades empresariais, bem como elaboração de planejamento societário. Representação em discussões administrativas e judiciais, buscando defender os interesses das sociedades e dos sócios/acionistas. 
                     </p>
                 </div>
                 

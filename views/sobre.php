@@ -44,18 +44,21 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-branco MarginT10p">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-dourado chamada-galeria le-2">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="branco-fonte Uppercase">“uma sociedade profissional com atuação preventiva e contenciosa nas mais diversas áreas [...]”</h4>
+                    <h4 class="branco-fonte Uppercase">“uma sociedade profissional com atuação preventiva e contenciosa nas mais diversas áreas”</h4>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme do-2" id="owl2">
-                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/galeria1.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria1.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
+                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-10.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-10.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
                             </a>
-                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/galeria1.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria1.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
+                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-09.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-09.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
+                            </a>
+                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-08.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-08.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
                             </a>
                         </div>
                     </div>
@@ -63,11 +66,17 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme bc-2" id="owl3">
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/galeria2.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria2.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-04.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-04.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
                             </a>
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/galeria2.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria2.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-05.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-05.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            </a>
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-06.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-06.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            </a>
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-07.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-07.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
                             </a>
                         </div>
                     </div>
@@ -77,11 +86,14 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme ri-2" id="owl4">
-                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/galeria3.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria3.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
+                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-01.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-01.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
                             </a>
-                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/galeria3.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/galeria3.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
+                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-02.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-02.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
+                            </a>
+                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-03.jpg">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-03.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
                             </a>
                         </div>
                     </div>
