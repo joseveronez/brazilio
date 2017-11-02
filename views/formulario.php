@@ -17,29 +17,24 @@
             ";
             exit();
         }
-        echo 1;
-        die();
-        /*
+
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
         $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
 
-        $assunto = $_POST['assunto'];
+        $assunto = "BRAZILIO BACELLAR | NEWSLETTER";
 
         $Msg = "
-Novo contato:
-Nome: ".$_POST['nome']."
-E-mail: ".$_POST['email']."
-Telefone: ".$_POST['telefone']."
-Mensagem: ".$_POST['mensagem']."";
+Novo e-mail para newsletter:
+E-mail: ".$_POST['email']."";
 
         if(mail("nicolas@comberweb.com.br", $assunto, $Msg, $headers)){
 ?>
             <script type="text/javascript">
                  swal({
                     title: "Sucesso!",
-                    text: "Contato enviado com sucesso. Obrigado!",
+                    text: "E-mail cadastrado com sucesso. Obrigado!",
                     type: "success",
                     confirmButtonColor: "#38a2a8",
                     confirmButtonText: "OK!",
@@ -50,7 +45,6 @@ Mensagem: ".$_POST['mensagem']."";
             </script>
 <?php
         }
-        */
     }
 
     if(isset($_GET["contato"])) {
@@ -71,15 +65,13 @@ Mensagem: ".$_POST['mensagem']."";
             ";
             exit();
         }
-        echo 1;
-        die();
-        /*
+        
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
         $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
 
-        $assunto = $_POST['assunto'];
+        $assunto = "BRAZILIO BACELLAR | FORMULÁRIO DE CONTATO";
 
         $Msg = "
 Novo contato:
@@ -104,7 +96,6 @@ Mensagem: ".$_POST['mensagem']."";
             </script>
 <?php
         }
-        */
     }
 
     if(isset($_GET["trabalhe"])) {
@@ -125,22 +116,24 @@ Mensagem: ".$_POST['mensagem']."";
             ";
             exit();
         }
-        echo 1;
-        die();
-        /*
+
+        move_uploaded_file($_FILES['curriculo']['tmp_name'], RAIZ . '/uploads/'.$_FILES['curriculo']['name']);
+        
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
         $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
 
-        $assunto = $_POST['assunto'];
+        $assunto = "BRAZILIO BACELLAR | TRABALHE CONOSCO";
 
         $Msg = "
 Novo contato:
 Nome: ".$_POST['nome']."
 E-mail: ".$_POST['email']."
 Telefone: ".$_POST['telefone']."
-Mensagem: ".$_POST['mensagem']."";
+Mensagem: ".$_POST['mensagem']."
+
+Visualizar currículo: ".RAIZSITE."/uploads/".$_FILES['curriculo']['name'];
 
         if(mail("nicolas@comberweb.com.br", $assunto, $Msg, $headers)){
 ?>
@@ -158,6 +151,5 @@ Mensagem: ".$_POST['mensagem']."";
             </script>
 <?php
         }
-        */
     }
 ?>

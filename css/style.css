@@ -8,10 +8,18 @@ img { margin: 0 auto; }
 .breadcrumb a, .breadcrumb span { text-decoration: underline }
 .breadcrumb a:hover { color: #a08a59 }
 
-input[type=file] { display: none !important }
 .inputfile-1 + label { border-radius: 0; border: 1px solid #d5d5d5; background-color: transparent !important; text-align: center; font-size: 14px !important; font-weight: 400 !important; padding: 10px; }
 .inputfile-1 + label:hover { color: #2b2c3e }
 .chamada-botao { position:absolute; padding-left: 15px }
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
 
 .scrolloff { pointer-events: none; }
 .bloco-mapa { height: 350px }
@@ -28,6 +36,8 @@ a.equipe-link:hover { color: #14284b }
 a.contato-telefone { color: #ffffff }
 a.contato-telefone:hover { color: #3b2c0c }
 /* GLOBAL LINKS */
+
+.links-uteis { margin-top: 50px; margin-bottom: 60px }
 
 /* LG MD SM  */
 @media (min-width: 768px) {
@@ -121,11 +131,11 @@ textarea:focus.contato-footer:-moz-placeholder{color: #634b15;}
 .sp-right-thumbnails.sp-has-pointer .sp-selected-thumbnail:after{ border-right: 13px solid #2d2d2d !important;}
 
 @media (max-width: 500px) {
-	 .sp-thumbnail { text-align: center;}
-	 .sp-thumbnail-image-container { display: none;}
-	 .sp-thumbnail-text { width: 120px;}
-	 .sp-thumbnail-title { font-size: 12px; text-transform: uppercase;}
-	 .sp-thumbnail-description { display: none;}
+     .sp-thumbnail { text-align: center;}
+     .sp-thumbnail-image-container { display: none;}
+     .sp-thumbnail-text { width: 120px;}
+     .sp-thumbnail-title { font-size: 12px; text-transform: uppercase;}
+     .sp-thumbnail-description { display: none;}
 }
 .hrPadrao { margin-left: 0%; margin-bottom: 6%; }
 .hrTitle { width: 5%; height: 4px; background-color: #666666; border: none; margin-top: 5px; margin-bottom: 0px; border-bottom-left-radius: 30px; border-top-right-radius: 30px;}
