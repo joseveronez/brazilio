@@ -56,28 +56,28 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
             <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive">
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT15p PaddingB15p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT8p PaddingB10p">
             <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs servicos-links le-2">
                 <ul class="list-unstyled">
-                    <li class="lista-servicos"><a href="#administrativo" class="link-default dourado-fonte lista-servicos-item atalho">ADMINISTRATIVO</a></li>
-                    <li class="lista-servicos"><a href="#ambiental" class="link-default dourado-fonte lista-servicos-item atalho">AMBIENTAL</a></li>
-                    <li class="lista-servicos"><a href="#bancario" class="link-default dourado-fonte lista-servicos-item atalho">BANCÁRIO</a></li>
-                    <li class="lista-servicos"><a href="#civel" class="link-default dourado-fonte lista-servicos-item atalho">CÍVEL</a></li>
-                    <li class="lista-servicos"><a href="#comercial" class="link-default dourado-fonte lista-servicos-item atalho">COMERCIAL</a></li>
-                    <li class="lista-servicos"><a href="#consumidor" class="link-default dourado-fonte lista-servicos-item atalho">CONSUMIDOR</a></li>
-                    <li class="lista-servicos"><a href="#contratos" class="link-default dourado-fonte lista-servicos-item atalho">CONTRATOS</a></li>
-                    <li class="lista-servicos"><a href="#familia" class="link-default dourado-fonte lista-servicos-item atalho">FAMÍLIA</a></li>
-                    <li class="lista-servicos"><a href="#gestao-legal" class="link-default dourado-fonte lista-servicos-item atalho">GESTÃO LEGAL DE PATRIMÔNIO</a></li>
-                    <li class="lista-servicos"><a href="#internet-ecommerce" class="link-default dourado-fonte lista-servicos-item atalho">INTERNET E E-COMMERCE</a></li>
-                    <li class="lista-servicos"><a href="#propriedade-intelectual" class="link-default dourado-fonte lista-servicos-item atalho">PROPRIEDADE INTELECTUAL</a></li>
-                    <li class="lista-servicos"><a href="#societario" class="link-default dourado-fonte lista-servicos-item atalho">SOCIETÁRIO</a></li>
-                    <li class="lista-servicos"><a href="#sucessoes" class="link-default dourado-fonte lista-servicos-item atalho">SUCESSÕES</a></li>
-                    <li class="lista-servicos"><a href="#trabalhista" class="link-default dourado-fonte lista-servicos-item atalho">TRABALHISTA</a></li>
-                    <li class="lista-servicos"><a href="#tributario" class="link-default dourado-fonte lista-servicos-item atalho">TRIBUTÁRIO</a></li>
+                    <li class="lista-servicos"><a href="#administrativo" class="link-default lista-servicos-item atalho">ADMINISTRATIVO</a></li>
+                    <li class="lista-servicos"><a href="#ambiental" class="link-default lista-servicos-item atalho">AMBIENTAL</a></li>
+                    <li class="lista-servicos"><a href="#bancario" class="link-default lista-servicos-item atalho">BANCÁRIO</a></li>
+                    <li class="lista-servicos"><a href="#civel" class="link-default lista-servicos-item atalho">CÍVEL</a></li>
+                    <li class="lista-servicos"><a href="#comercial" class="link-default lista-servicos-item atalho">COMERCIAL</a></li>
+                    <li class="lista-servicos"><a href="#consumidor" class="link-default lista-servicos-item atalho">CONSUMIDOR</a></li>
+                    <li class="lista-servicos"><a href="#contratos" class="link-default lista-servicos-item atalho">CONTRATOS</a></li>
+                    <li class="lista-servicos"><a href="#familia" class="link-default lista-servicos-item atalho">FAMÍLIA</a></li>
+                    <li class="lista-servicos"><a href="#gestao-legal" class="link-default lista-servicos-item atalho">GESTÃO LEGAL DE PATRIMÔNIO</a></li>
+                    <li class="lista-servicos"><a href="#internet-ecommerce" class="link-default lista-servicos-item atalho">INTERNET E E-COMMERCE</a></li>
+                    <li class="lista-servicos"><a href="#propriedade-intelectual" class="link-default lista-servicos-item atalho">PROPRIEDADE INTELECTUAL</a></li>
+                    <li class="lista-servicos"><a href="#societario" class="link-default lista-servicos-item atalho">SOCIETÁRIO</a></li>
+                    <li class="lista-servicos"><a href="#sucessoes" class="link-default lista-servicos-item atalho">SUCESSÕES</a></li>
+                    <li class="lista-servicos"><a href="#trabalhista" class="link-default lista-servicos-item atalho">TRABALHISTA</a></li>
+                    <li class="lista-servicos"><a href="#tributario" class="link-default lista-servicos-item atalho">TRIBUTÁRIO</a></li>
                 </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 servicos-itens">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="administrativo">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="administrativo">
                     <div id="waypointAdministrativo" style="position: absolute; left: 0; height: 135px; width: 50px; top: -135px"></div>
 
                     <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive" style="float: left;">
@@ -87,7 +87,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="ambiental">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="ambiental">
                     <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;AMBIENTAL</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -95,7 +95,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="bancario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="bancario">
                     <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;BANCÁRIO</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -103,7 +103,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="civel">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="civel">
                     <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;cível</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -111,7 +111,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="comercial">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="comercial">
                     <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;comercial</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -120,7 +120,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="consumidor">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="consumidor">
                     <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;consumidor</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -128,7 +128,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="contratos">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="contratos">
                     <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;contratos</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -136,7 +136,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="familia">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="familia">
                     <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;família</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -144,7 +144,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="gestao-legal">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="gestao-legal">
                     <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;gestão legal de patrimônio</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -152,7 +152,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="internet-ecommerce">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="internet-ecommerce">
                     <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;internet e e-commerce</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -160,7 +160,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="propriedade-intelectual">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="propriedade-intelectual">
                     <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;propriedade intelectual</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -168,7 +168,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="societario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="societario">
                     <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;societário</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -176,7 +176,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="sucessoes">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="sucessoes">
                     <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;sucessões</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -184,7 +184,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="trabalhista">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="trabalhista">
                     <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;trabalhista</h3><br>
                     <p class="text-justify size15 texto-servicos">
@@ -192,7 +192,7 @@
                     </p>
                 </div>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p bc-2" id="tributario">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB6p bc-2" id="tributario">
                     <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive" style="float: left;">
                     <h3 class="margin-zero titulo-servicos dourado-fonte Uppercase">&nbsp;&nbsp;tributário</h3><br>
                     <p class="text-justify size15 texto-servicos">

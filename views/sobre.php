@@ -100,8 +100,6 @@
                 </div>
             </div>
         </div>
-
-        <img src="<?= RAIZSITE ?>/imagens/onda-escura.png" class="img-responsive Absolute hidden-sm hidden-xs">
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">

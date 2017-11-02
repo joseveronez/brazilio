@@ -1,4 +1,4 @@
-.parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover }
+.parallax { background-attachment: fixed; background-position: center center; background-repeat: no-repeat }
 
 .contato .linha { position: absolute; z-index: 1; left: 49.98%; top: -40px; height: 80px; width: 2px; background-color: #ffffff }
 .contato .conteudo:nth-child(2) { padding-bottom: 80px }
@@ -10,8 +10,8 @@
 .contato .conteudo .dados .cnpj { font-size: 14px; color: #3b2c0c }
 .contato .conteudo .dados .endereco { font-size: 12px }
 
-.newsletter .conteudo .chamada h3 { margin-top: 100px }
-.newsletter .conteudo .input .input-group { margin-top: 70px; margin-bottom: 150px }
+.newsletter .conteudo .chamada h3 { margin-top: 80px }
+.newsletter .conteudo .input .input-group { margin-top: 70px; margin-bottom: 80px }
 .input-group .email-news { background-color: transparent; border-radius: 0; height: 45px }
 .input-group .input-group-btn button { border-radius: 0; height: 45px }
 .input-group .input-group-btn button { background-color: #ffffff; border: 1px solid #ffffff; color: #a08a59 }

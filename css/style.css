@@ -69,8 +69,11 @@ a.contato-telefone:hover { color: #3b2c0c }
 .separador-areas{ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; }
 .lista li{ color: #a08a59!important;}
 .lista{ padding-left: 20px;}
-.lista-servicos {margin-top: 10px!important;}
-.lista-servicos-item:hover { color: #14284b!important; }
+.lista-servicos { margin-top: 10px !important }
+.lista-servicos-item { color: #a08a59 }
+.lista-servicos-item:hover { color: #14284b }
+.lista-servicos-item:focus { color: #14284b }
+.lista-servicos-item.active { color: #14284b }
 .titulo-servicos {padding: 8px 0px 8px 53px;}
 .texto-servicos {margin-top: -10px;}
 .border-equipe{ border-right: 1px solid #a08a59; }

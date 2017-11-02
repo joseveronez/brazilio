@@ -23,8 +23,8 @@
 .equipe .conteudo .descritivo p:nth-child(2) { margin-top: 15px }
 
 @media screen and (min-width: 768px) {
-	.bloco.primario { padding-right: 2px; }
-	.bloco.secundario { padding-left: 2px; }
+	.bloco.primario { padding-right: 0px; border-right: 1px solid #ffffff }
+	.bloco.secundario { padding-left: 0px; border-left: 1px solid #ffffff }
 
 	.advogados .bloco .descritivo { padding: 20px 15px }
 }

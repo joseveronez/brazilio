@@ -3,8 +3,8 @@
 ?>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="owl-carousel slider-topo owl-theme">
-        <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
+        <div class="item vh80">
+            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
                     <p class="Uppercase dourado-fonte Light titulo">Brazilio Bacellar,<br> SHIRAI Advogados</p>
 
@@ -15,8 +15,8 @@
                 </div>
             </div>
         </div>
-        <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
+        <div class="item vh80">
+            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
                     <p class="Uppercase dourado-fonte Light titulo">Equipe experiente</p>
 
@@ -27,8 +27,8 @@
                 </div>
             </div>
         </div>
-        <div class="item vh100">
-            <div class="vh100" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
+        <div class="item vh80">
+            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
                     <p class="Uppercase dourado-fonte Light titulo">Diversas áreas de atuação</p>
 
