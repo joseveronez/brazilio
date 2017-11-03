@@ -48,46 +48,6 @@
                         }
                     }
                 }
-                if (!empty($_FILES['carousel_1']['name'])) {
-                    $handle = new upload($_FILES['carousel_1']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->carousel_1 = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
-                
-                if (!empty($_FILES['carousel_2']['name'])) {
-                    $handle = new upload($_FILES['carousel_2']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->carousel_2 = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
-                if (!empty($_FILES['carousel_3']['name'])) {
-                    $handle = new upload($_FILES['carousel_3']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->carousel_3 = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
                  $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->texto = $this->requestParametrosPost["texto"];
                 $dados->texto_carousel = $this->requestParametrosPost["texto_carousel"];

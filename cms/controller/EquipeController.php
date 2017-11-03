@@ -56,7 +56,7 @@
             }
         }
         public function editar_dados() {
-            $id = $this->requestParametrosGet[1];
+            $id = $this->requestParametrosGet[0];
             $dados = Equipe::retrieveByPK($id);
 
             setSession('paginaAtual', 'equipe/gerenciar');
@@ -98,7 +98,7 @@
         }
         public function excluir_dados(){
             try {
-                $id = $this->requestParametrosGet[1];
+                $id = $this->requestParametrosGet[0];
                 $dados = Equipe::retrieveByPk($id);
                 $this->excluir_arquivo($dados->foto);
                 $dados->delete();

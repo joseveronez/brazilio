@@ -53,7 +53,7 @@
             }
         }
         public function editar_dados() {
-            $id = $this->requestParametrosGet[1];
+            $id = $this->requestParametrosGet[0];
             $dados = Servicos::retrieveByPK($id);            
             setSession('paginaAtual', 'servicos/gerenciar');
             setSession('blackPage', 'servicos/gerenciar-dados');
@@ -91,7 +91,7 @@
         }
         public function excluir_dados(){
             try {
-                $id = $this->requestParametrosGet[1];
+                $id = $this->requestParametrosGet[0];
                 $dados = Servicos::retrieveByPk($id);
                 $this->excluir_arquivo($dados->icone);
                 $dados->delete();

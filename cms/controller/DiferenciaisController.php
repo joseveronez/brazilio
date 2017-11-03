@@ -8,97 +8,66 @@
 
 		public function novos_dados() {
 			try {
-				setSession('paginaAtual', 'servicos/gerenciar');
-				setSession('blackPage', 'servicos/novos-dados');
-				$this->renderView('servicos/novos_dados');
+				setSession('paginaAtual', 'diferenciais/gerenciar');
+				setSession('blackPage', 'diferenciais/novos-dados');
+				$this->renderView('diferenciais/novos_dados');
 			} catch (Exception $e) {
 				$this->renderViewUnique('/errors/errorServidor', $e);
 			}
 		}
         public function salvar_dados() {
             try {
-                $dados = new Servicos();
-                if (!empty($_FILES['icone']['name'])) {
-                    $handle = new upload($_FILES['icone']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->icone = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
-                $dados->titulo = $this->requestParametrosPost["titulo"];
-                $dados->descricao = $this->requestParametrosPost["descricao"];
+                $dados = new Diferenciais();
+                $dados->texto = $this->requestParametrosPost["texto"];
                 $dados->save();
 
                 setSession("sucesso", "S");
-                $this->redirect(caminhoSite . "/servicos/gerenciar-dados");
+                $this->redirect(caminhoSite . "/diferenciais/gerenciar-dados");
             } catch (Exception $e) {
                 $this->renderViewUnique("/errors/errorServidor", $e);
             }
         }
         public function gerenciar_dados(){
             try {
-                $dados = Servicos::all();
+                $dados = Diferenciais::all();
                 
-                setSession('paginaAtual', 'servicos/gerenciar');
-                setSession('blackPage', 'servicos/gerenciar-dados');
-                $this->renderView('servicos/gerenciar_dados', $dados);
+                setSession('paginaAtual', 'diferenciais/gerenciar');
+                setSession('blackPage', 'diferenciais/gerenciar-dados');
+                $this->renderView('diferenciais/gerenciar_dados', $dados);
             } catch (Exception $e) {
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }
         }
         public function editar_dados() {
-            $id = $this->requestParametrosGet[1];
-            $dados = Servicos::retrieveByPK($id);            
-            setSession('paginaAtual', 'servicos/gerenciar');
-            setSession('blackPage', 'servicos/gerenciar-dados');
-            $this->renderView('servicos/editar_dados', $dados);
+            $id = $this->requestParametrosGet[0];
+            $dados = Diferenciais::retrieveByPK($id);            
+            setSession('paginaAtual', 'diferenciais/gerenciar');
+            setSession('blackPage', 'diferenciais/gerenciar-dados');
+            $this->renderView('diferenciais/editar_dados', $dados);
         }
         public function atualizar_dados(){
             try {
                 $id = $this->requestParametrosPost["id"];
-                $dados = Servicos::retrieveByPK($id);
-                if (!empty($_FILES['icone']['name'])) {
-
-                    $this->excluir_arquivo($dados->icone);
-
-                    $handle = new upload($_FILES['icone']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->icone = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
-                $dados->titulo = $this->requestParametrosPost["titulo"];
-                $dados->descricao = $this->requestParametrosPost["descricao"];
+                $dados = Diferenciais::retrieveByPK($id);
+                $dados->texto = $this->requestParametrosPost["texto"];
                 $dados->save();
-
+                
                 setSession("sucesso", "S");
-                $this->redirect(caminhoSite . "/servicos/gerenciar-dados");
+                $this->redirect(caminhoSite . "/diferenciais/gerenciar-dados");
             } catch (Exception $e) {
                 $this->renderViewUnique("/errors/errorServidor", $e);
             }
         }
         public function excluir_dados(){
             try {
-                $id = $this->requestParametrosGet[1];
-                $dados = Servicos::retrieveByPk($id);
+                $id = $this->requestParametrosGet[0];
+                $dados = Diferenciais::retrieveByPk($id);
                 $this->excluir_arquivo($dados->icone);
                 $dados->delete();
 
                 setSession('sucesso', 'S');
 
-                $this->redirect(caminhoSite . '/servicos/gerenciar-dados');
+                $this->redirect(caminhoSite . '/diferenciais/gerenciar-dados');
             } catch (Exception $e) {
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }

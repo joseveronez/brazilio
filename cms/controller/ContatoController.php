@@ -35,7 +35,7 @@
                     }
                 }
                 $dados->titulo = $this->requestParametrosPost["titulo"];
-                $dados->chamada = $this->requestParametrosPost["titulo_contato"];
+                $dados->titulo_contato = $this->requestParametrosPost["titulo_contato"];
                 $dados->chamada = $this->requestParametrosPost["chamada"];
                 $dados->razao_social = $this->requestParametrosPost["razao_social"];
                 $dados->cnpj = $this->requestParametrosPost["cnpj"];

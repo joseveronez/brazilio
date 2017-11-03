@@ -35,7 +35,7 @@
                             <label class="col-sm-2 control-label" align="right">link_</label>
 
                             <div class="col-sm-10">
-                                <input type="link_" class="form-control" name="link_" maxlength="255" required />
+                                <input type="text" class="form-control" name="link_" maxlength="255" required />
                             </div>
                         </div><br>
             		</div>
