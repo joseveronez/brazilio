@@ -65,127 +65,31 @@
             </span>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">
-            < ?php
-                $cont = 0;
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">
+            <?php
+                $cont = 1;
+                $lenght = count($servicos);
                 foreach($servicos as $servico){
-            ?>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
+                    if(in_array($cont, array(1,5,9,13))){
+                        echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">';
+                    }
+            ?>               
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                        <img src="< ?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive">
-                        <a href="< ?= RAIZSITE ?>/servicos/#administrativo" class="link-default item-link">
-                            <h5 class="text-center MarginT10 Bold">ADMINISTRATIVO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
+                        <img src="<?= caminhoSite ?>/uploads/<?= $servico->icone ?>" class="img-responsive">
+                        <a href="<?= RAIZSITE ?>/servicos/#<?= $servico->link_servico ?>" class="link-default item-link">
+                            <h5 class="text-center MarginT10 Bold"><?= $servico->titulo ?>&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
                         </a>
                     </div>
-                </div>
-            < ?php
-                    
+            <?php
+                 if(in_array($cont, array(4,8,12,16))){
+                     echo '</div>';
+                 } elseif($cont == $lenght){
+                     echo '</div>';
+                 }
+                 
+                 $cont++;
                 }
             ?>
-        </div> -->
-        
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#administrativo" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">ADMINISTRATIVO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/ambiental.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#ambiental" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">AMBIENTAL&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/bancario.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#bancario" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">BANCÁRIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/civel.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#civel" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">CÍVEL&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/comercial.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#comercial" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">COMERCIAL&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/consumidor.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#consumidor" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">CONSUMIDOR&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/contrato.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#contratos" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">CONTRATOS&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/familias.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#familia" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">FAMÍLIA&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/gestao_legal_patrimonio.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#gestao-legal" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">GESTÃO LEGAL DE PATRIMÔNIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/internet_e_ecommerce.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#internet-ecommerce" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">INTERNET E E-COMMERCE&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2 bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/propriedade_intelectual.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#propriedade-intelectual" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">PROPRIEDADE INTELECTUAL&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/societario.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#societario" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">SOCIETÁRIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/sucessoes.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#sucessoes" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">SUCESSÕES&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/trabalhista.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#trabalhista" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">TRABALHISTA&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
-                    <img src="<?= RAIZSITE ?>/imagens/tributario.png" class="img-responsive">
-                    <a href="<?= RAIZSITE ?>/servicos/#tributario" class="link-default item-link">
-                        <h5 class="text-center MarginT10 Bold">TRIBUTÁRIO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
-                    </a>
-                </div>
-            </div>
         </div>
 
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>

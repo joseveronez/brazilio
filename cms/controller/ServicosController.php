@@ -33,6 +33,7 @@
                 }
                 $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->descricao = $this->requestParametrosPost["descricao"];
+                $dados->link_servico = $this->requestParametrosPost["link_servico"];
                 $dados->save();
 
                 setSession("sucesso", "S");
@@ -81,6 +82,7 @@
                 }
                 $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->descricao = $this->requestParametrosPost["descricao"];
+                $dados->link_servico = $this->requestParametrosPost["link_servico"];
                 $dados->save();
 
                 setSession("sucesso", "S");

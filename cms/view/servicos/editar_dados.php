@@ -45,6 +45,12 @@
                                 <textarea name="descricao" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->descricao ?></textarea>
                             </div>
                         </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">link_servico</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="link_servico" maxlength="255" value="<?= $dados->link_servico ?>" />
+                            </div>
+                        </div><br>
             		</div>
                 </div><br>
 

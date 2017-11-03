@@ -1,14 +1,16 @@
 <?php
     ScriptLoader::LoadCSS('equipe');
+    $equipe = Equipe::sql("SELECT * FROM equipe");
+    $pag = PaginaEquipe::sql("SELECT * FROM pagina_equipe", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-equipe.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
+    .parallax-banner { background-image: url("<?= caminhoSite ?>/uploads/<?= $pag->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">EQUIPE</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light"><?= $pag->titulo ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
                 <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">EQUIPE</span></p>
@@ -26,7 +28,7 @@
 
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 MarginT10p bc-2">
-            <p class="text-justify size14 letter-spacing1 Medium">A equipe de profissionais conta com advogados em constante atualização, habilitados a atender empresas nacionais e internacionais, com conhecimento de línguas estrangeiras.</p>
+            <p class="text-justify size14 letter-spacing1 Medium"><?= $pag->texto ?></p>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
 
@@ -40,23 +42,24 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT13p MarginB10p titulo le-2">
             <h3 class="Uppercase dourado-fonte margin-zero">SÓCIOS</h3>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco primario bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio-brazilio.jpg'); background-size: cover; background-position: center center; min-height: 335px;"></div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
-                <h3 class="le-2">Brazilio Bacellar Neto</h3>
-                <h5 class="le-2">OAB/PR 7.425</h5>
-                <p class="formacao bc-2">Formação Superior: Faculdade de Direito de Curitiba (1974)</p>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco secundario bc-2">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= RAIZSITE ?>/imagens/socio-Rodrigo.jpg'); background-size: cover; background-position: center center; min-height: 335px;"></div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
-                <h3 class="le-2">Rodrigo Shirai</h3>
-                <h5 class="le-2">OAB/PR 25.781 | OAB/SP 208.567-A</h5>
-                <p class="formacao bc-2">Formação Superior: Pontifícia Universidade Católica do Paraná (1997) | Especialização em Direito Processual Civil: IBEJ (1999) | Membro da Comissão de Estudos de Recuperação Judicial e Falência da OAB/PR | Membro da TMA - Turnaround Management Association | Idiomas: Inglês
-                </p>
-            </div>
-        </div>
+        <?php 
+            $cont =1;
+            foreach($equipe as $eqp){
+                if($eqp->tipo == 1){
+                    ?>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bloco <?php if($cont==1){echo"primario";} else {echo"secundario";} ?> bc-2">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado imagem" style="background: url('<?= caminhoSite ?>/uploads/<?= $eqp->foto ?>'); background-size: cover; background-position: center center; min-height: 335px;"></div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-dourado descritivo branco-fonte">
+                            <h3 class="le-2"><?= $eqp->nome ?></h3>
+                            <h5 class="le-2"><?= $eqp->oab ?></h5>
+                            <p class="formacao bc-2"><?= $eqp->formacao ?></p>
+                        </div>
+                    </div>
+                    <?php
+                    $cont++;
+                }
+            }
+        ?>
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco advogados">
@@ -67,6 +70,32 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT15p MarginB10p ri-2">
             <h3 class="Uppercase dourado-fonte margin-zero">ADVOGADOS</h3>
         </div>
+        
+        <?php 
+            $order = 1;
+            $eq = 1;
+            foreach($equipe as $eqp){
+                if($eqp->tipo == 2){
+                    if($eq == 5){
+                        $eq = 1;
+                    }
+                ?>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-<?= $order ?> eq-<?= $eq ?>">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= caminhoSite ?>/uploads/<?= $eqp->foto ?>'); background-size: cover; background-position: center center; min-height: 200px;">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marrom-fonte descritivo">
+                        <p><?= $eqp->nome ?></p>
+                        <p><?= $eqp->oab ?></p>
+                        <p><a href="mailto:<?= $eqp->email ?>" class="link-default"><?= $eqp->email ?></a></p>
+                        <?= $eqp->formacao ?>
+                    </div>
+                </div>
+                <?php
+            }
+        }
+    ?>
+        
+        <?php /*
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 bloco order-1 eq-1">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero imagem" style="background: url('<?= RAIZSITE ?>/imagens/AdvAna.jpg'); background-size: cover; background-position: center center; min-height: 200px;">
             </div>
@@ -235,6 +264,8 @@
                 </p>
             </div>
         </div>
+        */
+        ?>
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco dourado-fonte equipe">
@@ -245,6 +276,23 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginT12p le-2">
             <h3 class="Uppercase dourado-fonte margin-zero">EQUIPE</h3>
         </div>
+        
+        <?php
+            foreach($equipe as $eqp){
+                if($eqp->tipo == 3){
+                ?>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 descritivo border-equipe bc-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                        <p><?= $eqp->nome ?></p>
+                        <p><a href="mailto:<?= $eqp->email ?>" class="link-default"><?= $eqp->email ?></a></p>
+                    </div>
+                </div>
+                <?php
+            }
+            }
+        ?>
+        
+        <?php /* 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 descritivo border-equipe bc-2">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <p>Pedro Vitor Viana Fragalli</p>
@@ -293,6 +341,8 @@
                 <p><a href="mailto:bruno@braziliobacellar.com.br" class="link-default">bruno@braziliobacellar.com.br</a></p>
             </div>
         </div>
+            
+        */ ?>
     </div>
 </div>
 
