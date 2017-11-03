@@ -1,44 +1,29 @@
 <?php
     ScriptLoader::LoadCSS('home');
+    $home = Home::sql("SELECT * FROM pagina_home", SimpleOrm::FETCH_ONE);
+    $slides_home = SlidesHome::sql("SELECT * FROM slides_home");
+    $servicos = Servicos::sql("SELECT * FROM servicos ORDER BY titulo");
 ?>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="owl-carousel slider-topo owl-theme">
-        <div class="item vh80">
-            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban2.jpg'); background-size: cover; background-position: center center; min-height: 481px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                    <p class="Uppercase dourado-fonte Light titulo">Brazilio Bacellar,<br> SHIRAI Advogados</p>
-
-                    <img src="imagens/ond1.png" class="img-responsive">
-                    <p class="Uppercase branco-fonte Light subtitulo">a solução dos conflitos de interesses preventivamente,<br> evitando o desgaste e a morosidade do Poder Judiciário.</p>
-
-                    <a href="<?= RAIZSITE ?>/sobre" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <?php 
+            foreach($slides_home as $slides){
+                ?>
+                <div class="item vh80">
+                    <div class="vh80" style="background: url('<?= caminhoSite ?>/uploads/<?= $slides->imagem ?>'); background-size: cover; background-position: center center; min-height: 481px;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
+                            <p class="Uppercase dourado-fonte Light titulo"><?= $slides->titulo ?></p>
+                            <img src="imagens/ond1.png" class="img-responsive">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Uppercase branco-fonte Light size20 subtitulo MarginT7p MarginB9p">
+                                <?= $slides->chamada ?>
+                            </div>
+                            <a href="<?= $slides->link_ ?>" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="item vh80">
-            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban1.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                    <p class="Uppercase dourado-fonte Light titulo">Equipe experiente</p>
-
-                    <img src="imagens/ond1.png" class="img-responsive">
-                    <p class="Uppercase branco-fonte Light subtitulo">Profissionais especialistas que atuam há anos no mercado.</p>
-
-                    <a href="<?= RAIZSITE ?>/equipe" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="item vh80">
-            <div class="vh80" style="background: url('<?= RAIZSITE ?>/imagens/ban3.jpg'); background-size: cover; background-position: center center;  min-height: 481px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                    <p class="Uppercase dourado-fonte Light titulo">Diversas áreas de atuação</p>
-
-                    <img src="imagens/ond1.png" class="img-responsive le-2">
-                    <p class="Uppercase branco-fonte Light subtitulo">O escritório está preparado para atender casos de todas as áreas.</p>
-
-                    <a href="<?= RAIZSITE ?>/servicos" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
+                <?php
+            }
+        ?>
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 empresa padding-zero bg-bege">
@@ -49,13 +34,13 @@
         <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive le-2">
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
-            <h3 class="Medium size30 azul-fonte">A EMPRESA</h3>
+            <h3 class="Medium size30 azul-fonte"><?= $home->titulo_empresa ?></h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo bc-2">
-            <p class="text-justify size16 Medium">
-                <span class="Bold">A Brazilio Bacellar, Shirai Advogados</span> é uma sociedade profissional experiente, com atuação preventiva e contenciosa nos campos do direito comercial, civil, societário, administrativo, trabalhista e tributário, com enfoque na atividade empresarial. 
-            </p>
+            <span class="text-justify size16 Medium">
+                <?= $home->texto_empresa ?>
+            </span>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
 
@@ -71,15 +56,33 @@
         <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive le-2">
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
-            <h3 class="Medium size30 azul-fonte">ÁREAS DE ATUAÇÕES</h3>
+            <h3 class="Medium size30 azul-fonte"><?= $home->titulo_areas ?></h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo bc-2">
-            <p class="text-justify size16 Medium margin-zero">
-                A qualidade dos serviços advocatícios é reforçada pela parceria com profissionais habilitados e em constante atualização, capazes de auxiliar na solução de questões relacionadas às mais diversas áreas do Direito. 
-            </p>
+            <span class="text-justify size16 Medium margin-zero">
+                <?= $home->texto_areas ?>
+            </span>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
+        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">
+            < ?php
+                $cont = 0;
+                foreach($servicos as $servico){
+            ?>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item bc-2">
+                        <img src="< ?= RAIZSITE ?>/imagens/administrativo.png" class="img-responsive">
+                        <a href="< ?= RAIZSITE ?>/servicos/#administrativo" class="link-default item-link">
+                            <h5 class="text-center MarginT10 Bold">ADMINISTRATIVO&nbsp;&nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></h5>
+                        </a>
+                    </div>
+                </div>
+            < ?php
+                    
+                }
+            ?>
+        </div> -->
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero itens">

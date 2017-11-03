@@ -4,13 +4,13 @@
     ScriptLoader::LoadCSS('footer');
 ?>
 <style type="text/css">
-    .parallax { background-image: url("<?= RAIZSITE ?>/imagens/banner_email.jpg"); }
+    .parallax { background-image: url("<?= caminhoSite ?>/uploads/<?= $config->banner_newsletter ?>"); }
 </style>
 <footer>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero parallax newsletter Relative">
         <div class="container conteudo">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 chamada le-2">
-                <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;">Esteja atualizado sobre os nossos serviços, lançamentos e muito mais!</h3>
+                <h3 class="text-center branco-fonte Regular margin-zero" style="font-style:italic;"><?= $config->titulo_newsletter ?></h3>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
                 <form action="<?= RAIZSITE ?>/formulario/?newsletter" method="post">
@@ -81,7 +81,7 @@
         
         <div class="container conteudo">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imagem">
-                <a href="<?= RAIZSITE ?>"><img src="imagens/logobrazilio_dourado.png" class="img-responsive"></a>
+                <a href="<?= RAIZSITE ?>"><img src="<?= caminhoSite ?>/uploads/<?= $config->logo_footer ?>" class="img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte separador-footer links">
                 <ul class="list-unstyled">
