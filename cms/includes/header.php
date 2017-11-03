@@ -74,7 +74,9 @@
 	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_arquivos/gerenciar-dados") echo "black" ?>">
 	                            <a href="<?= caminhoSite ?>/recuperacao_arquivos/gerenciar-dados">Gerenciar Arquivos</a>
 	                        </li>
-                            
+                            <li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_judicial/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao_judicial/gerenciar-pagina">Gerenciar Página</a>
+	                        </li>
                             
                     	</ul>
                         

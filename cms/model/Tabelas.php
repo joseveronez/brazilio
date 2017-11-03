@@ -74,6 +74,11 @@
 		$table = 'recuperacao';
 	}
     
+     class RecuperacaoJudicial extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_judicial';
+	}
+
     class RecuperacaoArquivos extends SimpleOrm {
 		protected static
 		$table = 'recuperacao_arquivos';

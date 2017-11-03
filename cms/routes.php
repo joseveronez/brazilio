@@ -58,6 +58,9 @@
 	$prefixos['recuperacao_arquivos']['atualizar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['recuperacao_arquivos']['excluir-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'excluir_dados', 'logado' => true);
 
+    $prefixos['recuperacao_judicial']['gerenciar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['recuperacao_judicial']['atualizar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_pagina', 'logado' => true);
+
     $prefixos['slides_home']['novos-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['slides_home']['salvar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'salvar_dados', 'logado' => true);
 	$prefixos['slides_home']['gerenciar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'gerenciar_dados', 'logado' => true);

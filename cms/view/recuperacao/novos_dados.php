@@ -11,6 +11,12 @@
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">slug</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="slug" maxlength="255" />
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">titulo</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" />

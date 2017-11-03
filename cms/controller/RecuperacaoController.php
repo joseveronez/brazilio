@@ -18,6 +18,7 @@
         public function salvar_dados() {
             try {
                 $dados = new Recuperacao();
+                $dados->slug = $this->requestParametrosPost["slug"];
                 $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->texto = $this->requestParametrosPost["texto"];
                 $dados->save();
@@ -50,6 +51,7 @@
             try {
                 $id = $this->requestParametrosPost["id"];
                 $dados = Recuperacao::retrieveByPK($id);
+                $dados->slug = $this->requestParametrosPost["slug"];
                 $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->texto = $this->requestParametrosPost["texto"];
                 $dados->save();

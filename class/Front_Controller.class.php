@@ -15,6 +15,7 @@
             'links-uteis'=>array('layout'=>'default','view'=>'links-uteis'),
             'consulta-processual'=>array('layout'=>'default','view'=>'consulta-processual'),
             'recuperacao-judicial'=>array('layout'=>'default','view'=>'recuperacao-judicial'),
+            'recuperacao'=>array('layout'=>'default','view'=>'recuperacao'),
             'formulario'=>array('layout'=>'ajax','view'=>'formulario')
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada

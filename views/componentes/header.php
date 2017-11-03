@@ -12,6 +12,8 @@
                     <li><a href="<?= RAIZSITE ?>/links-uteis" class="link-default dourado-fonte">LINKS ÚTEIS</a></li>
                     <li><div class="separador"></div></li>
                     <li><a href="<?= RAIZSITE ?>/consulta-processual" class="link-default dourado-fonte">CONSULTA PROCESSUAL</a></li>
+                    <li><div class="separador"></div></li>
+                    <li><a href="<?= RAIZSITE ?>/recuperacao-judicial" class="link-default dourado-fonte">RECUPERAÇÃO JUDICIAL</a></li>
                 </ul>
             </div>
         </div>
