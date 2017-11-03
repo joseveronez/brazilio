@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 03-Nov-2017 às 17:58
+-- Generation Time: 03-Nov-2017 às 20:22
 -- Versão do servidor: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -211,6 +211,66 @@ INSERT INTO `pagina_home` (`id`, `texto_empresa`, `titulo_empresa`, `link_empres
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `recuperacao`
+--
+
+CREATE TABLE `recuperacao` (
+  `id` int(11) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `titulo` varchar(255) NOT NULL,
+  `texto` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `recuperacao`
+--
+
+INSERT INTO `recuperacao` (`id`, `slug`, `titulo`, `texto`) VALUES
+(2, 'solo-vivo', 'Solo Vivo Indústria e Comércio de Fertilizantes Ltda.', '<p>Recupera&ccedil;&atilde;o Judicial:<br />Solo Vivo Ind&uacute;stria e Com&eacute;rcio de Fertilizantes Ltda.<br />Autos n.&ordm; 4321/2007 &ndash; Vara C&iacute;vel do Foro Regional de Arauc&aacute;ria da Comarca da Regi&atilde;o Metropolitana de Curitiba &ndash; PR<br />Administradora Judicial: Brazilio Bacellar Neto e Advogados<br /><br />Abaixo as principais pe&ccedil;as digitalizadas dos autos de Recupera&ccedil;&atilde;o Judicial:</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `recuperacao_arquivos`
+--
+
+CREATE TABLE `recuperacao_arquivos` (
+  `id` int(11) NOT NULL,
+  `id_recuperacao` int(11) NOT NULL,
+  `titulo` varchar(255) NOT NULL,
+  `arquivo` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `recuperacao_arquivos`
+--
+
+INSERT INTO `recuperacao_arquivos` (`id`, `id_recuperacao`, `titulo`, `arquivo`) VALUES
+(3, 2, 'Decisão que defere o processamento da Recuperação e nomeia o Administrador Judicial', 'solo_arquivo02.pdf'),
+(4, 2, 'Relação de Credores', 'solo_arquivo03.pdf');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `recuperacao_judicial`
+--
+
+CREATE TABLE `recuperacao_judicial` (
+  `id` int(11) NOT NULL,
+  `titulo` varchar(255) NOT NULL,
+  `texto` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `recuperacao_judicial`
+--
+
+INSERT INTO `recuperacao_judicial` (`id`, `titulo`, `texto`) VALUES
+(1, 'RECUPERAÇÃO JUDICIAL', '<p>Selecione abaixo a empresa em Recupera&ccedil;&atilde;o Judicial sobre a qual voc&ecirc; deseja obter informa&ccedil;&otilde;es:</p>');
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `servicos`
 --
 
@@ -367,6 +427,24 @@ ALTER TABLE `pagina_home`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `recuperacao`
+--
+ALTER TABLE `recuperacao`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `recuperacao_arquivos`
+--
+ALTER TABLE `recuperacao_arquivos`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `recuperacao_judicial`
+--
+ALTER TABLE `recuperacao_judicial`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `servicos`
 --
 ALTER TABLE `servicos`
@@ -433,6 +511,21 @@ ALTER TABLE `pagina_equipe`
 -- AUTO_INCREMENT for table `pagina_home`
 --
 ALTER TABLE `pagina_home`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `recuperacao`
+--
+ALTER TABLE `recuperacao`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `recuperacao_arquivos`
+--
+ALTER TABLE `recuperacao_arquivos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `recuperacao_judicial`
+--
+ALTER TABLE `recuperacao_judicial`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `servicos`
