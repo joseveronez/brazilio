@@ -1,7 +1,7 @@
 <?php
-	$mysql_server = "comberweb.com.br";
-    $mysql_user = "comberwe_root";
-    $mysql_password = "comberweb2017";
+	$mysql_server = "localhost";
+    $mysql_user = "root";
+    $mysql_password = "";
     $mysql_db = "comberwe_brazilio";
 
 	$mysqli = new mysqli($mysql_server, $mysql_user, $mysql_password, $mysql_db);

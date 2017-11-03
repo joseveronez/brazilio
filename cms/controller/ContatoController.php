@@ -35,19 +35,7 @@
                     }
                 }
                 $dados->titulo = $this->requestParametrosPost["titulo"];
-                if (!empty($_FILES['icone']['name'])) {
-                    $handle = new upload($_FILES['icone']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->icone = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
-                        }
-                    }
-                }
+                $dados->chamada = $this->requestParametrosPost["titulo_contato"];
                 $dados->chamada = $this->requestParametrosPost["chamada"];
                 $dados->razao_social = $this->requestParametrosPost["razao_social"];
                 $dados->cnpj = $this->requestParametrosPost["cnpj"];

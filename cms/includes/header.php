@@ -25,11 +25,37 @@
                             <a href="<?= caminhoSite ?>/pagina_home/gerenciar-pagina"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
+                        
+                        <li class="item <?php if($_SESSION["paginaAtual"] == "slides_home/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Slides Home
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "slides_home/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "slides_home/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/slides_home/novos-dados">Adicionar Novo</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "slides_home/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/slides_home/gerenciar-dados">Gerenciar</a>
+	                        </li>
+                    	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "empresa/gerenciar-pagina") echo "menu-active-side" ?>">
                             <a href="<?= caminhoSite ?>/empresa/gerenciar-pagina"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp;&nbsp;Empresa
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
+                        
+                        <li class="item <?php if($_SESSION["paginaAtual"] == "slides_empresa/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp;&nbsp;Slides Empresa
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "slides_empresa/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "slides_empresa/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/slides_empresa/novos-dados">Adicionar Novo</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "slides_empresa/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/slides_empresa/gerenciar-dados">Gerenciar</a>
+	                        </li>
+                    	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "areas/gerenciar-pagina") echo "menu-active-side" ?>">
                             <a href="<?= caminhoSite ?>/areas/gerenciar-pagina"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Pág. Áreas de Atuação

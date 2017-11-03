@@ -49,7 +49,6 @@
                     }
                 }
                 $dados->texto = $this->requestParametrosPost["texto"];
-                $dados->titulo_texto = $this->requestParametrosPost["titulo_texto"];
                 $dados->save();
 
                 setSession("sucesso", "S");

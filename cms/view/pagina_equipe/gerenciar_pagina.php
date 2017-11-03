@@ -60,12 +60,6 @@
                                 <textarea name="texto" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->texto ?></textarea>
                             </div>
                         </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo_texto</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo_texto" maxlength="255" value="<?= $dados->titulo_texto ?>" />
-                            </div>
-                        </div><br>
             		</div>
                 </div><br>
 

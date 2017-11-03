@@ -29,9 +29,24 @@
 		$table = 'areas';
 	}
 
+    class SlidesHome extends SimpleOrm {
+		protected static
+		$table = 'slides_home';
+	}
+
+    class SlidesEmpresa extends SimpleOrm {
+		protected static
+		$table = 'slides_empresa';
+	}
+
 	class Servicos extends SimpleOrm {
 		protected static
 		$table = 'servicos';
+	}
+
+    class Diferenciais extends SimpleOrm {
+		protected static
+		$table = 'diferenciais';
 	}
 
 	class PaginaEquipe extends SimpleOrm {

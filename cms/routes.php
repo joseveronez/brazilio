@@ -37,6 +37,28 @@
 	$prefixos['servicos']['atualizar-dados'] = array('Controller' => 'ServicosController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['servicos']['excluir-dados'] = array('Controller' => 'ServicosController', 'Method' => 'excluir_dados', 'logado' => true);
 
+    $prefixos['diferenciais']['novos-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['diferenciais']['salvar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['diferenciais']['gerenciar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['diferenciais']['editar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['diferenciais']['atualizar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['diferenciais']['excluir-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'excluir_dados', 'logado' => true);
+
+
+    $prefixos['slides_home']['novos-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['slides_home']['salvar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['slides_home']['gerenciar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['slides_home']['editar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['slides_home']['atualizar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['slides_home']['excluir-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['slides_empresa']['novos-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['slides_empresa']['salvar-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['slides_empresa']['gerenciar-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['slides_empresa']['editar-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['slides_empresa']['atualizar-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['slides_empresa']['excluir-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'excluir_dados', 'logado' => true);
+
 	$prefixos['pagina_equipe']['gerenciar-pagina'] = array('Controller' => 'PaginaEquipeController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['pagina_equipe']['atualizar-pagina'] = array('Controller' => 'PaginaEquipeController', 'Method' => 'atualizar_pagina', 'logado' => true);
 

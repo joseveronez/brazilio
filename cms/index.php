@@ -10,17 +10,17 @@
     $uriTratada = substr($uri, 1);
     $uriExplode = explode('/', $uriTratada);
     // var_dump($uriExplode);
-    if ($uriExplode[2] == 'cms') {
-        $route = $routes[$uriExplode[3]];
+    if ($uriExplode[1] == 'cms') {
+        $route = $routes[$uriExplode[2]];
 
         if(!empty($route)){
             carregaParametros($uriExplode);
             carregaRoute($route);
         } else {
-            $prefixo = $prefixos[$uriExplode[3]];
+            $prefixo = $prefixos[$uriExplode[2]];
 
             if (!empty($prefixo)) {
-                $route = $prefixo[$uriExplode[4]];
+                $route = $prefixo[$uriExplode[3]];
 
                 if(!empty($route)){
                     carregaParametros($uriExplode, 'S');
