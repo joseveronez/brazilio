@@ -4,6 +4,8 @@
     $page = end($link_array);
 
     $recuperacao = RecuperacaoJudicial::sql("SELECT * FROM recuperacao_judicial", SimpleOrm::FETCH_ONE);
+    $rec_page = Recuperacao::sql("SELECT * FROM recuperacao WHERE slug = '$page' ", SimpleOrm::FETCH_ONE);
+    $arquivos = RecuperacaoArquivos::sql("SELECT * FROM recuperacao_arquivos WHERE id_recuperacao = ".$rec_page->id." ")
 ?>
 
 <style type="text/css">
@@ -13,7 +15,7 @@
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">RECUPERAÇÃO JUDICIAL</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light"><?= $recuperacao->titulo ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
                 <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">RECUPERAÇÃO JUDICIAL</span></p>
@@ -30,7 +32,14 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT8p PaddingB10p">
             <h4>Para visualização das imagens é necessário a prévia instalação do Adobe Acrobat Reader. </h4>
-            <h4>Selecione abaixo a empresa em Recuperação Judicial sobre a qual você deseja obter informações: </h4>
+            <h4 class="MarginB5p"><?= $rec_page->texto ?></h4>
+            <?php 
+                foreach($arquivos as $arq){
+                    ?>
+                    <a href="<?= RAIZSITE ?>/pdf/<?= $arq->arquivo ?>"><h5><?= $arq->titulo ?></h5></a>
+                    <?php
+                }
+            ?>
         </div>
     </div>
 </div>

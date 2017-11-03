@@ -25,7 +25,7 @@
                     $handle = new upload($_FILES['arquivo']);
                     if ($handle->uploaded) {
                         $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
+                        $handle->process(caminhoPdf);
                         if ($handle->processed) {
                             $handle->clean();
                             $dados->arquivo = $handle->file_dst_name;
@@ -74,7 +74,7 @@
                     $handle = new upload($_FILES['arquivo']);
                     if ($handle->uploaded) {
                         $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
+                        $handle->process(caminhoPdf);
                         if ($handle->processed) {
                             $handle->clean();
                             $dados->arquivo = $handle->file_dst_name;
