@@ -14,6 +14,7 @@
             'trabalhe-conosco'=>array('layout'=>'default','view'=>'trabalhe-conosco'),
             'links-uteis'=>array('layout'=>'default','view'=>'links-uteis'),
             'consulta-processual'=>array('layout'=>'default','view'=>'consulta-processual'),
+            'recuperacao-judicial'=>array('layout'=>'default','view'=>'recuperacao-judicial'),
             'formulario'=>array('layout'=>'ajax','view'=>'formulario')
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada
