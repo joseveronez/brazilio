@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 03-Nov-2017 às 20:22
+-- Generation Time: 03-Nov-2017 às 20:45
 -- Versão do servidor: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -257,6 +257,7 @@ INSERT INTO `recuperacao_arquivos` (`id`, `id_recuperacao`, `titulo`, `arquivo`)
 
 CREATE TABLE `recuperacao_judicial` (
   `id` int(11) NOT NULL,
+  `banner` varchar(255) NOT NULL,
   `titulo` varchar(255) NOT NULL,
   `texto` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -265,8 +266,8 @@ CREATE TABLE `recuperacao_judicial` (
 -- Extraindo dados da tabela `recuperacao_judicial`
 --
 
-INSERT INTO `recuperacao_judicial` (`id`, `titulo`, `texto`) VALUES
-(1, 'RECUPERAÇÃO JUDICIAL', '<p>Selecione abaixo a empresa em Recupera&ccedil;&atilde;o Judicial sobre a qual voc&ecirc; deseja obter informa&ccedil;&otilde;es:</p>');
+INSERT INTO `recuperacao_judicial` (`id`, `banner`, `titulo`, `texto`) VALUES
+(1, 'banner-servicos.jpg', 'RECUPERAÇÃO JUDICIAL', '<p>Selecione abaixo a empresa em Recupera&ccedil;&atilde;o Judicial sobre a qual voc&ecirc; deseja obter informa&ccedil;&otilde;es:</p>');
 
 -- --------------------------------------------------------
 
