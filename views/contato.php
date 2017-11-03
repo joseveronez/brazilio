@@ -40,11 +40,11 @@
                     <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
                     <p class="branco-fonte endereco margin-zero">
                         Rua Marechal Hermes, 272 | Centro Cívico <br>
-                        Curitiba | Paraná | Brasil | CEP 80 530-230</p>
+                        Curitiba | Paraná | Brasil | CEP 80530-230</p>
                 </div>
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
-                    <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80 030-190</p>
+                    <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80030-190</p>
                 </div>
             </div>
         </div>

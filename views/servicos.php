@@ -2,7 +2,7 @@
     $(document).ready(function(){
         var hash = location.hash.replace('#','');
         if(hash == 'administrativo'){
-            $('html, body').animate({ scrollTop: $('#waypointAdministrativo').offset().top - 0}, 1000);
+            $('html, body').animate({ scrollTop: $('#waypointAdministrativo').offset().top - 130}, 1000);
         }else if(hash == 'ambiental'){
             $('html, body').animate({ scrollTop: $('#ambiental').offset().top- 110}, 1000);
         }else if(hash == 'bancario'){
@@ -41,7 +41,7 @@
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">ÁREAS DE ATUAÇÕES</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light">ÁREAS DE ATUAÇÃO</h3>
             </div>
             <div class="breadcrumb hidden-xs">
                 <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">ÁREAS DE ATUAÇÕES</span></p>
