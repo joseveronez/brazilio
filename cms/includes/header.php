@@ -57,6 +57,27 @@
 	                        </li>
                     	</ul>
                         
+                        <li class="item <?php if($_SESSION["paginaAtual"] == "recuperacao/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp;&nbsp;Recuperação Judicial
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "recuperacao/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao/novos-dados">Adicionar Nova</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao/gerenciar-dados">Gerenciar</a>
+	                        </li>
+                            <li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_arquivos/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao_arquivos/novos-dados">Adicionar Arquivos</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_arquivos/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao_arquivos/gerenciar-dados">Gerenciar Arquivos</a>
+	                        </li>
+                            
+                            
+                    	</ul>
+                        
                         <li class="item <?php if($_SESSION["paginaAtual"] == "diferenciais/gerenciar") echo "menu-active-side" ?>">
 	                        <a href="#" class="menu-item-side"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp;&nbsp;Diferenciais
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>

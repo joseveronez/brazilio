@@ -68,4 +68,14 @@
 		protected static
 		$table = 'configuracoes';
 	}
+
+    class Recuperacao extends SimpleOrm {
+		protected static
+		$table = 'recuperacao';
+	}
+    
+    class RecuperacaoArquivos extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_arquivos';
+	}
 ?>

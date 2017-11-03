@@ -44,6 +44,19 @@
 	$prefixos['diferenciais']['atualizar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['diferenciais']['excluir-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'excluir_dados', 'logado' => true);
 
+    $prefixos['recuperacao']['novos-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['recuperacao']['salvar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['recuperacao']['gerenciar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['recuperacao']['editar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['recuperacao']['atualizar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['recuperacao']['excluir-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['recuperacao_arquivos']['novos-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['salvar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['gerenciar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['editar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['atualizar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['excluir-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'excluir_dados', 'logado' => true);
 
     $prefixos['slides_home']['novos-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['slides_home']['salvar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'salvar_dados', 'logado' => true);
