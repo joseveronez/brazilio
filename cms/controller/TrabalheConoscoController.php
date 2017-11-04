@@ -34,8 +34,7 @@
                 }
                 $dados->titulo_banner = $this->requestParametrosPost["titulo_banner"];
                 $dados->titulo_fale_conosco = $this->requestParametrosPost["titulo_fale_conosco"];
-                $dados->chamada_primaria = $this->requestParametrosPost["chamada_primaria"];
-                $dados->chamada_secundaria = $this->requestParametrosPost["chamada_secundaria"];
+                $dados->conteudo = $this->requestParametrosPost["conteudo"];
                 $dados->save();
 
                 setSession("sucesso", "S");

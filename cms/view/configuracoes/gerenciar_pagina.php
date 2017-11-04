@@ -77,13 +77,39 @@
                                 <input type="text" class="form-control" name="titulo_newsletter" maxlength="255" value="<?= $dados->titulo_newsletter ?>" />
                             </div>
                         </div><br>
+            		</div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;E-mail</h3>
+                    </div>
+                    <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">E-mail disparo</label>
+                            <label class="col-sm-2 control-label" align="right">E-mail newsletter</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="email_newsletter" maxlength="255" value="<?= $dados->email_newsletter ?>" />
                             </div>
                         </div><br>
-            		</div>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">E-mail contato</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="email_contato" maxlength="255" value="<?= $dados->email_contato ?>" />
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">E-mail trabalhe conosco</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="email_trabalhe_conosco" maxlength="255" value="<?= $dados->email_trabalhe_conosco ?>" />
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">E-mail consulta processual</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="email_consulta_processual" maxlength="255" value="<?= $dados->email_consulta_processual ?>" />
+                            </div>
+                        </div><br>
+                    </div>
                 </div>
 
                 <div class="box">
@@ -101,12 +127,6 @@
                             <label class="col-sm-2 control-label" align="right">CNPJ</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="cnpj" maxlength="255" value="<?= $dados->cnpj ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">E-mail contato</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="email_contato" maxlength="255" value="<?= $dados->email_contato ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">

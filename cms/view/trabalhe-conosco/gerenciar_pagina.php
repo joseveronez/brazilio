@@ -55,14 +55,7 @@
                             <label class="col-sm-2 control-label" align="right">Chamada primária</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="chamada_primaria" maxlength="255" value="<?= $dados->chamada_primaria ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Chamada secundária</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="chamada_secundaria" maxlength="255" value="<?= $dados->chamada_secundaria ?>" />
+                                <textarea name="conteudo" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->conteudo ?></textarea>
                             </div>
                         </div><br>
             		</div>

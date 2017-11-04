@@ -12,7 +12,7 @@
                 <h3 class="Uppercase size35 dourado-fonte Light"><?= $contato_conteudo->titulo_banner ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
-                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte"><?= $contato_conteudo->titulo_banner ?></span></p>
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte Uppercase"><?= $contato_conteudo->titulo_banner ?></span></p>
             </div>
         </div>
     </div>

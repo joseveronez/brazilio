@@ -60,11 +60,14 @@
                     }
                 }
                 $dados->titulo_newsletter = $this->requestParametrosPost["titulo_newsletter"];
+                
                 $dados->email_newsletter = $this->requestParametrosPost["email_newsletter"];
+                $dados->email_contato = $this->requestParametrosPost["email_contato"];
+                $dados->email_trabalhe_conosco = $this->requestParametrosPost["email_trabalhe_conosco"];
+                $dados->email_consulta_processual = $this->requestParametrosPost["email_consulta_processual"];
 
                 $dados->codigo = $this->requestParametrosPost["codigo"];
                 $dados->cnpj = $this->requestParametrosPost["cnpj"];
-                $dados->email_contato = $this->requestParametrosPost["email_contato"];
                 $dados->telefone = $this->requestParametrosPost["telefone"];
                 $dados->fax = $this->requestParametrosPost["fax"];
                 $dados->endereco_escritorio = $this->requestParametrosPost["endereco_escritorio"];

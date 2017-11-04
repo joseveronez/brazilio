@@ -11,7 +11,7 @@
                 <h3 class="Uppercase size35 dourado-fonte Light"><?= $trabalhe_conosco_conteudo->titulo_banner ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
-                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte"><?= $trabalhe_conosco_conteudo->titulo_banner ?></span></p>
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte Uppercase"><?= $trabalhe_conosco_conteudo->titulo_banner ?></span></p>
             </div>
         </div>
     </div>
@@ -30,9 +30,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
             <div class="conteudo">
-                <p class="branco-fonte chamada margin-zero le-2"><?= $trabalhe_conosco_conteudo->chamada_primaria ?></p>
-                <br>
-                <p class="branco-fonte chamada margin-zero le-2"><?= $trabalhe_conosco_conteudo->chamada_secundaria ?></p>
+                <div class="branco-fonte chamada margin-zero le-2"><?= $trabalhe_conosco_conteudo->conteudo ?></div>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

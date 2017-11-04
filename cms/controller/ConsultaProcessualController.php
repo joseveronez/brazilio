@@ -32,7 +32,6 @@
                         }
                     }
                 }
-                $dados->banner = $this->requestParametrosPost["banner"];
                 $dados->titulo = $this->requestParametrosPost["titulo"];
                 $dados->conteudo = $this->requestParametrosPost["conteudo"];
                 $dados->save();
