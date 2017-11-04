@@ -32,16 +32,9 @@
                         }
                     }
                 }
-                $dados->titulo = $this->requestParametrosPost["titulo"];
+                $dados->titulo_banner = $this->requestParametrosPost["titulo_banner"];
                 $dados->titulo_contato = $this->requestParametrosPost["titulo_contato"];
                 $dados->chamada = $this->requestParametrosPost["chamada"];
-                $dados->razao_social = $this->requestParametrosPost["razao_social"];
-                $dados->cnpj = $this->requestParametrosPost["cnpj"];
-                $dados->telefone = $this->requestParametrosPost["telefone"];
-                $dados->fax = $this->requestParametrosPost["fax"];
-                $dados->endereco_escritorio = $this->requestParametrosPost["endereco_escritorio"];
-                $dados->endereco_estacionamento = $this->requestParametrosPost["endereco_estacionamento"];
-                $dados->mapa = $this->requestParametrosPost["mapa"];
                 $dados->save();
 
                 setSession("sucesso", "S");

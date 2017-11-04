@@ -12,7 +12,7 @@
 
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Contato</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Banner</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
@@ -22,7 +22,7 @@
                                 <?php
                                     if (!empty($dados->banner)) {
                                 ?>
-                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->banner ?>" class="img-responsive">
+                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->banner ?>" class="img-responsive"><br>
                                 <?php
                                     }
                                 ?>
@@ -32,66 +32,30 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Chamada banner</label>
+                            <label class="col-sm-2 control-label" align="right">Título banner</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo_banner" maxlength="255" value="<?= $dados->titulo_banner ?>" />
                             </div>
                         </div><br>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Conteúdo</h3>
+                    </div>
+                    <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Título página</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
+                                <input type="text" class="form-control" name="titulo_contato" maxlength="255" value="<?= $dados->titulo_contato ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Chamada</label>
 
                             <div class="col-sm-10">
-                                <textarea name="chamada" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->chamada ?></textarea>
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Razão social</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="razao_social" maxlength="255" value="<?= $dados->razao_social ?>" />
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">CNPJ</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="cnpj" maxlength="255" value="<?= $dados->cnpj ?>" />
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Telefone</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="telefone" maxlength="255" value="<?= $dados->telefone ?>" />
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">fax</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="fax" maxlength="255" value="<?= $dados->fax ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Endereço escritório</label>
-
-                            <div class="col-sm-10">
-                                <textarea name="endereco_escritorio" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->endereco_escritorio ?></textarea>
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Endereço estacionamento</label>
-
-                            <div class="col-sm-10">
-                                <textarea name="endereco_estacionamento" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->endereco_estacionamento ?></textarea>
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Mapa</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="mapa" maxlength="255" value="<?= $dados->mapa ?>" />
+                                <input type="text" class="form-control" name="chamada" maxlength="255" value="<?= $dados->chamada ?>" />
                             </div>
                         </div><br>
             		</div>

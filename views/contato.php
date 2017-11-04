@@ -1,17 +1,18 @@
 <?php
     $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
+    $contato_conteudo = Contato::sql("SELECT * FROM contato", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-contato.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/<?= $contato_conteudo->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">CONTATO</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light"><?= $contato_conteudo->titulo_banner ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
-                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">CONTATO</span></p>
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte"><?= $contato_conteudo->titulo_banner ?></span></p>
             </div>
         </div>
     </div>
@@ -24,12 +25,11 @@
             <h3 class="branco-fonte margin-zero icone">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </h3>
-            <h3 class="branco-fonte margin-zero chamada">CONTATO</h3>
+            <h3 class="branco-fonte margin-zero chamada"><?= $contato_conteudo->titulo_contato ?></h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
             <div class="conteudo">
-                <p class="branco-fonte chamada margin-zero le-2">
-                Entre em contato por telefone ou pelo formulário ao lado:</p>
+                <p class="branco-fonte chamada margin-zero le-2"><?= $contato_conteudo->chamada ?></p>
 
                 <p class="Bold cnpj Uppercase margin-zero espaco le-2">
                 Brazilio Bacellar, Shirai Advogados <br>
