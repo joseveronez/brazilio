@@ -59,11 +59,6 @@
 		$table = 'equipe';
 	}
 
-	class Contato extends SimpleOrm {
-		protected static
-		$table = 'contato';
-	}
-
 	class Configuracoes extends SimpleOrm {
 		protected static
 		$table = 'configuracoes';
@@ -84,6 +79,11 @@
 		$table = 'recuperacao_arquivos';
 	}
 
+	class Contato extends SimpleOrm {
+		protected static
+		$table = 'contato';
+	}
+
 	class TrabalheConosco extends SimpleOrm {
 		protected static
 		$table = 'trabalhe_conosco';
@@ -92,5 +92,20 @@
 	class ConsultaProcessual extends SimpleOrm {
 		protected static
 		$table = 'consulta_processual';
+	}
+
+	class FormularioNewsletter extends SimpleOrm {
+		protected static
+		$table = 'formulario_newsletter';
+	}
+
+	class FormularioContato extends SimpleOrm {
+		protected static
+		$table = 'formulario_contato';
+	}
+
+	class FormularioTrabalheConosco extends SimpleOrm {
+		protected static
+		$table = 'formulario_trabalhe_conosco';
 	}
 ?>

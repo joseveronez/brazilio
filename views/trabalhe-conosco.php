@@ -1,4 +1,6 @@
 <?php
+    $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
+
     $trabalhe_conosco_conteudo = TrabalheConosco::sql("SELECT * FROM trabalhe_conosco", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
@@ -35,6 +37,8 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <form action="<?= RAIZSITE ?>/formulario/?trabalhe" class="form-horizontal Roboto Regular formulario-trabalhe-conosco" method="post" enctype="multipart/form-data" id="formulario">
+                <input type="hidden" name="email_disparo" value="<?= $config->email_trabalhe_conosco ?>">
+
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
                 <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" required><br>
                 <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado telefone" name="telefone" placeholder="TELEFONE" required><br>

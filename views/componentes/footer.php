@@ -2,6 +2,8 @@
     ScriptLoader::LoadPLUGINSCSS('inputfile/css/component.css');
     ScriptLoader::LoadPLUGINSJS('inputfile/js/custom-file-input.js');
     ScriptLoader::LoadCSS('footer');
+
+    $contato_conteudo = Contato::sql("SELECT * FROM contato", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
     .parallax { background-image: url("<?= caminhoSite ?>/uploads/<?= $config->banner_newsletter ?>"); }
@@ -15,6 +17,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input">
                 <form action="<?= RAIZSITE ?>/formulario/?newsletter" method="post">
                     <div class="input-group">
+                        <input type="hidden" name="email_disparo" value="<?= $config->email_newsletter ?>">
                         <input type="email" class="form-control email-news branco-fonte size18" name="email" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" placeholder="CADASTRE SEU E-MAIL PARA RECEBER NOSSA NEWSLETTER" required>
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="submit">CADASTRAR</button>
@@ -38,8 +41,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
                 <div class="conteudo">
-                    <p class="branco-fonte chamada margin-zero le-2">
-                    Entre em contato por telefone ou pelo formulário ao lado:</p>
+                    <p class="branco-fonte chamada margin-zero le-2"><?= $contato_conteudo->chamada ?></p>
 
                     <p class="Bold cnpj Uppercase margin-zero espaco le-2">
                     Brazilio Bacellar, Shirai Advogados <br>
@@ -63,6 +65,8 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <form action="<?= RAIZSITE ?>/formulario/?contato" class="form-horizontal Roboto Regular" method="post" id="formulario">
+                    <input type="hidden" name="email_disparo" value="<?= $config->email_contato ?>">
+
                     <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="nome" placeholder="NOME" required><br>
                     <input type="email" class="form-control contato-footer branco-alternativo-fonte bg-dourado" name="email" placeholder="E-MAIL" onkeyup="this.value=this.value.replace(/[' '^A-ZçÇáÁàÀéèÉÈíìÍÌóòÓÒúùÚÙñÑ~&,#*+/=$%!;]/g,'')" required><br>
                     <input type="text" class="form-control contato-footer branco-alternativo-fonte bg-dourado telefone" name="telefone" placeholder="TELEFONE" required><br>

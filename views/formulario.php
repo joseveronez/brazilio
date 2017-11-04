@@ -1,5 +1,10 @@
 <?php
+    $data_hora_atual = date("Y:m:d H:i:s");
+
     if(isset($_GET["newsletter"])) {
+
+        $email_disparo_newsletter = $_POST["email_disparo"];
+
         if($_POST["email"] == NULL OR $_POST["email"] == "") {
             echo "
             <script type='text/javascript'>
@@ -21,7 +26,7 @@
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
-        $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
+        $headers .= "Return-Path: ".$email_disparo_newsletter."\r\n"; // return-path
 
         $assunto = "BRAZILIO BACELLAR | NEWSLETTER";
 
@@ -29,7 +34,13 @@
 Novo e-mail para newsletter:
 E-mail: ".$_POST['email']."";
 
-        if(mail("nicolas@comberweb.com.br", $assunto, $Msg, $headers)){
+        if(mail($email_disparo_newsletter, $assunto, $Msg, $headers)){
+
+            $formularioNewsletter = new FormularioNewsletter();
+            $formularioNewsletter->email = $_POST['email'];
+            $formularioNewsletter->email_disparo = $email_disparo_newsletter;
+            $formularioNewsletter->data_hora_registro = $data_hora_atual;
+            $formularioNewsletter->save();
 ?>
             <script type="text/javascript">
                  swal({
@@ -48,6 +59,9 @@ E-mail: ".$_POST['email']."";
     }
 
     if(isset($_GET["contato"])) {
+
+        $email_disparo_contato = $_POST["email_disparo"];
+
         if($_POST["nome"] == NULL OR $_POST["nome"] == "" AND $_POST["email"] == NULL OR $_POST["email"] == "" AND $_POST["telefone"] == NULL OR $_POST["telefone"] == "" AND $_POST["mensagem"] == NULL OR $_POST["mensagem"] == "") {
             echo "
             <script type='text/javascript'>
@@ -69,7 +83,7 @@ E-mail: ".$_POST['email']."";
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
-        $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
+        $headers .= "Return-Path: ".$email_disparo_contato."\r\n"; // return-path
 
         $assunto = "BRAZILIO BACELLAR | FORMULÁRIO DE CONTATO";
 
@@ -80,7 +94,16 @@ E-mail: ".$_POST['email']."
 Telefone: ".$_POST['telefone']."
 Mensagem: ".$_POST['mensagem']."";
 
-        if(mail("nicolas@comberweb.com.br", $assunto, $Msg, $headers)){
+        if(mail($email_disparo_contato, $assunto, $Msg, $headers)){
+
+            $formularioContato = new FormularioContato();
+            $formularioContato->nome = $_POST['nome'];
+            $formularioContato->email = $_POST['email'];
+            $formularioContato->telefone = $_POST['telefone'];
+            $formularioContato->mensagem = $_POST['mensagem'];
+            $formularioContato->email_disparo = $email_disparo_contato;
+            $formularioContato->data_hora_registro = $data_hora_atual;
+            $formularioContato->save();
 ?>
             <script type="text/javascript">
                  swal({
@@ -99,6 +122,20 @@ Mensagem: ".$_POST['mensagem']."";
     }
 
     if(isset($_GET["trabalhe"])) {
+
+        $email_disparo_trabalhe_conosco = $_POST["email_disparo"];
+
+        $formularioTrabalheConosco = new FormularioTrabalheConosco();
+            $formularioTrabalheConosco->nome = $_POST['nome'];
+            $formularioTrabalheConosco->email = $_POST['email'];
+            $formularioTrabalheConosco->telefone = $_POST['telefone'];
+            $formularioTrabalheConosco->curriculo = $_FILES['curriculo']['name'];
+            $formularioTrabalheConosco->mensagem = $_POST['mensagem'];
+            $formularioTrabalheConosco->email_disparo = $email_disparo_trabalhe_conosco;
+            $formularioTrabalheConosco->data_hora_registro = $data_hora_atual;
+            $formularioTrabalheConosco->save();
+            die();
+
         if($_POST["nome"] == NULL OR $_POST["nome"] == "" AND $_POST["email"] == NULL OR $_POST["email"] == "" AND $_POST["telefone"] == NULL OR $_POST["telefone"] == "" AND $_POST["mensagem"] == NULL OR $_POST["mensagem"] == "") {
             echo "
             <script type='text/javascript'>
@@ -122,7 +159,7 @@ Mensagem: ".$_POST['mensagem']."";
         $headers = "MIME-Version: 1.1\r\n";
         $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
         $headers .= "From: ".$_POST['email']."\r\n"; // remetente
-        $headers .= "Return-Path: nicolas@comberweb.com.br\r\n"; // return-path
+        $headers .= "Return-Path: ".$email_disparo_trabalhe_conosco."\r\n"; // return-path
 
         $assunto = "BRAZILIO BACELLAR | TRABALHE CONOSCO";
 
@@ -135,7 +172,17 @@ Mensagem: ".$_POST['mensagem']."
 
 Visualizar currículo: ".RAIZSITE."/uploads/".$_FILES['curriculo']['name'];
 
-        if(mail("nicolas@comberweb.com.br", $assunto, $Msg, $headers)){
+        if(mail($email_disparo_trabalhe_conosco, $assunto, $Msg, $headers)){
+
+            $formularioTrabalheConosco = new FormularioTrabalheConosco();
+            $formularioTrabalheConosco->nome = $_POST['nome'];
+            $formularioTrabalheConosco->email = $_POST['email'];
+            $formularioTrabalheConosco->telefone = $_POST['telefone'];
+            $formularioTrabalheConosco->curriculo = $_FILES['curriculo']['name'];
+            $formularioTrabalheConosco->mensagem = $_POST['mensagem'];
+            $formularioTrabalheConosco->email_disparo = $email_disparo_trabalhe_conosco;
+            $formularioTrabalheConosco->data_hora_registro = $data_hora_atual;
+            $formularioTrabalheConosco->save();
 ?>
             <script type="text/javascript">
                  swal({
