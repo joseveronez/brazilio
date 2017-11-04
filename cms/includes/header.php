@@ -129,9 +129,17 @@
                     	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "contato/gerenciar") echo "menu-active-side" ?>">
-                            <a href="<?= caminhoSite ?>/contato/gerenciar-pagina"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Contato
-                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
-                        </li>
+	                        <a href="#" class="menu-item-side"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Pág. Contato
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "contato/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "contato/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/contato/gerenciar-pagina">Contato</a>
+	                        </li>
+	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "trabalhe-conosco/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/trabalhe-conosco/gerenciar-pagina">Trabalhe conosco</a>
+	                        </li>
+                    	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "configuracoes/gerenciar") echo "menu-active-side" ?>">
                             <a href="<?= caminhoSite ?>/configuracoes/gerenciar-pagina"><i class="fa fa-cog fa-spin fa-fw"></i>&nbsp;&nbsp;Configurações

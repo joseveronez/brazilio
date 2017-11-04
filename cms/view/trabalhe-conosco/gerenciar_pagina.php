@@ -4,10 +4,10 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Contato - Gerenciar</h1>
+            <h1><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Fale Conosco - Gerenciar</h1>
             <h4 class="sub-title">Gerenciar Página</h4>
 
-            <form action="<?= caminhoSite ?>/contato/atualizar-pagina" method="post" enctype="multipart/form-data">
+            <form action="<?= caminhoSite ?>/trabalhe-conosco/atualizar-pagina" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
@@ -48,14 +48,21 @@
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo_contato" maxlength="255" value="<?= $dados->titulo_contato ?>" />
+                                <input type="text" class="form-control" name="titulo_fale_conosco" maxlength="255" value="<?= $dados->titulo_fale_conosco ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Chamada</label>
+                            <label class="col-sm-2 control-label" align="right">Chamada primária</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="chamada" maxlength="255" value="<?= $dados->chamada ?>" />
+                                <input type="text" class="form-control" name="chamada_primaria" maxlength="255" value="<?= $dados->chamada_primaria ?>" />
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Chamada secundária</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="chamada_secundaria" maxlength="255" value="<?= $dados->chamada_secundaria ?>" />
                             </div>
                         </div><br>
             		</div>

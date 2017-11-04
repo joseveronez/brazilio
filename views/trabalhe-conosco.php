@@ -1,14 +1,17 @@
+<?php
+    $trabalhe_conosco_conteudo = TrabalheConosco::sql("SELECT * FROM trabalhe_conosco", SimpleOrm::FETCH_ONE);
+?>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-trabalhe-conosco.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $trabalhe_conosco_conteudo->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">TRABALHE CONOSCO</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light"><?= $trabalhe_conosco_conteudo->titulo_banner ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
-                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">TRABALHE CONOSCO</span></p>
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte"><?= $trabalhe_conosco_conteudo->titulo_banner ?></span></p>
             </div>
         </div>
     </div>
@@ -23,17 +26,13 @@
             <h3 class="branco-fonte margin-zero icone">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </h3>
-            <h3 class="branco-fonte margin-zero chamada">TRABALHE CONOSCO</h3>
+            <h3 class="branco-fonte margin-zero chamada Uppercase"><?= $trabalhe_conosco_conteudo->titulo_fale_conosco ?></h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
             <div class="conteudo">
-                <p class="branco-fonte chamada margin-zero le-2">
-                    Quer fazer parte da<br> nossa equipe?
-                </p>
+                <p class="branco-fonte chamada margin-zero le-2"><?= $trabalhe_conosco_conteudo->chamada_primaria ?></p>
                 <br>
-                <p class="branco-fonte chamada margin-zero le-2">
-                    Inicie o processo seletivo enviando seus dados e currículo.
-                </p>
+                <p class="branco-fonte chamada margin-zero le-2"><?= $trabalhe_conosco_conteudo->chamada_secundaria ?></p>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

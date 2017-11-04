@@ -83,4 +83,9 @@
 		protected static
 		$table = 'recuperacao_arquivos';
 	}
+
+	class TrabalheConosco extends SimpleOrm {
+		protected static
+		$table = 'trabalhe_conosco';
+	}
 ?>
