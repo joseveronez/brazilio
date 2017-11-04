@@ -87,9 +87,12 @@
 
 	$prefixos['contato']['gerenciar-pagina'] = array('Controller' => 'ContatoController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['contato']['atualizar-pagina'] = array('Controller' => 'ContatoController', 'Method' => 'atualizar_pagina', 'logado' => true);
-	
+
 	$prefixos['trabalhe-conosco']['gerenciar-pagina'] = array('Controller' => 'TrabalheConoscoController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['trabalhe-conosco']['atualizar-pagina'] = array('Controller' => 'TrabalheConoscoController', 'Method' => 'atualizar_pagina', 'logado' => true);
+
+	$prefixos['consulta-processual']['gerenciar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['consulta-processual']['atualizar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'atualizar_pagina', 'logado' => true);
 
 	$prefixos['configuracoes']['gerenciar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['configuracoes']['atualizar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'atualizar_pagina', 'logado' => true);

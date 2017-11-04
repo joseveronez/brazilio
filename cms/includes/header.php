@@ -139,6 +139,9 @@
 	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "trabalhe-conosco/gerenciar-pagina") echo "black" ?>">
 	                            <a href="<?= caminhoSite ?>/trabalhe-conosco/gerenciar-pagina">Trabalhe conosco</a>
 	                        </li>
+	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "consulta-processual/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/consulta-processual/gerenciar-pagina">Consulta Processual</a>
+	                        </li>
                     	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "configuracoes/gerenciar") echo "menu-active-side" ?>">

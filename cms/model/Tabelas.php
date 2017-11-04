@@ -88,4 +88,9 @@
 		protected static
 		$table = 'trabalhe_conosco';
 	}
+
+	class ConsultaProcessual extends SimpleOrm {
+		protected static
+		$table = 'consulta_processual';
+	}
 ?>
