@@ -43,22 +43,21 @@
 
                     <p class="Bold cnpj Uppercase margin-zero espaco le-2">
                     Brazilio Bacellar, Shirai Advogados <br>
-                    OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
+                    <?= $config->codigo ?> • CNPJ <?= $config->cnpj ?></p>
 
                     <p class="branco-fonte margin-zero espaco le-2">
-                    Tel.: <a href="tel:3352 8363" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.8363</a> <br>
-                    Fax. <a href="tel:3352 0167" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.0167</a> </p>
+                    Tel.: <a href="tel:<?= $config->telefone ?>" class="link-default contato-telefone"><span class="size11">+55 41</span> <?= $config->telefone ?></a> <br>
+                    Fax. <a href="tel:<?= $config->fax ?>" class="link-default contato-telefone"><span class="size11">+55 41</span> <?= $config->fax ?></a> </p>
 
                     <div class="espaco le-2">
                         <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
-                        <p class="branco-fonte endereco margin-zero">
-                        Rua Marechal Hermes, 272 | Centro Cívico <br>
-                        Curitiba | Paraná | Brasil | CEP 80530-230</p>
+                        <div class="branco-fonte endereco margin-zero">
+                        <?= $config->endereco_escritorio ?></div>
                     </div>
 
                     <div class="espaco le-2">
                         <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
-                        <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80030-190</p>
+                        <div class="branco-fonte endereco margin-zero"><?= $config->endereco_estacionamento ?></div>
                     </div>
                 </div>
             </div>
@@ -97,11 +96,10 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">
                 <p>FALE COM A GENTE</p>
                 <p>Brazilio Bacellar Neto e Advogados <br>
-                    OAB/PR 997 | CNPJ 04.510.577/0001-02 </p>
-                <p>Rua Marechal Hermes, 272 . Centro Cívico <br>
-                    Curitiba-PR | Brasil | CEP 80530-230</p>
-                <p>Fone.: <a href="tel:3352 8363" class="link-default">+ 55 41 3352.8363</a> <br>
-                    Fax. <a href="tel:3352 0167" class="link-default">+ 55 41 3352.0167</a> </p>
+                    <?= $config->codigo ?> | CNPJ <?= $config->cnpj ?> </p>
+                <?= $config->endereco_escritorio ?>
+                <p>Fone.: <a href="tel:<?= $config->telefone ?>" class="link-default">+ 55 41 <?= $config->telefone ?></a> <br>
+                    Fax. <a href="tel:<?= $config->fax ?>" class="link-default">+ 55 41 <?= $config->fax ?></a> </p>
             </div>
         </div>
     </div>

@@ -4,8 +4,6 @@
 	require caminhoFisico . '/helper.php';
 
 	class ContatoController extends Controller {
-
-
 		public function gerenciar_pagina() {
 			try {
                 $dados = Contato::retrieveByPK(1);

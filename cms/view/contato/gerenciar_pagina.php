@@ -16,13 +16,13 @@
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">banner</label>
+                            <label class="col-sm-2 control-label" align="right">Banner</label>
 
                             <div class="col-sm-10">
                                 <?php
                                     if (!empty($dados->banner)) {
                                 ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner ?><br />
+                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->banner ?>" class="img-responsive">
                                 <?php
                                     }
                                 ?>
@@ -31,39 +31,39 @@
                                 <label for="banner"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
                             </div>
                         </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Chamada banner</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="titulo_banner" maxlength="255" value="<?= $dados->titulo_banner ?>" />
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Título página</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo_contato</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo_contato" maxlength="255" value="<?= $dados->titulo_contato ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">chamada</label>
+                            <label class="col-sm-2 control-label" align="right">Chamada</label>
 
                             <div class="col-sm-10">
                                 <textarea name="chamada" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->chamada ?></textarea>
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">razao_social</label>
+                            <label class="col-sm-2 control-label" align="right">Razão social</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="razao_social" maxlength="255" value="<?= $dados->razao_social ?>" />
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">cnpj</label>
+                            <label class="col-sm-2 control-label" align="right">CNPJ</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="cnpj" maxlength="255" value="<?= $dados->cnpj ?>" />
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">telefone</label>
+                            <label class="col-sm-2 control-label" align="right">Telefone</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="telefone" maxlength="255" value="<?= $dados->telefone ?>" />
                             </div>
@@ -75,21 +75,21 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">endereco_escritorio</label>
+                            <label class="col-sm-2 control-label" align="right">Endereço escritório</label>
 
                             <div class="col-sm-10">
                                 <textarea name="endereco_escritorio" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->endereco_escritorio ?></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">endereco_estacionamento</label>
+                            <label class="col-sm-2 control-label" align="right">Endereço estacionamento</label>
 
                             <div class="col-sm-10">
                                 <textarea name="endereco_estacionamento" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->endereco_estacionamento ?></textarea>
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">mapa</label>
+                            <label class="col-sm-2 control-label" align="right">Mapa</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="mapa" maxlength="255" value="<?= $dados->mapa ?>" />
                             </div>

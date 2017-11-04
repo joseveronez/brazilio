@@ -1,3 +1,6 @@
+<?php
+    $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
+?>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-contato.jpg"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
 </style>
@@ -30,21 +33,19 @@
 
                 <p class="Bold cnpj Uppercase margin-zero espaco le-2">
                 Brazilio Bacellar, Shirai Advogados <br>
-                OAB/PR 997 • CNPJ 04.510.577/0001-02</p>
+                <?= $config->codigo ?> • CNPJ <?= $config->cnpj ?></p>
 
                 <p class="branco-fonte margin-zero espaco le-2">
-                Tel.: <a href="tel:3352 8363" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.8363</a> <br>
-                Fax. <a href="tel:3352 0167" class="link-default contato-telefone"><span class="size11">+55 41</span> 3352.0167</a> </p>
+                Tel.: <a href="tel:<?= $config->telefone ?>" class="link-default contato-telefone"><span class="size11">+55 41</span> <?= $config->telefone ?></a> <br>
+                Fax. <a href="tel:<?= $config->fax ?>" class="link-default contato-telefone"><span class="size11">+55 41</span> <?= $config->fax ?></a> </p>
 
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESCRITÓRIO</p>
-                    <p class="branco-fonte endereco margin-zero">
-                        Rua Marechal Hermes, 272 | Centro Cívico <br>
-                        Curitiba | Paraná | Brasil | CEP 80530-230</p>
+                    <div class="branco-fonte endereco margin-zero"><?= $config->endereco_escritorio ?></div>
                 </div>
                 <div class="espaco le-2">
                     <p class="branco-fonte margin-zero">ESTACIONAMENTO</p>
-                    <p class="branco-fonte endereco margin-zero">Travessa José do Patrocinio, 48 | Alto da Glória<br>Curitiba | Paraná | Brasil | CEP 80030-190</p>
+                    <div class="branco-fonte endereco margin-zero"><?= $config->endereco_estacionamento ?></div>
                 </div>
             </div>
         </div>
@@ -61,6 +62,6 @@
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bloco-mapa">
     <div class="google-maps">
-        <iframe id="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.647454090421!2d-49.267671685400146!3d-25.4166089837946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce41858839247%3A0x490902c1b4f8d1fa!2sBrazilio+Bacellar+Neto+e+Advogados!5e0!3m2!1spt-BR!2sbr!4v1508352060439"></iframe>
+        <iframe id="iframeMaps" src="<?= $config->mapa ?>"></iframe>
     </div>
 </div>

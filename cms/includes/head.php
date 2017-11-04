@@ -15,7 +15,7 @@
     <link type="text/css" rel="stylesheet" media="screen" href="<?= caminhoPlugins ?>/sweetalert-master/dist/sweetalert.css">
     
     <!-- jQuery DataTable Style Sheet -->
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= caminhoPlugins ?>/DataTables-1.10.12/media/css/jquery.dataTables.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="<?= caminhoPlugins ?>/DataTables-1.10.13/media/css/jquery.dataTables.css">
     
     <!-- Font Awesome Icons Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= caminhoPlugins ?>/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="<?= caminhoPlugins ?>/sweetalert-master/dist/sweetalert.min.js"></script>
 
     <!-- DataTable jQuery + DataTable JavaScript Plugin -->
-    <script type="text/javascript" src="<?= caminhoPlugins ?>/DataTables-1.10.12/media/js/jquery.js"></script>
-    <script type="text/javascript" src="<?= caminhoPlugins ?>/DataTables-1.10.12/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="<?= caminhoPlugins ?>/DataTables-1.10.13/media/js/jquery.js"></script>
+    <script type="text/javascript" src="<?= caminhoPlugins ?>/DataTables-1.10.13/media/js/jquery.dataTables.min.js"></script>
 
     <!-- TinyMCE JavaScript Plugin -->
     <script type="text/javascript" src="<?= caminhoPlugins ?>/tinymce/js/tinymce/tinymce.min.js"></script>

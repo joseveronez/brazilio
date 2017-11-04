@@ -4,8 +4,6 @@
 	require caminhoFisico . '/helper.php';
 
 	class ConfiguracoesController extends Controller {
-
-
 		public function gerenciar_pagina() {
 			try {
                 $dados = Configuracoes::retrieveByPK(1);
@@ -47,6 +45,7 @@
                         }
                     }
                 }
+
                 if (!empty($_FILES['banner_newsletter']['name'])) {
                     $handle = new upload($_FILES['banner_newsletter']);
                     if ($handle->uploaded) {
@@ -61,7 +60,16 @@
                     }
                 }
                 $dados->titulo_newsletter = $this->requestParametrosPost["titulo_newsletter"];
-                $dados->copyright = $this->requestParametrosPost["copyright"];
+                $dados->email_newsletter = $this->requestParametrosPost["email_newsletter"];
+
+                $dados->codigo = $this->requestParametrosPost["codigo"];
+                $dados->cnpj = $this->requestParametrosPost["cnpj"];
+                $dados->email_contato = $this->requestParametrosPost["email_contato"];
+                $dados->telefone = $this->requestParametrosPost["telefone"];
+                $dados->fax = $this->requestParametrosPost["fax"];
+                $dados->endereco_escritorio = $this->requestParametrosPost["endereco_escritorio"];
+                $dados->endereco_estacionamento = $this->requestParametrosPost["endereco_estacionamento"];
+                $dados->mapa = $this->requestParametrosPost["mapa"];
                 $dados->save();
 
                 setSession("sucesso", "S");

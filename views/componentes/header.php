@@ -1,6 +1,5 @@
 <?php
     ScriptLoader::LoadCSS('header');
-    $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
 ?>
 <nav class="navbar navbar-fixed-top menu-transparente" role="navigation">
     <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs navbar-superior">
