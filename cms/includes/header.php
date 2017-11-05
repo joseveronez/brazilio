@@ -128,6 +128,25 @@
 	                        </li>
                     	</ul>
 
+                    	<li class="item <?php if($_SESSION["paginaAtual"] == "links-uteis/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Links Úteis
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "links-uteis/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "links-uteis/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/links-uteis/gerenciar-pagina">Gerenciar página</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "links-uteis/gerenciar-categorias") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/links-uteis/gerenciar-categorias">Gerenciar categorias</a>
+	                        </li>
+	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "links-uteis/novo-link") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/links-uteis/novo-link">Novo link</a>
+	                        </li>
+	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "links-uteis/gerenciar-links") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/links-uteis/gerenciar-links">Gerenciar links</a>
+	                        </li>
+                    	</ul>
+
 						<li class="item <?php if($_SESSION["paginaAtual"] == "contato/gerenciar") echo "menu-active-side" ?>">
 	                        <a href="#" class="menu-item-side"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Pág. Contato
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>

@@ -85,6 +85,20 @@
 	$prefixos['equipe']['atualizar-dados'] = array('Controller' => 'EquipeController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['equipe']['excluir-dados'] = array('Controller' => 'EquipeController', 'Method' => 'excluir_dados', 'logado' => true);
 
+	$prefixos['links-uteis']['gerenciar-pagina'] = array('Controller' => 'LinksUteisController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['links-uteis']['atualizar-pagina'] = array('Controller' => 'LinksUteisController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	$prefixos['links-uteis']['nova-categoria'] = array('Controller' => 'LinksUteisController', 'Method' => 'nova_categoria', 'logado' => true);
+	$prefixos['links-uteis']['salvar-categoria'] = array('Controller' => 'LinksUteisController', 'Method' => 'salvar_categoria', 'logado' => true);
+	$prefixos['links-uteis']['gerenciar-categorias'] = array('Controller' => 'LinksUteisController', 'Method' => 'gerenciar_categorias', 'logado' => true);
+	$prefixos['links-uteis']['editar-categoria'] = array('Controller' => 'LinksUteisController', 'Method' => 'editar_categoria', 'logado' => true);
+	$prefixos['links-uteis']['atualizar-categoria'] = array('Controller' => 'LinksUteisController', 'Method' => 'atualizar_categoria', 'logado' => true);
+	$prefixos['links-uteis']['novo-link'] = array('Controller' => 'LinksUteisController', 'Method' => 'novo_link', 'logado' => true);
+	$prefixos['links-uteis']['salvar-link'] = array('Controller' => 'LinksUteisController', 'Method' => 'salvar_link', 'logado' => true);
+	$prefixos['links-uteis']['gerenciar-links'] = array('Controller' => 'LinksUteisController', 'Method' => 'gerenciar_links', 'logado' => true);
+	$prefixos['links-uteis']['editar-link'] = array('Controller' => 'LinksUteisController', 'Method' => 'editar_link', 'logado' => true);
+	$prefixos['links-uteis']['atualizar-link'] = array('Controller' => 'LinksUteisController', 'Method' => 'atualizar_link', 'logado' => true);
+	$prefixos['links-uteis']['excluir-link'] = array('Controller' => 'LinksUteisController', 'Method' => 'excluir_link', 'logado' => true);
+
 	$prefixos['contato']['gerenciar-pagina'] = array('Controller' => 'ContatoController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['contato']['atualizar-pagina'] = array('Controller' => 'ContatoController', 'Method' => 'atualizar_pagina', 'logado' => true);
 

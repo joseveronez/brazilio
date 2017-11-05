@@ -79,6 +79,21 @@
 		$table = 'recuperacao_arquivos';
 	}
 
+	class PaginaLinksUteis extends SimpleOrm {
+		protected static
+		$table = 'pagina_links_uteis';
+	}
+
+	class LinksUteisCategorias extends SimpleOrm {
+		protected static
+		$table = 'links_uteis_categorias';
+	}
+
+	class LinksUteis extends SimpleOrm {
+		protected static
+		$table = 'links_uteis';
+	}
+
 	class Contato extends SimpleOrm {
 		protected static
 		$table = 'contato';
