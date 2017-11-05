@@ -18,25 +18,9 @@
 		$table = 'pagina_home';
 	}
 
-
-	class Empresa extends SimpleOrm {
-		protected static
-		$table = 'empresa';
-	}
-
     class SlidesHome extends SimpleOrm {
 		protected static
 		$table = 'slides_home';
-	}
-
-    class SlidesEmpresa extends SimpleOrm {
-		protected static
-		$table = 'slides_empresa';
-	}
-
-    class Diferenciais extends SimpleOrm {
-		protected static
-		$table = 'diferenciais';
 	}
 
 	class PaginaEquipe extends SimpleOrm {
@@ -67,6 +51,21 @@
     class RecuperacaoArquivos extends SimpleOrm {
 		protected static
 		$table = 'recuperacao_arquivos';
+	}
+
+	class PaginaEmpresa extends SimpleOrm {
+		protected static
+		$table = 'pagina_empresa';
+	}
+
+	class SlidesEmpresa extends SimpleOrm {
+		protected static
+		$table = 'slides_empresa';
+	}
+
+	class Diferenciais extends SimpleOrm {
+		protected static
+		$table = 'diferenciais';
 	}
 
 	class PaginaAreasAtuacao extends SimpleOrm {

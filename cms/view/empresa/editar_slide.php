@@ -4,37 +4,25 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Slides - Editar</h1>
-            <h4 class="sub-title">Editar Slides</h4>
+            <h1><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;Empresa - Editar slide</h1>
+            <h4 class="sub-title">Editar dados do slide</h4>
 
-            <form action="<?= caminhoSite ?>/slides_empresa/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form action="<?= caminhoSite ?>/empresa/atualizar-slide" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Slides</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">slider</label>
-                            <div class="col-sm-10">
-                                <select class="form-control" name="slider" id="slider" value="<?= $dados->slider ?>" required>
-                                    <option  disabled>Selecione uma opção</option>
-                                    <option value="1" <?php if($dados->slider == 1){?> selected <?php }; ?>>Cima</option>
-                                    <option value="2" <?php if($dados->slider == 2){?> selected <?php }; ?>>Baixo</option>
-                                    <option value="3" <?php if($dados->slider == 3){?> selected <?php }; ?>>Lateral</option>
-                                </select>
-                            </div>
-                        </div><br>
-            			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">imagem</label>
+                            <label class="col-sm-2 control-label" align="right">Imagem</label>
 
                             <div class="col-sm-10">
-                                <img src="<?= caminhoSite ?>/uploads/<?= $dados->imagem ?>">
                                 <?php
                                     if (!empty($dados->imagem)) {
                                 ?>
-                                    <br><i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->imagem ?><br />
+                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->imagem ?>" class="img-responsive"><br />
                                 <?php
                                     }
                                 ?>
@@ -44,8 +32,18 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">posicao</label>
-                            <div class="col-sm-2">
+                            <label class="col-sm-2 control-label" align="right">Posição</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" name="slider" id="slider" value="<?= $dados->slider ?>" required>
+                                    <option value="1" <?php if($dados->slider == 1){?> selected <?php }; ?>>Cima</option>
+                                    <option value="2" <?php if($dados->slider == 2){?> selected <?php }; ?>>Baixo</option>
+                                    <option value="3" <?php if($dados->slider == 3){?> selected <?php }; ?>>Lateral</option>
+                                </select>
+                            </div>
+                        </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Ordem</label>
+                            <div class="col-sm-10">
                                 <input type="number" class="form-control" name="posicao"  min="1" maxlength="255" value="<?= $dados->posicao ?>" />
                             </div>
                         </div><br>

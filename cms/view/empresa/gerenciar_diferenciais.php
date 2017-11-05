@@ -4,22 +4,19 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Diferenciais - Gerenciar</h1>
-            <h4 class="sub-title">gerenciar diferenciais</h4>
+            <h1><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;Empresa - Gerenciar diferenciais</h1>
+            <h4 class="sub-title">Gerenciar diferenciais cadastrados</h4>
 
             <div class="box">
                 <div class="box-title">
-                    <h3 class="box-title-title"><i class="fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;Diferenciais </h3>
+                    <h3 class="box-title-title"><i class="fa fa-align-justify" aria-hidden="true"></i>&nbsp;&nbsp;Diferenciais</h3>
                 </div>
                 <div class="box-content">
         			<div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                	
-                                    <th>Texto</th>
-                                    <th>&nbsp;</th>
-                                    <th>&nbsp;</th>
+                                    <th>diferencial</th>
                                     <th>&nbsp;</th>
                                 </tr>
                             </thead>
@@ -33,12 +30,7 @@
                                		</td>
                                     <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/diferenciais/editar-dados/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
-                                        </center>
-                                    </td>
-					                <td>
-                                        <center>
-                                            <a href="<?= caminhoSite ?>/diferenciais/excluir-dados/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                            <a href="<?= caminhoSite ?>/empresa/editar-diferencial/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
                                         </center>
                                     </td>
                                 </tr>

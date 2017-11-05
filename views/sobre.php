@@ -1,8 +1,13 @@
 <?php
     ScriptLoader::LoadCSS('sobre');
+    $conteudo = PaginaEmpresa::retrieveByPk(1);
+    $diferenciais = Diferenciais::all();
+    $slides_cima = SlidesEmpresa::sql("SELECT * FROM slides_empresa WHERE slider = 1 ORDER BY posicao"); 
+    $slides_lateral = SlidesEmpresa::sql("SELECT * FROM slides_empresa WHERE slider = 2 ORDER BY posicao"); 
+    $slides_baixo = SlidesEmpresa::sql("SELECT * FROM slides_empresa WHERE slider = 3 ORDER BY posicao"); 
 ?>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/banner-servicos.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $conteudo->banner_topo ?>"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; }
     .prev-icon { background: url(<?= RAIZSITE ?>/imagens/left.png); background-size: 20%; background-position: center center; background-repeat: no-repeat; height: 50px; width: 50px; }
     .next-icon { background: url(<?= RAIZSITE ?>/imagens/right.png); background-size: 20%; background-position: center center; background-repeat: no-repeat; height: 50px; width: 50px; }
 </style>
@@ -10,10 +15,10 @@
     <div class="parallax-banner">
         <div class="container">
             <div class="text-center titulo">
-                <h3 class="Uppercase size35 dourado-fonte Light">A EMPRESA</h3>
+                <h3 class="Uppercase size35 dourado-fonte Light"><?= $conteudo->titulo ?></h3>
             </div>
             <div class="breadcrumb hidden-xs">
-                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte">A EMPRESA</span></p>
+                <p class="branco-fonte margin-zero">VOCÊ ESTÁ EM <a href="<?= RAIZSITE ?>" class="link-default">HOME</a> / <span class="dourado-fonte Uppercase"><?= $conteudo->titulo ?></span></p>
             </div>
         </div>
     </div>
@@ -26,15 +31,7 @@
         
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 MarginT10p le-2">
-            <p class="text-justify size14 letter-spacing1 Medium">
-                <strong>A Brazilio Bacellar, Shirai Advogados</strong> é uma sociedade profissional experiente, com atuação preventiva e contenciosa nos campos do direito comercial, civil, societário, administrativo, trabalhista e tributário, com enfoque na atividade empresarial. O escritório investe constantemente em atualização técnica e busca sempre novas tecnologias seguras a fim de facilitar e agilizar a prestação de serviços aos seus clientes.
-            </p><br>
-            <p class="text-justify size14 letter-spacing1 Medium">
-                A qualidade dos serviços advocatícios é reforçada pela parceria com profissionais habilitados e em constante atualização, capazes de auxiliar na solução de questões relacionadas às mais diversas áreas do Direito. Além disso, os profissionais do escritório possuem conhecimento em línguas estrangeiras e podem atender empresas nacionais e internacionais.
-            </p><br>
-            <p class="text-justify size14 letter-spacing1 Medium">
-                A localização da sede é estratégica: no Centro Cívico, próxima aos principais órgãos do Poder Judiciário do Estado do Paraná. Uma ampla estrutura com instalações que atendem todas as necessidades de seus colaboradores e clientes.  
-            </p>
+            <?= $conteudo->texto ?>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
     </div>
@@ -44,40 +41,29 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-branco MarginT10p">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-dourado chamada-galeria le-2">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="branco-fonte Uppercase">“uma sociedade profissional com atuação preventiva e contenciosa nas mais diversas áreas”</h4>
+                    <div class="branco-fonte Uppercase"><?= $conteudo->texto_carousel ?></div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme do-2" id="owl2">
-                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-10.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-10.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
+                            <?php foreach($slides_cima as $cima) { ?>
+                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/cms/uploads/<?= $cima->imagem ?>">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/cms/uploads/<?= $cima->imagem ?>'); background-size: cover; background-position: center center; height: 200px;"></div>
                             </a>
-                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-09.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-09.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
-                            </a>
-                            <a data-fancybox="galeria1" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-08.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-08.jpg'); background-size: cover; background-position: center center; height: 200px;"></div>
-                            </a>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme bc-2" id="owl3">
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-04.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-04.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
+                            <?php foreach($slides_lateral as $lateral) { ?>
+                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/cms/uploads/<?= $lateral->imagem ?>">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/cms/uploads/<?= $lateral->imagem ?>'); background-size: cover; background-position: center center; height: 130px;"></div>
                             </a>
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-05.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-05.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
-                            </a>
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-06.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-06.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
-                            </a>
-                            <a data-fancybox="galeria2" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-07.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-07.jpg'); background-size: cover; background-position: center center; height: 130px;"></div>
-                            </a>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
@@ -86,15 +72,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul">
                         <div class="owl-carousel slider-topo owl-theme ri-2" id="owl4">
-                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-01.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-01.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
+                            <?php foreach($slides_baixo as $baixo) { ?>
+                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/cms/uploads/<?= $baixo->imagem ?>">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/cms/uploads/<?= $baixo->imagem ?>'); background-size: cover; background-position: center center; height: 330px;"></div>
                             </a>
-                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-02.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-02.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
-                            </a>
-                            <a data-fancybox="galeria3" href="<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-03.jpg">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background: url('<?= RAIZSITE ?>/imagens/brazilio-bacellar-advogados-03.jpg'); background-size: cover; background-position: center center; height: 330px;"></div>
-                            </a>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
@@ -105,19 +87,15 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="container diferenciais">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-            <h3 class="dourado-fonte Light size40 margin-zero">NOSSOS DIFERENCIAIS</h3>
+            <h3 class="dourado-fonte Light size40 margin-zero"><?= $conteudo->titulo_diferenciais ?></h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 text-left Medium diferenciais-lista">
-            <p>Esses são os diferenciais que sua empresa terá ao contratar nosso escritório:</p>
+            <?= $conteudo->texto_diferenciais ?>
             <ul class="lista">
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Equipe multidisciplinar</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Atuação pautada pela ética e transparência</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Atendimento customizado às necessidades do cliente</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Interlocução direta e constante com os sócios do escritório</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Vasta experiência no Direito Empresarial</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Transparência total através de uma página eletrônica com todas as informações dos processos</span></li>
-                <li class="MarginT4p bc-2"><span class="preto-fonte">Escritórios parceiros em todo o Brasil</span></li>
+                <?php foreach($diferenciais as $diferencial) { ?>
+                <li class="MarginT4p bc-2"><?= $diferencial->texto ?></li>
+                <?php } ?>
             </ul>
 
             <a href="<?= RAIZSITE ?>/servicos" class="Medium link-default equipe-link le-2">
