@@ -13,44 +13,14 @@
 		$table = 'home';
 	}
     
-    class PaginaHome extends SimpleOrm {
+    class PaginaPrincipal extends SimpleOrm {
 		protected static
-		$table = 'pagina_home';
+		$table = 'pagina_principal';
 	}
 
     class SlidesHome extends SimpleOrm {
 		protected static
 		$table = 'slides_home';
-	}
-
-	class PaginaEquipe extends SimpleOrm {
-		protected static
-		$table = 'pagina_equipe';
-	}
-
-	class Equipe extends SimpleOrm {
-		protected static
-		$table = 'equipe';
-	}
-
-	class Configuracoes extends SimpleOrm {
-		protected static
-		$table = 'configuracoes';
-	}
-
-    class Recuperacao extends SimpleOrm {
-		protected static
-		$table = 'recuperacao';
-	}
-    
-     class RecuperacaoJudicial extends SimpleOrm {
-		protected static
-		$table = 'recuperacao_judicial';
-	}
-
-    class RecuperacaoArquivos extends SimpleOrm {
-		protected static
-		$table = 'recuperacao_arquivos';
 	}
 
 	class PaginaEmpresa extends SimpleOrm {
@@ -76,6 +46,16 @@
 	class Servicos extends SimpleOrm {
 		protected static
 		$table = 'servicos';
+	}
+
+	class PaginaEquipe extends SimpleOrm {
+		protected static
+		$table = 'pagina_equipe';
+	}
+
+	class Equipe extends SimpleOrm {
+		protected static
+		$table = 'equipe';
 	}
 
 	class PaginaLinksUteis extends SimpleOrm {
@@ -121,5 +101,25 @@
 	class FormularioTrabalheConosco extends SimpleOrm {
 		protected static
 		$table = 'formulario_trabalhe_conosco';
+	}
+
+	class Configuracoes extends SimpleOrm {
+		protected static
+		$table = 'configuracoes';
+	}
+
+    class Recuperacao extends SimpleOrm {
+		protected static
+		$table = 'recuperacao';
+	}
+    
+     class RecuperacaoJudicial extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_judicial';
+	}
+
+    class RecuperacaoArquivos extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_arquivos';
 	}
 ?>

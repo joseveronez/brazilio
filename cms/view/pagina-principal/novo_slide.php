@@ -1,17 +1,17 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Slides Home - Novo</h1>
-            <h4 class="sub-title">Adicionar novo Serviço</h4>
+            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home - Novo slide</h1>
+            <h4 class="sub-title">Adicionar novo slide</h4>
 
-            <form action="<?= caminhoSite ?>/slides_home/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
+            <form action="<?= caminhoSite ?>/pagina-principal/salvar-slide" method="post" enctype="multipart/form-data" id="formInserirDados">
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Slides</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">imagem</label>
+                            <label class="col-sm-2 control-label" align="right">Imagem</label>
 
                             <div class="col-sm-10">
                                 <input type="file" name="imagem" id="imagem" class="inputfile inputfile-1" required />
@@ -19,29 +19,29 @@
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" required />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">chamada</label>
+                            <label class="col-sm-2 control-label" align="right">Chamada</label>
 
                             <div class="col-sm-10">
-                                <textarea name="chamada" type="text" class="form-control tinyMCE" cols="10" rows="10" required></textarea>
+                                <textarea name="chamada" type="text" class="form-control tinyMCE" cols="10" rows="10"></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">link_</label>
+                            <label class="col-sm-2 control-label" align="right">Link</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="link_" maxlength="255" required />
+                                <input type="text" class="form-control" name="link" maxlength="255" required />
                             </div>
                         </div><br>
             		</div>
                 </div><br>
 
-            	<button type="button" onclick="document.getElementById('formInserirDados').submit();" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
+            	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>

@@ -4,22 +4,22 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Slides - Gerenciar</h1>
-            <h4 class="sub-title">Gerenciar Slides</h4>
+            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home - Gerenciar slides</h1>
+            <h4 class="sub-title">Gerenciar slides cadastrados</h4>
 
             <div class="box">
                 <div class="box-title">
-                    <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Slides </h3>
+                    <h3 class="box-title-title"><i class="fa fa-align-justify" aria-hidden="true"></i>&nbsp;&nbsp;Slides</h3>
                 </div>
                 <div class="box-content">
         			<div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                	
-                                    <th>Titulo</th>
-                                    <th>Chamada</th>
-                                    <th>Imagem</th>
+                                    <th>título</th>
+                                    <th>chamada</th>
+                                    <th>link</th>
+                                    <th>&nbsp;</th>
                                     <th>&nbsp;</th>
                                 </tr>
                             </thead>
@@ -35,19 +35,16 @@
                                     	<?= $item->chamada ?>
                                		</td>
                                     <td>
-                                    	<?= $item->imagem ?>
-                               		</td>
-                                    <td>
-                                    	<?= $item->link_ ?>
+                                    	<?= $item->link ?>
                                		</td>
                                     <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/slides_home/editar-dados/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
+                                            <a href="<?= caminhoSite ?>/pagina-principal/editar-slide/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
                                         </center>
                                     </td>
 					                <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/slides_home/excluir-dados/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                            <a href="<?= caminhoSite ?>/pagina-principal/excluir-slide/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
                                         </center>
                                     </td>
                                 </tr>

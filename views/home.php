@@ -1,29 +1,23 @@
 <?php
     ScriptLoader::LoadCSS('home');
-    $home = Home::sql("SELECT * FROM pagina_home", SimpleOrm::FETCH_ONE);
+    $home = PaginaPrincipal::sql("SELECT * FROM pagina_principal", SimpleOrm::FETCH_ONE);
     $slides_home = SlidesHome::sql("SELECT * FROM slides_home");
     $servicos = Servicos::sql("SELECT * FROM servicos ORDER BY titulo");
 ?>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
     <div class="owl-carousel slider-topo owl-theme">
-        <?php 
-            foreach($slides_home as $slides){
-                ?>
-                <div class="item vh80">
-                    <div class="vh80" style="background: url('<?= caminhoSite ?>/uploads/<?= $slides->imagem ?>'); background-size: cover; background-position: center center; min-height: 481px;">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
-                            <p class="Uppercase dourado-fonte Light titulo"><?= $slides->titulo ?></p>
-                            <img src="imagens/ond1.png" class="img-responsive">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Uppercase branco-fonte Light size20 subtitulo MarginT7p MarginB9p">
-                                <?= $slides->chamada ?>
-                            </div>
-                            <a href="<?= $slides->link_ ?>" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+        <?php foreach($slides_home as $slides) { ?>
+        <div class="item vh80">
+            <div class="vh80" style="background: url('<?= caminhoSite ?>/uploads/<?= $slides->imagem ?>'); background-size: cover; background-position: center center; min-height: 481px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center slider-conteudo">
+                    <p class="Uppercase dourado-fonte Light titulo"><?= $slides->titulo ?></p>
+                    <img src="imagens/ond1.png" class="img-responsive">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Uppercase branco-fonte Light size20 subtitulo MarginT7p MarginB9p"><?= $slides->chamada ?></div>
+                    <a href="<?= $slides->link_ ?>" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
-                <?php
-            }
-        ?>
+            </div>
+        </div>
+        <?php } ?>
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 empresa padding-zero bg-bege">
@@ -34,13 +28,11 @@
         <img src="<?= RAIZSITE ?>/imagens/balanca.png" class="img-responsive le-2">
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
-            <h3 class="Medium size30 azul-fonte"><?= $home->titulo_empresa ?></h3>
+            <h3 class="Medium size30 azul-fonte Uppercase"><?= $home->titulo_empresa ?></h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo bc-2">
-            <span class="text-justify size16 Medium">
-                <?= $home->texto_empresa ?>
-            </span>
+            <div class="text-justify size16 Medium"><?= $home->texto_empresa ?></div>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
 
@@ -56,13 +48,11 @@
         <img src="<?= RAIZSITE ?>/imagens/martelo.png" class="img-responsive le-2">
         
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center titulo bc-2">
-            <h3 class="Medium size30 azul-fonte"><?= $home->titulo_areas ?></h3>
+            <h3 class="Medium size30 azul-fonte Uppercase"><?= $home->titulo_areas ?></h3>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 descritivo bc-2">
-            <span class="text-justify size16 Medium margin-zero">
-                <?= $home->texto_areas ?>
-            </span>
+            <div class="text-justify size16 Medium margin-zero"><?= $home->texto_areas ?></div>
         </div>
         <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lista-itens">

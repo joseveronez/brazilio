@@ -21,32 +21,18 @@
 
 	$prefixos['testando']['testando-rotas'] = array('Controller' => 'TestandoRotasController', 'Method' => 'testando_rotas', 'logado' => true);
 
-	$prefixos['pagina_home']['gerenciar-pagina'] = array('Controller' => 'PaginaHomeController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['pagina_home']['atualizar-pagina'] = array('Controller' => 'PaginaHomeController', 'Method' => 'atualizar_pagina', 'logado' => true);
-
-    $prefixos['recuperacao']['novos-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['recuperacao']['salvar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['recuperacao']['gerenciar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['recuperacao']['editar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['recuperacao']['atualizar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['recuperacao']['excluir-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'excluir_dados', 'logado' => true);
-
-    $prefixos['recuperacao_arquivos']['novos-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['salvar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['gerenciar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['editar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['atualizar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['excluir-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'excluir_dados', 'logado' => true);
-
-    $prefixos['recuperacao_judicial']['gerenciar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['recuperacao_judicial']['atualizar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_pagina', 'logado' => true);
-
-    $prefixos['slides_home']['novos-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['slides_home']['salvar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['slides_home']['gerenciar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['slides_home']['editar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['slides_home']['atualizar-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['slides_home']['excluir-dados'] = array('Controller' => 'SlidesHomeController', 'Method' => 'excluir_dados', 'logado' => true);
+	/* HOME */
+	// página
+	$prefixos['pagina-principal']['gerenciar-pagina'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['pagina-principal']['atualizar-pagina'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	// slider
+    $prefixos['pagina-principal']['novo-slide'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'novo_slide', 'logado' => true);
+	$prefixos['pagina-principal']['salvar-slide'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'salvar_slide', 'logado' => true);
+	$prefixos['pagina-principal']['gerenciar-slides'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'gerenciar_slides', 'logado' => true);
+	$prefixos['pagina-principal']['editar-slide'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'editar_slide', 'logado' => true);
+	$prefixos['pagina-principal']['atualizar-slide'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'atualizar_slide', 'logado' => true);
+	$prefixos['pagina-principal']['excluir-slide'] = array('Controller' => 'PaginaPrincipalController', 'Method' => 'excluir_slide', 'logado' => true);
+	/* HOME */
 
 	/* EMPRESA */
 	// página
@@ -108,6 +94,23 @@
 
 	$prefixos['consulta-processual']['gerenciar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['consulta-processual']['atualizar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'atualizar_pagina', 'logado' => true);
+
+	$prefixos['recuperacao']['novos-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['recuperacao']['salvar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['recuperacao']['gerenciar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['recuperacao']['editar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['recuperacao']['atualizar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['recuperacao']['excluir-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['recuperacao_arquivos']['novos-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['salvar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['gerenciar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['editar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['atualizar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['recuperacao_arquivos']['excluir-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['recuperacao_judicial']['gerenciar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['recuperacao_judicial']['atualizar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_pagina', 'logado' => true);
 
 	$prefixos['configuracoes']['gerenciar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['configuracoes']['atualizar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'atualizar_pagina', 'logado' => true);

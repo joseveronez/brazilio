@@ -95,6 +95,7 @@
                     <li><a class="link-default" href="<?= RAIZSITE ?>/trabalhe-conosco">TRABALHE CONOSCO</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/links-uteis">LINKS ÚTEIS</a></li>
                     <li><a class="link-default" href="<?= RAIZSITE ?>/consulta-processual">CONSULTA PROCESSUAL</a></li>
+                    <li><a class="link-default" href="<?= RAIZSITE ?>/recuperacao-judicial">RECUPERAÇÃO JUDICIAL</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">

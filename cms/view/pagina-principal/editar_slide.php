@@ -4,25 +4,25 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Slides - Editar</h1>
-            <h4 class="sub-title">Editar Slides</h4>
+            <h1><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home - Editar slide</h1>
+            <h4 class="sub-title">Editar dados do slide</h4>
 
-            <form action="<?= caminhoSite ?>/slides_home/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form action="<?= caminhoSite ?>/pagina-principal/atualizar-slide" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Slides</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">imagem</label>
+                            <label class="col-sm-2 control-label" align="right">Imagem</label>
 
                             <div class="col-sm-10">
                                 <?php
                                     if (!empty($dados->imagem)) {
                                 ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->imagem ?><br />
+                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->imagem ?>" class="img-responsive"><br />
                                 <?php
                                     }
                                 ?>
@@ -32,22 +32,22 @@
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">chamada</label>
+                            <label class="col-sm-2 control-label" align="right">Chamada</label>
 
                             <div class="col-sm-10">
                                 <textarea name="chamada" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->chamada ?></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">link_</label>
+                            <label class="col-sm-2 control-label" align="right">Link</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="link_" maxlength="255" value="<?= $dados->link_ ?>" />
+                                <input type="text" class="form-control" name="link" maxlength="255" value="<?= $dados->link ?>" />
                             </div>
                         </div><br>
             		</div>
