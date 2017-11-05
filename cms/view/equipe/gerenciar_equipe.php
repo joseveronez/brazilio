@@ -4,52 +4,50 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Equipe - Gerenciar</h1>
-            <h4 class="sub-title">Gerenciar equipe</h4>
+            <h1><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Equipe - Gerenciar equipe</h1>
+            <h4 class="sub-title">Gerenciar integrantes da equipe</h4>
 
             <div class="box">
                 <div class="box-title">
-                    <h3 class="box-title-title"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;Equipe </h3>
+                    <h3 class="box-title-title"><i class="fa fa-align-justify" aria-hidden="true"></i>&nbsp;&nbsp;Equipe</h3>
                 </div>
                 <div class="box-content">
         			<div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                	
                                     <th>tipo</th>
                                     <th>nome</th>
-                                    <th>oab</th>
-                                    <th>email</th>
-                                    <th>&nbsp;</th>
+                                    <th>e-mail</th>
                                     <th>&nbsp;</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
                                     foreach ($dados as $item) {
+
+                                        $tipo = "";
+                                        if($item->tipo == 1) {
+                                            $tipo = "Sócio";
+                                        } else if($item->tipo == 2) {
+                                            $tipo = "Advogado";
+                                        } else {
+                                            $tipo = "Equipe";
+                                        }
                                 ?>
                                 <tr>
 					                <td>
-                                    	<?= $item->tipo ?>
+                                    	<?= $tipo ?>
                                		</td>
 					                <td>
                                     	<?= $item->nome ?>
-                               		</td>
-					                <td>
-                                    	<?= $item->oab ?>
                                		</td>
 					                <td>
                                     	<?= $item->email ?>
                                		</td>
                                     <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/equipe/editar-dados/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
-                                        </center>
-                                    </td>
-					                <td>
-                                        <center>
-                                            <a href="<?= caminhoSite ?>/equipe/excluir-dados/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                            <a href="<?= caminhoSite ?>/equipe/editar-integrante/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
                                         </center>
                                     </td>
                                 </tr>

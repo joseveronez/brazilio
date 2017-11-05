@@ -27,15 +27,6 @@
 	$prefixos['empresa']['gerenciar-pagina'] = array('Controller' => 'EmpresaController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['empresa']['atualizar-pagina'] = array('Controller' => 'EmpresaController', 'Method' => 'atualizar_pagina', 'logado' => true);
 
-	$prefixos['areas-atuacao']['gerenciar-pagina'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['areas-atuacao']['atualizar-pagina'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'atualizar_pagina', 'logado' => true);
-	$prefixos['areas-atuacao']['novo-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'novo_servico', 'logado' => true);
-	$prefixos['areas-atuacao']['salvar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'salvar_servico', 'logado' => true);
-	$prefixos['areas-atuacao']['gerenciar-servicos'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'gerenciar_servicos', 'logado' => true);
-	$prefixos['areas-atuacao']['editar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'editar_servico', 'logado' => true);
-	$prefixos['areas-atuacao']['atualizar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'atualizar_servico', 'logado' => true);
-	$prefixos['areas-atuacao']['excluir-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'excluir_servico', 'logado' => true);
-
     $prefixos['diferenciais']['novos-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['diferenciais']['salvar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'salvar_dados', 'logado' => true);
 	$prefixos['diferenciais']['gerenciar-dados'] = array('Controller' => 'DiferenciaisController', 'Method' => 'gerenciar_dados', 'logado' => true);
@@ -74,15 +65,23 @@
 	$prefixos['slides_empresa']['atualizar-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['slides_empresa']['excluir-dados'] = array('Controller' => 'SlidesEmpresaController', 'Method' => 'excluir_dados', 'logado' => true);
 
-	$prefixos['pagina_equipe']['gerenciar-pagina'] = array('Controller' => 'PaginaEquipeController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['pagina_equipe']['atualizar-pagina'] = array('Controller' => 'PaginaEquipeController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	$prefixos['areas-atuacao']['gerenciar-pagina'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['areas-atuacao']['atualizar-pagina'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	$prefixos['areas-atuacao']['novo-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'novo_servico', 'logado' => true);
+	$prefixos['areas-atuacao']['salvar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'salvar_servico', 'logado' => true);
+	$prefixos['areas-atuacao']['gerenciar-servicos'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'gerenciar_servicos', 'logado' => true);
+	$prefixos['areas-atuacao']['editar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'editar_servico', 'logado' => true);
+	$prefixos['areas-atuacao']['atualizar-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'atualizar_servico', 'logado' => true);
+	$prefixos['areas-atuacao']['excluir-servico'] = array('Controller' => 'AreasAtuacaoController', 'Method' => 'excluir_servico', 'logado' => true);
 
-	$prefixos['equipe']['novos-dados'] = array('Controller' => 'EquipeController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['equipe']['salvar-dados'] = array('Controller' => 'EquipeController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['equipe']['gerenciar-dados'] = array('Controller' => 'EquipeController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['equipe']['editar-dados'] = array('Controller' => 'EquipeController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['equipe']['atualizar-dados'] = array('Controller' => 'EquipeController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['equipe']['excluir-dados'] = array('Controller' => 'EquipeController', 'Method' => 'excluir_dados', 'logado' => true);
+	$prefixos['equipe']['gerenciar-pagina'] = array('Controller' => 'EquipeController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['equipe']['atualizar-pagina'] = array('Controller' => 'EquipeController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	$prefixos['equipe']['novo-integrante'] = array('Controller' => 'EquipeController', 'Method' => 'novo_integrante', 'logado' => true);
+	$prefixos['equipe']['salvar-integrante'] = array('Controller' => 'EquipeController', 'Method' => 'salvar_integrante', 'logado' => true);
+	$prefixos['equipe']['gerenciar-equipe'] = array('Controller' => 'EquipeController', 'Method' => 'gerenciar_equipe', 'logado' => true);
+	$prefixos['equipe']['editar-integrante'] = array('Controller' => 'EquipeController', 'Method' => 'editar_integrante', 'logado' => true);
+	$prefixos['equipe']['atualizar-integrante'] = array('Controller' => 'EquipeController', 'Method' => 'atualizar_integrante', 'logado' => true);
+	$prefixos['equipe']['excluir-integrante'] = array('Controller' => 'EquipeController', 'Method' => 'excluir_integrante', 'logado' => true);
 
 	$prefixos['links-uteis']['gerenciar-pagina'] = array('Controller' => 'LinksUteisController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['links-uteis']['atualizar-pagina'] = array('Controller' => 'LinksUteisController', 'Method' => 'atualizar_pagina', 'logado' => true);
