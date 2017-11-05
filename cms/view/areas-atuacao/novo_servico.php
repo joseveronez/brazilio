@@ -1,17 +1,17 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Servicos - Novo</h1>
-            <h4 class="sub-title">Adicionar novo Serviço</h4>
+            <h1><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Áreas de Atuação - Novo serviço</h1>
+            <h4 class="sub-title">Adicionar novo serviço</h4>
 
-            <form action="<?= caminhoSite ?>/servicos/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
+            <form action="<?= caminhoSite ?>/areas-atuacao/salvar-servico" method="post" enctype="multipart/form-data" id="formInserirDados">
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Serviços</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">icone</label>
+                            <label class="col-sm-2 control-label" align="right">Icone</label>
 
                             <div class="col-sm-10">
                                 <input type="file" name="icone" id="icone" class="inputfile inputfile-1" required />
@@ -19,20 +19,20 @@
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" required />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">descricao</label>
+                            <label class="col-sm-2 control-label" align="right">Descrição</label>
 
                             <div class="col-sm-10">
                                 <textarea name="descricao" type="text" class="form-control tinyMCE" cols="10" rows="10" required></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">link_servico</label>
+                            <label class="col-sm-2 control-label" align="right">Âncora</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="link_servico" maxlength="255" required />
                             </div>
@@ -40,7 +40,7 @@
             		</div>
                 </div><br>
 
-            	<button type="button" onclick="document.getElementById('formInserirDados').submit();" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
+            	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>

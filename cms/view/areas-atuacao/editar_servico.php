@@ -1,29 +1,28 @@
 <?php
     $dados = $_SESSION["parametrosView"];
-    print_r($dados);
 ?>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Servicos - Editar</h1>
-            <h4 class="sub-title">Editar Servicos</h4>
+            <h1><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Áreas de Atuação - Editar serviço</h1>
+            <h4 class="sub-title">Editar dados do serviço</h4>
 
-            <form action="<?= caminhoSite ?>/servicos/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form action="<?= caminhoSite ?>/areas-atuacao/atualizar-servico" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Serviços</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">icone</label>
+                            <label class="col-sm-2 control-label" align="right">Icone</label>
 
                             <div class="col-sm-10">
                                 <?php
                                     if (!empty($dados->icone)) {
                                 ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->icone ?><br />
+                                    <img src="<?= caminhoSite ?>/uploads/<?= $dados->icone ?>" class="img-responsive"><br />
                                 <?php
                                     }
                                 ?>
@@ -33,20 +32,20 @@
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">descricao</label>
+                            <label class="col-sm-2 control-label" align="right">Descrição</label>
 
                             <div class="col-sm-10">
                                 <textarea name="descricao" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->descricao ?></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">link_servico</label>
+                            <label class="col-sm-2 control-label" align="right">Âncora</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="link_servico" maxlength="255" value="<?= $dados->link_servico ?>" />
                             </div>

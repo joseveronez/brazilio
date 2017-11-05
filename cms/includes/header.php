@@ -97,16 +97,16 @@
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
 
-						<li class="item <?php if($_SESSION["paginaAtual"] == "servicos/gerenciar") echo "menu-active-side" ?>">
-	                        <a href="#" class="menu-item-side"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Serviços
+						<li class="item <?php if($_SESSION["paginaAtual"] == "areas-atuacao/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Áreas de Atuação
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
 	                    </li>
-	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "servicos/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
-	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "servicos/novos-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/servicos/novos-dados">Adicionar Novo</a>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "areas-atuacao/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "areas-atuacao/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/areas-atuacao/gerenciar-pagina">Gerenciar página</a>
 	                        </li>
-	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "servicos/gerenciar-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/servicos/gerenciar-dados">Gerenciar</a>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "areas-atuacao/gerenciar-servicos") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/areas-atuacao/gerenciar-servicos">Gerenciar serviços</a>
 	                        </li>
                     	</ul>
 
