@@ -6,7 +6,7 @@
 	class ContatoController extends Controller {
 		public function gerenciar_pagina() {
 			try {
-                $dados = Contato::retrieveByPK(1);
+                $dados = PaginaContato::retrieveByPK(1);
 
 				setSession('paginaAtual', 'contato/gerenciar');
 				setSession('blackPage', 'contato/gerenciar-pagina');
@@ -17,7 +17,7 @@
 		}
         public function atualizar_pagina() {
             try {
-                $dados = Contato::retrieveByPK(1);
+                $dados = PaginaContato::retrieveByPK(1);
                 
                 if (!empty($_FILES['banner']['name'])) {
                     $handle = new upload($_FILES['banner']);

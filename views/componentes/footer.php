@@ -3,7 +3,7 @@
     ScriptLoader::LoadPLUGINSJS('inputfile/js/custom-file-input.js');
     ScriptLoader::LoadCSS('footer');
 
-    $contato_conteudo = Contato::sql("SELECT * FROM contato", SimpleOrm::FETCH_ONE);
+    $contato_conteudo = PaginaContato::sql("SELECT * FROM pagina_contato", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
     .parallax { background-image: url("<?= caminhoSite ?>/uploads/<?= $config->banner_newsletter ?>"); }
@@ -37,7 +37,7 @@
                 <h3 class="branco-fonte margin-zero icone">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 </h3>
-                <h3 class="branco-fonte margin-zero chamada">CONTATO</h3>
+                <h3 class="branco-fonte margin-zero chamada Uppercase"><?= $contato_conteudo->titulo_contato ?></h3>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
                 <div class="conteudo">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 05-Nov-2017 às 00:58
+-- Generation Time: 05-Nov-2017 às 02:50
 -- Versão do servidor: 10.1.21-MariaDB
 -- PHP Version: 7.1.2
 
@@ -23,32 +23,30 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `contato`
+-- Estrutura da tabela `pagina_links_uteis`
 --
 
-CREATE TABLE `contato` (
+CREATE TABLE `pagina_links_uteis` (
   `id` int(11) NOT NULL,
   `banner` varchar(255) NOT NULL,
-  `titulo_banner` varchar(255) NOT NULL,
-  `titulo_contato` varchar(255) NOT NULL,
-  `chamada` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `titulo_banner` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `contato`
+-- Extraindo dados da tabela `pagina_links_uteis`
 --
 
-INSERT INTO `contato` (`id`, `banner`, `titulo_banner`, `titulo_contato`, `chamada`) VALUES
-(1, 'banner-contato.jpg', 'CONTATO', 'CONTATO', 'Entre em contato por telefone ou pelo formulário ao lado:');
+INSERT INTO `pagina_links_uteis` (`id`, `banner`, `titulo_banner`) VALUES
+(1, 'banner-servicos_2.jpg', 'Links úteis');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `contato`
+-- Indexes for table `pagina_links_uteis`
 --
-ALTER TABLE `contato`
+ALTER TABLE `pagina_links_uteis`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -56,9 +54,9 @@ ALTER TABLE `contato`
 --
 
 --
--- AUTO_INCREMENT for table `contato`
+-- AUTO_INCREMENT for table `pagina_links_uteis`
 --
-ALTER TABLE `contato`
+ALTER TABLE `pagina_links_uteis`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

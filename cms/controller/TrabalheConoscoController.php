@@ -6,7 +6,7 @@
 	class TrabalheConoscoController extends Controller {
 		public function gerenciar_pagina() {
 			try {
-                $dados = TrabalheConosco::retrieveByPK(1);
+                $dados = PaginaTrabalheConosco::retrieveByPK(1);
 
 				setSession('paginaAtual', 'contato/gerenciar');
 				setSession('blackPage', 'trabalhe-conosco/gerenciar-pagina');
@@ -17,7 +17,7 @@
 		}
         public function atualizar_pagina() {
             try {
-                $dados = TrabalheConosco::retrieveByPK(1);
+                $dados = PaginaTrabalheConosco::retrieveByPK(1);
                 
                 if (!empty($_FILES['banner']['name'])) {
                     $handle = new upload($_FILES['banner']);

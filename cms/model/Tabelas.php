@@ -94,19 +94,19 @@
 		$table = 'links_uteis';
 	}
 
-	class Contato extends SimpleOrm {
+	class PaginaContato extends SimpleOrm {
 		protected static
-		$table = 'contato';
+		$table = 'pagina_contato';
 	}
 
-	class TrabalheConosco extends SimpleOrm {
+	class PaginaTrabalheConosco extends SimpleOrm {
 		protected static
-		$table = 'trabalhe_conosco';
+		$table = 'pagina_trabalhe_conosco';
 	}
 
-	class ConsultaProcessual extends SimpleOrm {
+	class PaginaConsultaProcessual extends SimpleOrm {
 		protected static
-		$table = 'consulta_processual';
+		$table = 'pagina_consulta_processual';
 	}
 
 	class FormularioNewsletter extends SimpleOrm {

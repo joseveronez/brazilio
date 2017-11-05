@@ -1,7 +1,7 @@
 <?php
     $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
 
-    $contato_conteudo = Contato::sql("SELECT * FROM contato", SimpleOrm::FETCH_ONE);
+    $contato_conteudo = PaginaContato::sql("SELECT * FROM pagina_contato", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/imagens/<?= $contato_conteudo->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
@@ -26,7 +26,7 @@
             <h3 class="branco-fonte margin-zero icone">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </h3>
-            <h3 class="branco-fonte margin-zero chamada"><?= $contato_conteudo->titulo_contato ?></h3>
+            <h3 class="branco-fonte margin-zero chamada Uppercase"><?= $contato_conteudo->titulo_contato ?></h3>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 dados">
             <div class="conteudo">

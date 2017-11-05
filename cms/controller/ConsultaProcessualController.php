@@ -6,7 +6,7 @@
 	class ConsultaProcessualController extends Controller {
 		public function gerenciar_pagina() {
 			try {
-                $dados = ConsultaProcessual::retrieveByPK(1);
+                $dados = PaginaConsultaProcessual::retrieveByPK(1);
 
 				setSession('paginaAtual', 'contato/gerenciar');
 				setSession('blackPage', 'consulta-processual/gerenciar-pagina');
@@ -17,7 +17,7 @@
 		}
         public function atualizar_pagina() {
             try {
-                $dados = ConsultaProcessual::retrieveByPK(1);
+                $dados = PaginaConsultaProcessual::retrieveByPK(1);
                 
                 if (!empty($_FILES['banner']['name'])) {
                     $handle = new upload($_FILES['banner']);

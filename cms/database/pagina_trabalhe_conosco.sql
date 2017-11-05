@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 05-Nov-2017 às 00:59
+-- Generation Time: 05-Nov-2017 às 02:51
 -- Versão do servidor: 10.1.21-MariaDB
 -- PHP Version: 7.1.2
 
@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `trabalhe_conosco`
+-- Estrutura da tabela `pagina_trabalhe_conosco`
 --
 
-CREATE TABLE `trabalhe_conosco` (
+CREATE TABLE `pagina_trabalhe_conosco` (
   `id` int(11) NOT NULL,
   `banner` varchar(255) NOT NULL,
   `titulo_banner` varchar(100) NOT NULL,
@@ -35,10 +35,10 @@ CREATE TABLE `trabalhe_conosco` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
 
 --
--- Extraindo dados da tabela `trabalhe_conosco`
+-- Extraindo dados da tabela `pagina_trabalhe_conosco`
 --
 
-INSERT INTO `trabalhe_conosco` (`id`, `banner`, `titulo_banner`, `titulo_fale_conosco`, `conteudo`) VALUES
+INSERT INTO `pagina_trabalhe_conosco` (`id`, `banner`, `titulo_banner`, `titulo_fale_conosco`, `conteudo`) VALUES
 (1, 'banner-contato_1.jpg', 'Trabalhe conosco', 'Trabalhe conosco', '<p>Quer fazer parte da nossa equipe?</p>\r\n<p>Inicie o processo seletivo enviando seus dados e curr&iacute;culo.</p>');
 
 --
@@ -46,9 +46,9 @@ INSERT INTO `trabalhe_conosco` (`id`, `banner`, `titulo_banner`, `titulo_fale_co
 --
 
 --
--- Indexes for table `trabalhe_conosco`
+-- Indexes for table `pagina_trabalhe_conosco`
 --
-ALTER TABLE `trabalhe_conosco`
+ALTER TABLE `pagina_trabalhe_conosco`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -56,9 +56,9 @@ ALTER TABLE `trabalhe_conosco`
 --
 
 --
--- AUTO_INCREMENT for table `trabalhe_conosco`
+-- AUTO_INCREMENT for table `pagina_trabalhe_conosco`
 --
-ALTER TABLE `trabalhe_conosco`
+ALTER TABLE `pagina_trabalhe_conosco`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

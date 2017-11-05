@@ -1,7 +1,7 @@
 <?php
     $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
 
-    $trabalhe_conosco_conteudo = TrabalheConosco::sql("SELECT * FROM trabalhe_conosco", SimpleOrm::FETCH_ONE);
+    $trabalhe_conosco_conteudo = PaginaTrabalheConosco::sql("SELECT * FROM pagina_trabalhe_conosco", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $trabalhe_conosco_conteudo->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }

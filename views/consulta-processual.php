@@ -1,7 +1,7 @@
 <?php
     $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
 
-    $consulta_processual_conteudo = ConsultaProcessual::sql("SELECT * FROM consulta_processual", SimpleOrm::FETCH_ONE);
+    $consulta_processual_conteudo = PaginaConsultaProcessual::sql("SELECT * FROM pagina_consulta_processual", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">
     .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $consulta_processual_conteudo->banner ?>"); background-position: top right; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
