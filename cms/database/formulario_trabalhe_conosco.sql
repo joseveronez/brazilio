@@ -23,32 +23,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `contato`
+-- Estrutura da tabela `formulario_trabalhe_conosco`
 --
 
-CREATE TABLE `contato` (
+CREATE TABLE `formulario_trabalhe_conosco` (
   `id` int(11) NOT NULL,
-  `banner` varchar(255) NOT NULL,
-  `titulo_banner` varchar(255) NOT NULL,
-  `titulo_contato` varchar(255) NOT NULL,
-  `chamada` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Extraindo dados da tabela `contato`
---
-
-INSERT INTO `contato` (`id`, `banner`, `titulo_banner`, `titulo_contato`, `chamada`) VALUES
-(1, 'banner-contato.jpg', 'CONTATO', 'CONTATO', 'Entre em contato por telefone ou pelo formulário ao lado:');
+  `nome` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `telefone` varchar(18) NOT NULL,
+  `curriculo` varchar(255) NOT NULL,
+  `mensagem` text NOT NULL,
+  `email_disparo` varchar(100) NOT NULL,
+  `data_hora_registro` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `contato`
+-- Indexes for table `formulario_trabalhe_conosco`
 --
-ALTER TABLE `contato`
+ALTER TABLE `formulario_trabalhe_conosco`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -56,10 +52,10 @@ ALTER TABLE `contato`
 --
 
 --
--- AUTO_INCREMENT for table `contato`
+-- AUTO_INCREMENT for table `formulario_trabalhe_conosco`
 --
-ALTER TABLE `contato`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `formulario_trabalhe_conosco`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
