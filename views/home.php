@@ -1,5 +1,6 @@
 <?php
     ScriptLoader::LoadCSS('home');
+    
     $home = PaginaPrincipal::sql("SELECT * FROM pagina_principal", SimpleOrm::FETCH_ONE);
     $slides_home = SlidesHome::sql("SELECT * FROM slides_home");
     $servicos = Servicos::sql("SELECT * FROM servicos ORDER BY titulo");
@@ -13,7 +14,7 @@
                     <p class="Uppercase dourado-fonte Light titulo"><?= $slides->titulo ?></p>
                     <img src="imagens/ond1.png" class="img-responsive">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Uppercase branco-fonte Light size20 subtitulo MarginT7p MarginB9p"><?= $slides->chamada ?></div>
-                    <a href="<?= $slides->link_ ?>" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?= $slides->link ?>" class="link-default botao-dourado" role="button">SAIBA MAIS&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

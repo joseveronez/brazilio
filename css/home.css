@@ -45,9 +45,13 @@ img { margin: 0 auto; }
 	.areas-atuacao .conteudo .lista-itens .item:last-child { border-right: none }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.areas-atuacao .conteudo .lista-itens .item { border: none; }
+}
+
 @media screen and (max-width: 767px) {
-	.slider-topo .item .slider-conteudo p.titulo { margin: 0; font-size: 25px }
-	.slider-topo .item .slider-conteudo p.subtitulo { margin: 0; font-size: 15px; margin-top: 20px; margin-bottom: 30px }
+	.slider-topo .item .slider-conteudo p.titulo { margin: 0; font-size: 20px }
+	.slider-topo .item .slider-conteudo div.subtitulo { margin: 0; font-size: 15px; margin-top: 20px; margin-bottom: 30px }
 	.slider-topo .item .slider-conteudo a[role="button"] { margin-top: 15px; }
 	
 	.owl-dots { display: none; }

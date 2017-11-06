@@ -115,7 +115,7 @@
             </div>
             <div class="col-lg-3 col-md-1 hidden-sm hidden-xs">&nbsp;</div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 imagem">
-                <a href="http://www.pepperscriacao.com" target="_blank"><img src="imagens/pepper.png" class="img-respnsive"></a>
+                <a href="http://www.pepperscriacao.com" target="_blank"><img src="<?= RAIZSITE ?>/imagens/pepper.png" class="img-respnsive"></a>
             </div>
         </div>
     </div>

@@ -35,41 +35,11 @@
             <h4 class="MarginB5p"><?= $rec_page->texto ?></h4>
             <?php 
                 foreach($arquivos as $arq){
-                    ?>
-                    <a href="<?= RAIZSITE ?>/pdf/<?= $arq->arquivo ?>"><h5><?= $arq->titulo ?></h5></a>
-                    <?php
+            ?>
+                <h5><a href="<?= RAIZSITE ?>/pdf/<?= $arq->arquivo ?>" target="_blank"><?= $arq->titulo ?></a></h5>
+            <?php
                 }
             ?>
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    var waypoint2 = new Waypoint({
-        element: document.getElementById('waypointAdministrativo'),
-        handler: function(direction) {
-            if(direction == "down") {
-                /* ativa o menu flutuante */
-                $(".servicos-links").addClass("fixed");
-                /* ativa o menu flutuante */
-            } else {
-                /* desativa o menu flutuante */
-                $(".servicos-links").removeClass("fixed");
-                /* desativa o menu flutuante */
-            }
-        }
-    });
-
-    $('a.atalho[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top - 110
-                }, 1000);
-                return false;
-            }
-        }
-    });
-</script>

@@ -27,7 +27,7 @@
     <div class="container">
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 links-uteis">
             <?php foreach($categorias as $cat) { ?>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bc-1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-links padding-zero bc-1">
                 <p class="text-justify size16 letter-spacing1 Medium Uppercase"><strong><?= $cat->categoria ?></strong></p>
 
                 <?php

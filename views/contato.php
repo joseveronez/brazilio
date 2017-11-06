@@ -1,6 +1,5 @@
 <?php
     $config = Configuracoes::sql("SELECT * FROM configuracoes", SimpleOrm::FETCH_ONE);
-
     $contato_conteudo = PaginaContato::sql("SELECT * FROM pagina_contato", SimpleOrm::FETCH_ONE);
 ?>
 <style type="text/css">

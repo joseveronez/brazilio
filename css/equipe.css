@@ -40,7 +40,6 @@
 }
 
 @media screen and (max-width: 768px) {
-	.bloco.primario { margin-bottom: 30px }
 	.socios .conteudo .bloco .descritivo { padding: 5px 30px }
 	.socios .conteudo .bloco .descritivo p { margin-top: 20px }
 
@@ -55,6 +54,8 @@
 	.advogados .bloco.order-7, .advogados .bloco.order-9, .advogados .bloco.order-11 { padding-right: 0 }
 	.advogados .bloco.order-2, .advogados .bloco.order-4, .advogados .bloco.order-6,
 	.advogados .bloco.order-8, .advogados .bloco.order-10, .advogados .bloco.order-12 { padding-left: 0 }
+
+	.border-equipe { border: none; }
 }
 @media screen and (min-width: 991px) and (max-width: 1199px) {
 	.socios .conteudo .bloco .descritivo { padding: 25px 55px }

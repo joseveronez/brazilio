@@ -32,7 +32,8 @@
 .copyright .conteudo .imagem img { margin-top: 1px }
 
 @media screen and (min-width: 768px) {
-    .contato .conteudo .dados .conteudo { width: 315px }
+    .contato .conteudo .dados .conteudo { width: 300px }
+    .contato .conteudo .dados .endereco { width: 280px }
 
     .separador-footer { border-left: 1px solid #304e6e; border-right: 1px solid #304e6e }
 
@@ -46,11 +47,11 @@
 }
 @media screen and (min-width: 1200px) {
     .footer-links .conteudo .links { padding-left: 100px }
-    .footer-links .conteudo .chamada { padding-left: 111px }
+    .footer-links .conteudo .chamada { padding-left: 108px }
 }
 
 @media screen and (max-width: 767px) {
-    .footer-links .conteudo .imagem img { margin-top: 25px; margin-bottom: 20px }
+    .footer-links .conteudo .imagem img { margin-top: 30px; margin-bottom: 20px; margin-left: 0 }
     .footer-links .conteudo .links { margin-bottom: 10px }
     .footer-links .conteudo .chamada { margin-bottom: 20px }
     .separador-footer { border-bottom: 1px solid #304e6e }
@@ -59,12 +60,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-links .conteudo { padding-top: 80px; padding-bottom: 70px }
-    .footer-links .conteudo .imagem img { margin-bottom: 30px }
+    .footer-links .conteudo { padding-top: 60px; padding-bottom: 65px }
+    .footer-links .conteudo .imagem img { margin-bottom: 60px }
     .footer-links .conteudo .links { padding-left: 90px }
     .footer-links .conteudo .chamada { padding-left: 90px }
 
-    .copyright .conteudo .assinatura p { font-size: 13px }
+    .copyright .conteudo .assinatura p { font-size: 10px }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-links .conteudo .links { padding-left: 70px }

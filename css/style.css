@@ -39,6 +39,11 @@ a.contato-telefone:hover { color: #3b2c0c }
 
 .links-uteis { margin-top: 50px; margin-bottom: 60px }
 
+/* LINKS ÚTEIS STYLES */
+.bloco-links { margin-bottom: 25px }
+.bloco-links:last-child { margin-bottom: 0px }
+/* LINKS ÚTEIS STYLES */
+
 /* LG MD SM  */
 @media (min-width: 768px) {
 
@@ -76,7 +81,8 @@ a.contato-telefone:hover { color: #3b2c0c }
 .lista-servicos-item.active { color: #14284b }
 .titulo-servicos {padding: 8px 0px 8px 53px;}
 .texto-servicos {margin-top: -10px;}
-.border-equipe{ border-right: 1px solid #a08a59; }
+.border-equipe { border-right: 1px solid #a08a59; }
+.border-equipe:nth-child(6), .border-equipe:nth-child(10) { border-right: none }
 .border-equipe-meio{ border-right: 1px solid #a08a59; }
 .btn-curriculo { border-radius: 0px; border: 3px solid #d5d5d5; background-color: transparent;}
 .linha { position: absolute; z-index: 1; left: 49.98%; top: -40px; height: 80px; width: 2px; background-color: #a08a59 }

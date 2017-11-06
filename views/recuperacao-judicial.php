@@ -26,44 +26,15 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT8p PaddingB10p">
             <h4>Para visualização das imagens é necessário a prévia instalação do Adobe Acrobat Reader. </h4>
-            <h4><?= $recuperacao->texto ?></h4>
+            <h4><?= $recuperacao->texto ?></h4><br>
+            
             <?php 
                 foreach($rec as $item){
-                    ?>
-                    <a href="<?= RAIZSITE ?>/recuperacao/<?= $item->slug ?>"><h5><?= $item->titulo ?></h5></a>
-                    <?php
+            ?>
+                <h5><a href="<?= RAIZSITE ?>/recuperacao/<?= $item->slug ?>"><?= $item->titulo ?></a></h5>
+            <?php
                 }
             ?>
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    var waypoint2 = new Waypoint({
-        element: document.getElementById('waypointAdministrativo'),
-        handler: function(direction) {
-            if(direction == "down") {
-                /* ativa o menu flutuante */
-                $(".servicos-links").addClass("fixed");
-                /* ativa o menu flutuante */
-            } else {
-                /* desativa o menu flutuante */
-                $(".servicos-links").removeClass("fixed");
-                /* desativa o menu flutuante */
-            }
-        }
-    });
-
-    $('a.atalho[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top - 110
-                }, 1000);
-                return false;
-            }
-        }
-    });
-</script>
