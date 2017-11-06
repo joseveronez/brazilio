@@ -62,6 +62,21 @@ class Controller
         }
     }
 
+    protected function excluir_pdf($nome_arquivo, $resized = false) {        
+        try {            
+            unlink(caminhoFisicoPrincipal . '/pdf/' . $nome_arquivo);
+
+            if ($resized) {
+                $result = $this->extractNameFile($nome_arquivo);
+                unlink(caminhoFisicoPrincipal . '/pdf/' . $result[0] . '_250x250.' . $result[1]);
+            }
+
+            return true;
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+
     protected function extractNameFile($arquivo){
        $result = explode('.',$arquivo);
        return $result; 

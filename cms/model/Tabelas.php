@@ -73,6 +73,21 @@
 		$table = 'links_uteis';
 	}
 
+	class PaginaRecuperacaoJudicial extends SimpleOrm {
+		protected static
+		$table = 'pagina_recuperacao_judicial';
+	}
+
+	class RecuperacaoEmpresas extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_empresas';
+	}
+
+    class RecuperacaoArquivos extends SimpleOrm {
+		protected static
+		$table = 'recuperacao_arquivos';
+	}
+
 	class PaginaContato extends SimpleOrm {
 		protected static
 		$table = 'pagina_contato';
@@ -106,20 +121,5 @@
 	class Configuracoes extends SimpleOrm {
 		protected static
 		$table = 'configuracoes';
-	}
-
-    class Recuperacao extends SimpleOrm {
-		protected static
-		$table = 'recuperacao';
-	}
-    
-     class RecuperacaoJudicial extends SimpleOrm {
-		protected static
-		$table = 'recuperacao_judicial';
-	}
-
-    class RecuperacaoArquivos extends SimpleOrm {
-		protected static
-		$table = 'recuperacao_arquivos';
 	}
 ?>

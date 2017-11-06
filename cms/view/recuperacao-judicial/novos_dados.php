@@ -1,43 +1,42 @@
 <?php 
-    $recuperacao = Recuperacao::sql("SELECT * FROM recuperacao");
+    $recuperacao = RecuperacaoEmpresas::sql("SELECT * FROM recuperacao_empresas");
 ?>
 
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Recuperação Judicial Arquivo - Novo</h1>
-            <h4 class="sub-title">Adicionar Arquivo</h4>
+            <h1><i class="fa fa-folder-o" aria-hidden="true"></i>&nbsp;Recuperação Judicial Arquivo - Novo Arquivo</h1>
+            <h4 class="sub-title">Adicionar novo arquivo</h4>
 
-            <form action="<?= caminhoSite ?>/recuperacao_arquivos/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
+            <form action="<?= caminhoSite ?>/recuperacao-judicial/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;Recuperação Judicial</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Recuperação Judicial</label>
+                            <label class="col-sm-2 control-label" align="right">Empresas</label>
                             <div class="col-sm-10">
-                               <!-- <input type="text" class="form-control" name="tipo" maxlength="255" /> -->
-                                <select class="form-control" name="id_recuperacao" id="id_recuperacao" required>
-                                    <option selected disabled>Selecione uma opção</option>
+                                <select class="form-control" name="id_empresa" id="id_empresa" required>
+                                    <option selected value="">Selecione uma opção</option>
                                     <?php 
                                         foreach ($recuperacao as $rec){
-                                            ?>
-                                                <option value="<?= $rec->id ?>"><?= $rec->titulo ?></option>
-                                            <?php
+                                    ?>
+                                        <option value="<?= $rec->id ?>"><?= $rec->titulo ?></option>
+                                    <?php
                                         }
                                     ?>
                                 </select>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo" maxlength="255" />
+                                <input type="text" class="form-control" name="titulo" maxlength="255" required/>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">arquivo</label>
+                            <label class="col-sm-2 control-label" align="right">Arquivo</label>
 
                             <div class="col-sm-10">
                                 <input type="file" name="arquivo" id="arquivo" class="inputfile inputfile-1" required />
@@ -47,7 +46,7 @@
             		</div>
                 </div><br>
 
-            	<button type="button" onclick="document.getElementById('formInserirDados').submit();" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
+            	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>

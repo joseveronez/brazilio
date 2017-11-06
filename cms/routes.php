@@ -95,22 +95,25 @@
 	$prefixos['consulta-processual']['gerenciar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['consulta-processual']['atualizar-pagina'] = array('Controller' => 'ConsultaProcessualController', 'Method' => 'atualizar_pagina', 'logado' => true);
 
-	$prefixos['recuperacao']['novos-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['recuperacao']['salvar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['recuperacao']['gerenciar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['recuperacao']['editar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['recuperacao']['atualizar-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['recuperacao']['excluir-dados'] = array('Controller' => 'RecuperacaoController', 'Method' => 'excluir_dados', 'logado' => true);
-
-    $prefixos['recuperacao_arquivos']['novos-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'novos_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['salvar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'salvar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['gerenciar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'gerenciar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['editar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'editar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['atualizar-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'atualizar_dados', 'logado' => true);
-	$prefixos['recuperacao_arquivos']['excluir-dados'] = array('Controller' => 'RecuperacaoArquivosController', 'Method' => 'excluir_dados', 'logado' => true);
-
-    $prefixos['recuperacao_judicial']['gerenciar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['recuperacao_judicial']['atualizar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	/* RECUPERAÇÃO JUDICIAL */
+	// página
+	$prefixos['recuperacao-judicial']['gerenciar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['recuperacao-judicial']['atualizar-pagina'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_pagina', 'logado' => true);
+	// empresas
+	$prefixos['recuperacao-judicial']['nova-empresa'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'nova_empresa', 'logado' => true);
+	$prefixos['recuperacao-judicial']['salvar-empresa'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'salvar_empresa', 'logado' => true);
+	$prefixos['recuperacao-judicial']['gerenciar-empresas'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_empresas', 'logado' => true);
+	$prefixos['recuperacao-judicial']['editar-empresa'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'editar_empresa', 'logado' => true);
+	$prefixos['recuperacao-judicial']['atualizar-empresa'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_empresa', 'logado' => true);
+	$prefixos['recuperacao-judicial']['excluir-empresa'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'excluir_empresa', 'logado' => true);
+	// arquivos
+    $prefixos['recuperacao-judicial']['novos-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['recuperacao-judicial']['salvar-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['recuperacao-judicial']['gerenciar-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['recuperacao-judicial']['editar-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['recuperacao-judicial']['atualizar-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['recuperacao-judicial']['excluir-dados'] = array('Controller' => 'RecuperacaoJudicialController', 'Method' => 'excluir_dados', 'logado' => true);
+	/* RECUPERAÇÃO JUDICIAL */
 
 	$prefixos['configuracoes']['gerenciar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'gerenciar_pagina', 'logado' => true);
 	$prefixos['configuracoes']['atualizar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'atualizar_pagina', 'logado' => true);

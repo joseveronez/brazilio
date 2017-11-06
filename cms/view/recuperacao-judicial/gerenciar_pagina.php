@@ -4,25 +4,23 @@
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Equipe - Gerenciar</h1>
-            <h4 class="sub-title">Gerenciar Página Equipe</h4>
+            <h1><i class="fa fa-folder-o" aria-hidden="true"></i>&nbsp;Recuperação Judicial - Gerenciar página</h1>
+            <h4 class="sub-title">Gerenciar conteúdo da página</h4>
 
-            <form action="<?= caminhoSite ?>/recuperacao_judicial/atualizar-pagina" method="post" enctype="multipart/form-data">
-            	<input type="hidden" name="id" value="<?= $dados->id ?>" />
-
+            <form action="<?= caminhoSite ?>/recuperacao-judicial/atualizar-pagina" method="post" enctype="multipart/form-data">
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Recuperação Judicial</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Principal</h3>
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">banner</label>
+                            <label class="col-sm-2 control-label" align="right">Banner</label>
 
                             <div class="col-sm-10">
                                 <?php
                                     if (!empty($dados->banner)) {
                                 ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner?><br />
+                                    <img src="<?= caminhoSite ?>/uplodas/<?= $dados->banner ?>" class="img-responsive"><br />
                                 <?php
                                     }
                                 ?>
@@ -32,13 +30,13 @@
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">texto</label>
+                            <label class="col-sm-2 control-label" align="right">Conteúdo</label>
 
                             <div class="col-sm-10">
                                 <textarea name="texto" type="text" class="form-control tinyMCE" cols="10" rows="10"><?= $dados->texto ?></textarea>

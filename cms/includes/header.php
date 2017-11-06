@@ -100,30 +100,30 @@
 	                        </li>
                     	</ul>
 
-                    	<li class="item <?php if($_SESSION["paginaAtual"] == "recuperacao/gerenciar") echo "menu-active-side" ?>">
-	                        <a href="#" class="menu-item-side"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp;&nbsp;Recuperação Judicial
+                    	<li class="item <?php if($_SESSION["paginaAtual"] == "recuperacao-judicial/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-folder-o" aria-hidden="true"></i>&nbsp;&nbsp;Recuperação Judicial
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
 	                    </li>
-	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "recuperacao/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
-	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao/novos-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/recuperacao/novos-dados">Adicionar Nova</a>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "recuperacao-judicial/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao-judicial/gerenciar-pagina") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao-judicial/gerenciar-pagina">Gerenciar Página</a>
 	                        </li>
-	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao/gerenciar-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/recuperacao/gerenciar-dados">Gerenciar</a>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao-judicial/nova-empresa") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao-judicial/nova-empresa">Nova empresa</a>
 	                        </li>
-                            <li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_arquivos/novos-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/recuperacao_arquivos/novos-dados">Adicionar Arquivos</a>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao-judicial/gerenciar-empresas") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao-judicial/gerenciar-empresas">Gerenciar empresas</a>
 	                        </li>
-	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_arquivos/gerenciar-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/recuperacao_arquivos/gerenciar-dados">Gerenciar Arquivos</a>
+                            <li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao-judicial/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao-judicial/novos-dados">Novo arquivo</a>
 	                        </li>
-                            <li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao_judicial/gerenciar-pagina") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/recuperacao_judicial/gerenciar-pagina">Gerenciar Página</a>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "recuperacao-judicial/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/recuperacao-judicial/gerenciar-dados">Gerenciar arquivos</a>
 	                        </li>
                     	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "contato/gerenciar") echo "menu-active-side" ?>">
-	                        <a href="#" class="menu-item-side"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Pág. Contato
+	                        <a href="#" class="menu-item-side"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Páginas de Contato
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
 	                    </li>
 	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "contato/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
