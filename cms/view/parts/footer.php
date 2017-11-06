@@ -1,5 +1,5 @@
 <section>
 	<footer>
-    	<center><p class="footer-text">2016 &copy; cms Comberweb</p></center>
+    	<center><p class="footer-text">2017 &copy; cms Peppers</p></center>
     </footer>
 </section>

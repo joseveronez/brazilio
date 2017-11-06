@@ -26,7 +26,7 @@
 	</head>
 
 	<body onLoad="Focus();">
-		<center><img src="<?= caminhoSite ?>/images/logo/logo-empresa.png" class="img-responsive" style="padding-top:50px"></center>
+		<center><img src="<?= logoEmpresa ?>" class="img-responsive" style="padding-top:50px"></center>
 
 		<div class="col-md-12">
         	<div class="col-md-4 col-md-offset-4">
@@ -57,8 +57,6 @@
 						</br>
 						<input type="password" name="senha" class="form-control input-sm chat-input" placeholder="Senha" />
 						</br>
-
-						<a href="<?= caminhoSite ?>/usuarios/recuperar-senha">Esqueci minha senha</a><br />
 
 						<div class="wrapper">
 							<span class="group-btn">
