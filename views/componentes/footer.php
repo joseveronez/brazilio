@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 dourado-fonte chamada">
                 <p>FALE COM A GENTE</p>
-                <p>Brazilio Bacellar Neto e Advogados <br>
+                <p>Brazilio Bacellar, Shirai Advogados<br>
                     <?= $config->codigo ?> | CNPJ <?= $config->cnpj ?> </p>
                 <?= $config->endereco_escritorio ?>
                 <p>Fone.: <a href="tel:<?= $config->telefone ?>" class="link-default">+ 55 41 <?= $config->telefone ?></a> <br>

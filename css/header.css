@@ -1,13 +1,14 @@
 nav.navbar .navbar-superior { border-bottom: 1px solid #a08a59 }
 nav.navbar .navbar-superior ul.list-inline { margin-bottom: 3px; margin-top: 5px }
 nav.navbar .navbar-superior ul.list-inline>li { padding-right: 0; }
-nav.navbar .navbar-superior ul.list-inline>li>a { font-size: 11px }
+nav.navbar .navbar-superior ul.list-inline>li>a { font-size: 10px }
 nav.navbar .navbar-superior ul.list-inline>li>a:hover { text-decoration: underline; }
 nav.navbar.menu-transparente { background-color: transparent; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out }
 nav.navbar.menu-azul { background-color: #14284b; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out }
+.navbar-nav>li { font-size: 12px }
+.navbar-nav>li>a { padding-right: 0; padding-left: 0; padding-top: 10px; padding-bottom: 5px }
 .navbar-nav>li>a:focus{ text-decoration: none; background-color: transparent }
 .navbar-nav>li>a:hover{ text-decoration: none; background-color: transparent; text-decoration: underline; }
-.navbar-nav>li>a { padding-right: 0; padding-left: 0; padding-top: 10px; padding-bottom: 5px }
 
 @media screen and (max-width: 767px) {
     .navbar-nav { margin: 15px 0px }

@@ -35,6 +35,10 @@ a.equipe-link:hover { color: #14284b }
 
 a.contato-telefone { color: #ffffff }
 a.contato-telefone:hover { color: #3b2c0c }
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    h3 { font-size: 25px !important }
+}
 /* GLOBAL LINKS */
 
 .links-uteis { margin-top: 50px; margin-bottom: 60px }

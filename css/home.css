@@ -58,3 +58,9 @@ img { margin: 0 auto; }
 
 	.areas-atuacao .conteudo .lista-itens .item { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #e8e8e8 }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	.slider-topo .item .slider-conteudo p.titulo { font-size: 30px }
+	.slider-topo .item .slider-conteudo div.subtitulo { font-size: 16px }
+	.slider-topo .item .slider-conteudo img { margin-top: 20px }
+}
