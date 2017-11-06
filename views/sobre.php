@@ -7,7 +7,7 @@
     $slides_baixo = SlidesEmpresa::sql("SELECT * FROM slides_empresa WHERE slider = 3 ORDER BY posicao"); 
 ?>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $conteudo->banner_topo ?>"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $conteudo->banner_topo ?>"); background-position: top center; background-attachment: fixed; background-repeat: no-repeat; }
     .prev-icon { background: url(<?= RAIZSITE ?>/imagens/left.png); background-size: 20%; background-position: center center; background-repeat: no-repeat; height: 50px; width: 50px; }
     .next-icon { background: url(<?= RAIZSITE ?>/imagens/right.png); background-size: 20%; background-position: center center; background-repeat: no-repeat; height: 50px; width: 50px; }
 </style>

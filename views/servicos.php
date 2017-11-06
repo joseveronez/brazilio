@@ -24,7 +24,7 @@
     });
 </script>
 <style type="text/css">
-    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $conteudo->banner_topo ?>"); background-position: top center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover }
+    .parallax-banner { background-image: url("<?= RAIZSITE ?>/cms/uploads/<?= $conteudo->banner_topo ?>"); background-position: top center; background-attachment: fixed; background-repeat: no-repeat; }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="azul" style="margin-bottom: -10px">
     <div class="parallax-banner">
