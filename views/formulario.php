@@ -126,15 +126,25 @@ Mensagem: ".$_POST['mensagem']."";
         $email_disparo_trabalhe_conosco = $_POST["email_disparo"];
 
         $formularioTrabalheConosco = new FormularioTrabalheConosco();
-            $formularioTrabalheConosco->nome = $_POST['nome'];
-            $formularioTrabalheConosco->email = $_POST['email'];
-            $formularioTrabalheConosco->telefone = $_POST['telefone'];
-            $formularioTrabalheConosco->curriculo = $_FILES['curriculo']['name'];
-            $formularioTrabalheConosco->mensagem = $_POST['mensagem'];
-            $formularioTrabalheConosco->email_disparo = $email_disparo_trabalhe_conosco;
-            $formularioTrabalheConosco->data_hora_registro = $data_hora_atual;
-            $formularioTrabalheConosco->save();
-            die();
+        $formularioTrabalheConosco->nome = $_POST['nome'];
+        $formularioTrabalheConosco->email = $_POST['email'];
+        $formularioTrabalheConosco->telefone = $_POST['telefone'];
+        $formularioTrabalheConosco->curriculo = $_FILES['curriculo']['name'];
+        $formularioTrabalheConosco->mensagem = $_POST['mensagem'];
+        $formularioTrabalheConosco->email_disparo = $email_disparo_trabalhe_conosco;
+        $formularioTrabalheConosco->data_hora_registro = $data_hora_atual;
+        $formularioTrabalheConosco->save();
+
+        $ano = date("Y");
+
+        move_uploaded_file($_FILES['curriculo']['tmp_name'], RAIZ . '/curriculos/BRA'.$ano.'CU'.$formularioTrabalheConosco->id.'.pdf');
+
+        $atualizarForm = FormularioTrabalheConosco::sql("SELECT * FROM formulario_trabalhe_conosco WHERE id = ".$formularioTrabalheConosco->id, SimpleOrm::FETCH_ONE);
+        $atualizarForm->curriculo = "BRA".$ano."CU".$formularioTrabalheConosco->id.".pdf";
+        $atualizarForm->save();
+
+
+        die();
 
         if($_POST["nome"] == NULL OR $_POST["nome"] == "" AND $_POST["email"] == NULL OR $_POST["email"] == "" AND $_POST["telefone"] == NULL OR $_POST["telefone"] == "" AND $_POST["mensagem"] == NULL OR $_POST["mensagem"] == "") {
             echo "
